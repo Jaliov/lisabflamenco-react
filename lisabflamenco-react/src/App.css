@@ -1,0 +1,77 @@
+body {
+  background-image: url(./images/IMG_0473.jpg);
+  border-width: 100%;
+}
+
+.gallery {
+  background-image: url(./images/blackwhitepolkaadotglow.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 400px;
+  height: 600px;
+}
+
+.choreography {
+  
+  background-image: url(./images/Lisamarie4fade.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 400px;
+  height: 600px;
+}
+
+.press {
+  background-image: url(./images/Reviewbackground3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 800px;
+  height: 700px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: "matura-mt-script-capitals-cufonfonts";
+  src: url(images/MATURASC_1.TTF);
+}
+
+h1 {
+  color: #ffff66;
+  text-align: left;
+  font-family: "matura-mt-script-capitals-cufonfonts";
+  font-style: italic;
+  margin-top: 30px;
+}
+
+h1 em {
+font-size: 175%;
+ color: #ffff66;
+ text-align: left;
+
+}
+
+h5 {
+   
+    text-align: center;
+    margin-left: 70px;
+    color: white}
+
+  .photolayout1  
+  {width: '175px'; 
+    height: '200px'; 
+    margin: '3px 6px'
+  }
+
+  .navv {
+    background-color: rgb(217, 83, 79, 0.4);
+    margin-bottom: 20px;
+    
+  }
+   

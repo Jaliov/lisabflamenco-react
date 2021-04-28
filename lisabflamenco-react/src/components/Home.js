@@ -1,0 +1,36 @@
+// import { Container } from "react-bootstrap-grid-component/dist/Container";
+// import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Homephoto from './Homephoto';
+import cover from '../images/ShawlintheAirfade.png';
+
+
+
+const Home = () => {
+    return (
+
+    <Row>
+        <div className = "container">
+        {/* <Col xs ="2" />
+    <Col size="8"> */}
+        <h1 className = "text-center"><em>Lisa Botalico </em></h1>
+        <h5 style={{marginTop:'-10px'}}><em>
+            ...danced and sang with her head thrown back,<br />
+            her energy seemingly unquenchable. </em><small>
+             (Star Ledger)</small></h5>
+        {/* <hr class="style2" /> */}
+        < Homephoto cover = {cover}/>
+        {/* </Col> */}
+       
+    </div>
+    {/* // <Col xs ="2" /> */}
+    </Row>
+   
+    
+    
+   
+     
+   
+    )
+}
+    export default Home; 
