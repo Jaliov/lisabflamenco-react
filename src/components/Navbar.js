@@ -1,11 +1,13 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-const NavBar = () => {
+const NavBar = () => {  
     return (
 <>
-<Navbar variant="dark" className = "navv">
+<Navbar variant="dark" expand="lg" className = "navv">
     <Navbar.Brand href='/' >Lisa Botalico Flamenco!</Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href='/'>Home</Nav.Link>
       <Nav.Link href='/gallery'>Gallery</Nav.Link>
@@ -15,7 +17,7 @@ const NavBar = () => {
       <Nav.Link href='/press'>Press</Nav.Link>
       <Nav.Link href='/events'>Events</Nav.Link>
     </Nav>
-   
+    </Navbar.Collapse>
   </Navbar>
  
 </>)

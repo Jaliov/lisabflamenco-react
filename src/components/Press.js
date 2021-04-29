@@ -1,12 +1,12 @@
 import Reviews from "./Reviews"
-
+import React, { Container  } from 'react-bootstrap';
 const Press = () => {
     return (
-        <div className = "container fluid press">
-        
+        <Container className = "press">
+          
            <Reviews />
-
-        </div>
+           
+        </Container>
          
     )
 }
