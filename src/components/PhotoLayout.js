@@ -1,5 +1,5 @@
-const photolayout1 = { width: '175px', height: '200px', margin: '3px 6px' };
-const photolayout2 = { width: '240px', height: '200px', margin: '3px 6px' };
+const photolayout1 = { width: '125px', height: '175px', margin: '3px 6px' };
+const photolayout2 = { width: '180px', height: '160px', margin: '3px 6px' };
 const photolayout3 = { width: '200px', height: '200px', margin: '3px 6px' };
 
 const PhotoLayout = {

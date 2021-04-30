@@ -1,20 +1,20 @@
 body {
-  background-image: url(./images/IMG_0473.jpg);
+  background-image: url(./assets/IMG_0473.jpg);
   border-width: 100%;
 }
 
 .gallery {
-  background-image: url(./images/blackwhitepolkaadotglow.png);
+  background-image: url(./assets/blackwhitepolkaadotglow.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   width: 400px;
   height: 600px;
 }
 
 .choreography {
   
-  background-image: url(./images/Lisamarie4fade.png);
+  background-image: url(./assets/Lisamarie4fade.png);
   background-repeat: no-repeat;
   background-position: right;
   width: 400px;
@@ -23,7 +23,7 @@ body {
 
 .press {
   /* margin-top: 20px; */
-  background-image: url(./images/Reviewbackground3.png);
+  background-image: url(./assets/Reviewbackground3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-position: relative; 
@@ -42,7 +42,7 @@ body {
 
 @font-face {
   font-family: "matura-mt-script-capitals-cufonfonts";
-  src: url(images/MATURASC_1.TTF);
+  src: url(assets/MATURASC_1.TTF);
 }
 
 h1 {

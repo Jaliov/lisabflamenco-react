@@ -1,4 +1,4 @@
-import cubanLunge from '../images/cubanlungefade.png';
+import cubanLunge from '../assets/cubanlungefade.png';
 
 const Bio = () => {
   return (

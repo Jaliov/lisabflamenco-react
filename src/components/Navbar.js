@@ -12,7 +12,7 @@ const NavBar = () => {
       <Nav.Link href='/'>Home</Nav.Link>
       <Nav.Link href='/gallery'>Gallery</Nav.Link>
       <Nav.Link href='/gallery2'>Gallery2</Nav.Link>
-      <Nav.Link href='/choreography'>Choreography</Nav.Link>
+      <Nav.Link href='/choreography'>Collaborations</Nav.Link>
       <Nav.Link href='/bio'>About</Nav.Link>
       <Nav.Link href='/press'>Press</Nav.Link>
       <Nav.Link href='/events'>Events</Nav.Link>

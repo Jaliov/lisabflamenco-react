@@ -2,7 +2,7 @@
 // import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Homephoto from './Homephoto';
-import cover from '../images/ShawlintheAirfade.png';
+import cover from '../assets/ShawlintheAirfade.png';
 
 
 
