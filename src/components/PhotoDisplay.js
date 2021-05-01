@@ -9,7 +9,7 @@ const PhotoDisplay = ( { lisaImages, choreoImages, njpacImages } ) => {  //destr
        <Row>
        <Col md = '10'>
        {lisaImages ? lisaImages.map((image) => (
-        < img key = { image.id } src = { image.link } style = {PhotoLayout.layout1}  alt = { image.title } className="border border-secondary"></img>)) :
+        < img key = { image.id } src = { image.link } style = {PhotoLayout.layout1}  alt = { image.title } text = {image.text} className="border border-secondary"></img>)) :
 
         choreoImages ? choreoImages.map((image) => (
           < img key = { image.id } src = { image.link } style= { PhotoLayout.layout2 } alt = { image.title } className="border border-secondary"></img>)) :

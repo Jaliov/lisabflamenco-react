@@ -17,7 +17,7 @@ const Choreography = () => {
         {id:8, link:"images/choreography/DSC_4334.JPG", title: "El Amor Brujo"},
         {id:9, link:"images/choreography/Lisa_Ramya2.jpg", title: "Lisa with Ramya"},
         {id:10, link:"images/choreography/Lisa_Ramya_Co.jpg", title: "Lisa with Ramya"},
-        {id:11, link:"images/choreography/3369.jpg", title: "Lisa and Marie"},
+        {id:11, link:"images/choreography/Lisa MarieGrnds for Sculpture3.jpg", title: "'...en el jardin'with modern dancer Marie Alonzo at the Grounds for Sculpture, NJ"},
         {id:12, link:"images/choreography/10042009_004.jpg", title: "Snake Costume"},
         {id:13, link:"images/choreography/IMG_1028.jpg", title: "With Belly Dancer"},
         {id:14, link:"images/choreography/FireDance.jpg", title: "Fire Dance, 'El Amor Brujo'"},
@@ -30,7 +30,7 @@ const Choreography = () => {
     return (
       
       <div className = "container fluid choreography">
-        <h1>Collaborations</h1>
+        <h1>Choreography/Collaborations</h1>
       <SimpleReactLightbox>  
       <SRLWrapper>
         

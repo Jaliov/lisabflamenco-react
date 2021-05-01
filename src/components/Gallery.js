@@ -5,13 +5,10 @@ import PhotoDisplay from "./PhotoDisplay";
 import React, { useState } from 'react';
 import { SRLWrapper } from "simple-react-lightbox"; 
 
-
-  
-
 const Gallery = () => {
     const [lisaImages] = useState([
   
-        {id:1, link: "images/BARBIES135.jpg", title: "Lisa at Gala"},
+        {id:1, link: "images/BARBIES135.jpg", title: "Lisa at Gala", text: "This is a great image!"},
         {id:2, link:"images/Lisapicin_NYTimesDec2010.jpg", title: "lisa NYTimes photo"}, 
         {id:3, link:"images/LisaBotalico_Alegrias.jpg", title: "Alegrias!"}, 
         {id:4, link:"images/LisaClavilitos.jpg"},
