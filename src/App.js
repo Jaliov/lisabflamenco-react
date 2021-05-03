@@ -10,6 +10,7 @@ import Home from './components/Home';
 import Press from './components/Press';
 import Bio from './components/Bio';
 import Classes from './components/Classes';
+import Events from './components/Events';
 
 const App = () => {
  
@@ -26,6 +27,7 @@ return (
       <Route exact path="/bio" component={Bio} />
       <Route exact path="/press" component={Press} />
       <Route exact path="/classes" component={Classes} />
+      <Route exact path="/events" component={Events} />
      </main>
     </Router>
     

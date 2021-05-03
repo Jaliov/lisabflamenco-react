@@ -54,7 +54,7 @@ h1 {
 }
 
 h1 em {
-font-size: 175%;
+font-size: 125%;
  color: #ffff66;
  text-align: left;
 
@@ -86,12 +86,21 @@ h5 {
     font-size: 120%;
   }
 
+  a:link {
+    color: rgb(240, 173, 78);
+  }
+
+  a:visited {
+    color: rgb(240, 173, 78);
+  }
+
+
    a:hover {
     background-color: white;
   }
 
-  /* a:hover {
-   color: white;
+  a:active {
+    color: rgb(240, 173, 78);
   }
-    */
+    
    
