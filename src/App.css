@@ -13,7 +13,6 @@ body {
 }
 
 .choreography {
-  
   background-image: url(./assets/Lisamarie4fade.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -96,11 +95,16 @@ h5 {
 
 
    a:hover {
-    background-color: white;
+    background-color: #ffff66;
   }
 
   a:active {
     color: rgb(240, 173, 78);
   }
+
+ #alert {
+   padding: 0;
+   margin-bottom: -10px;
+ } 
     
    

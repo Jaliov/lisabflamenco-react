@@ -10,14 +10,13 @@ const NavBar = () => {
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href='/'>Home</Nav.Link>
-      <Nav.Link href='/gallery'>Gallery</Nav.Link>
-      <Nav.Link href='/notable'>Notable Events</Nav.Link>
-      {/* <Nav.Link href='/gallery2'>Notable Events</Nav.Link> */}
-      <Nav.Link href='/choreography'>Choreography/Collaborations</Nav.Link>
       <Nav.Link href='/bio'>About</Nav.Link>
+      <Nav.Link href='/gallery'>Gallery</Nav.Link>
+      <Nav.Link href='/choreography'>Choreography / Collaborations</Nav.Link>
+      <Nav.Link href='/notable'>Past Events</Nav.Link>
       <Nav.Link href='/press'>Press</Nav.Link>
       <Nav.Link href='/classes'>Classes</Nav.Link>
-      <Nav.Link href='/events'>Events</Nav.Link>
+      <Nav.Link href='/events'>Upcoming</Nav.Link>
     </Nav>
     </Navbar.Collapse>
   </Navbar>

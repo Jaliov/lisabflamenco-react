@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card, Alert } from 'react-bootstrap';
 import AddEvent from './AddEvent';
 
 // import React, { useState } from 'react';
@@ -10,12 +10,14 @@ const Events = () => {
         <h1>Events/Links</h1>
         <Row>
           <Col xs={8}>
+          <Alert variant={'transparent text-light bg-transparent'} id ="alert">
+          For Information about Performances & Classes:{' '}<Alert.Link href = 'mailto:lisasolea@aol.com'> email</Alert.Link>
+          </Alert>l
             <Card className='bg-transparent text-light'>
               {/* <Card.Header>Featured</Card.Header> */}
               <Card.Body>
                 <Card.Title className='text-light'>
-                    For Information about Performances & Classes:{' '}
-                   <Card.Link href="'mailto:lisasolea@aol.com'">email</Card.Link>
+                    
                 </Card.Title>
                 
                 <Card.Title className='text-light'>
@@ -32,7 +34,7 @@ const Events = () => {
               <Card.Body>
                 <Card.Title>
                   {' '}
-                  <h4 className='text-light'>Important Links</h4>
+                  Important Links
                 </Card.Title>
                 {/* <Card.Subtitle className='mb-2 text-muted'>
                   Card Subtitle
@@ -77,12 +79,7 @@ const Events = () => {
                     <em>Cosmic Visions, </em> Art by Joel Rudin
                   </Card.Link>
                 </Card.Text>
-                <Card.Text>
-                  <Card.Link href='http://www.joelrudinart.com'>
-                    {' '}
-                    <em>Cosmic Visions, </em> Art by Joel Rudin
-                  </Card.Link>
-                </Card.Text>
+               
                 <p>
                   <em style={{ color: '#FFFFCC' }}>
                     Lisa teaches students at Rutgers University, Feb, 2015.

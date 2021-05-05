@@ -52,7 +52,7 @@ const Bio = () => {
               has given workshops and residencies throughout New Jersey,
               including: Princeton Day School, Stuart Country Day School,
               Princeton Regional Schools, and the <em>Bridge to the Arts</em>
-              Summer Camp in Trenton. With Alborada, Lisa performs for Young
+              Summer Camp in Trenton. With Alborada, Lisa performed for Young
               Audiences of New Jersey and was a guest teacher for the State
               Theatre in New Brunswick.
             </p>

@@ -6,31 +6,30 @@ import { SRLWrapper } from 'simple-react-lightbox';
 
 const Notable = () => {
   const [choreoImages] = useState([
-    { id: 1, link: 'images/LisaNY1smll.jpg', title: 'Luisa' },
+    { id: 21, link: 'images/LisaNY1.JPG', thumbnail: 'images/LisaNY1smll copy.gif',title: "Lisa with legendary dancers Manolo Rivera and Luisa Triana" },
     {
-      id: 1,
-      link: 'images/LisaNY5smll copy.jpg',
+      id: 22,
+      link: 'images/LisaNY5.jpg', thumbnail: 'images/LisaNY5.jpg',
       title:
         'Slide of Lisa performance Lincoln Center Outdoors in 1996(!), with cantaor Dominico Caro and guitarist Arturo Martinez',
     },
-    { id: 3, link: 'images/LisaNY3smll.jpg', title: 'With Dominico Caro' },
+    { id: 3, link: 'images/LisaNY3.jpg', thumbnail: 'images/LisaNY3.gif', title: 'With cantaor Dominico Caro' },
   ]);
   const [njpacImages] = useState([
   
-    { id: 10, link: 'images/NJPAC002/NJPAC007.jpg', title: 'At NJPAC!' },
     { id: 11, link: 'images/NJPAC002/NJPAC026.jpg', title: 'At NJPAC!' },
-    { id: 12, link: 'images/NJPAC002/NJPAC017.jpg', title: 'At NJPAC!' },
-    
-    { id: 14, link: 'images/NJPAC002/NJPAC006.jpg', title: 'At NJPAC!' },
     { id: 15, link: 'images/NJPAC002/LisaBotalicoNJPAC.jpg', title: 'At NJPAC!' },
-    { id: 16, link: 'images/NJPAC002/NJPAC002.jpg', title: 'At NJPAC!' },
+    { id: 17, link: 'images/NJPAC002/NJPAC086.jpg', title: 'At NJPAC!' },
+    { id: 18, link: 'images/NJPAC002/NJPAC093.jpg', title: 'At NJPAC!' },
+    { id: 19, link: 'images/NJPAC002/NJPAC094.jpg', title: 'At NJPAC!' },
+    { id: 16, link: 'images/NJPAC002/NJPAC002.jpg', title: 'At NJPAC!' }
   ]);
 
   return (
     <Container>
       <Row>
-        <Col></Col>
-        <Col xs={9}>
+         <Col></Col>
+        <Col xs={12}>
           {/* <div className='container fluid bg-transparent'> */}
           <h1>Notable Events</h1>
 
@@ -47,7 +46,7 @@ const Notable = () => {
                     <em>
                       Our{' '}
                       <a
-                        className='text-danger'
+                       
                         href='http://artscouncilofprinceton.org/artists/anne-reeves-air/current-artist-in-residence/'
                       >
                         fall Artist-in-Residence
@@ -62,7 +61,7 @@ const Notable = () => {
                       passion, oppression and hope through original Flamenco
                       dance choreography, music, and visual art imagery. Lisa’s{' '}
                       <a
-                        className='text-danger'
+                      
                         href='http://artscouncilofprinceton.org/2014/10/finding-light-through-fire/'
                       >
                         blog wrap-up
@@ -86,7 +85,7 @@ const Notable = () => {
       <div>
       <Row>
         <Col></Col>
-        <Col xs={9}>
+        <Col xs={12}>
         <Card className='bg-transparent'>
               <Card.Body>
           <Card.Title>

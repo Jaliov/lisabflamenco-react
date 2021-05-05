@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Card } from 'react-bootstrap';
 
 // import Luisa from "../images/LisaNY1smll.jpg";
-import SimpleReactLightbox from 'simple-react-lightbox';
+import SimpleReactLightbox from 'simple-react-lightbox'; 
 // import 'react-awesome-lightbox/build/style.css';
 import PhotoDisplay from './PhotoDisplay';
 // import NJPACImages from './NJPACImages';
@@ -11,14 +11,14 @@ import { SRLWrapper } from 'simple-react-lightbox';
 
 const Gallery2 = () => {
   const [choreoImages] = useState([
-    { id: 12, link: 'images/LisaNY1smll.jpg', title: 'Luisa' },
+    { id: 21, link: 'images/LisaNY1.JPG', thumbnail: 'images/LisaNY1.JPG',title: 'Luisa' },
     {
-      id: 13,
+      id: 22,
       link: 'images/LisaNY5smll copy.jpg',
       title:
         'Slide of Lisa performance Lincoln Center Outdoors in 1986(!), with cantaor Dominico Caro and guitarist Arturo Martinez',
     },
-    { id: 14, link: 'images/LisaNY3smll.jpg', title: 'With Dominico Caro' },
+    { id: 23, link: 'images/LisaNY3smll.jpg', title: 'With Dominico Caro' },
    
   ]) 
    const [njpacImages] = useState([  { id: 16, link: 'images/NJPACweb1.jpg', title: 'At NJPAC!' }, 
