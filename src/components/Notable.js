@@ -21,7 +21,7 @@ const Notable = () => {
     },
     {
       id: 44,
-      link: 'images/LisaNY3.jpg',
+      link: 'images/LisaNY3.JPG',
       thumbnail: 'images/LisaNY3.gif',
       title: 'With cantaor Dominico Caro',
     },

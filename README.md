@@ -4,11 +4,8 @@
 
 ![](lisabflamenco-reactScreenshot.jpg)
 
-- Website first created and published in 2011
+- This a second reboot of a website I first created in 2011 now recreated in React.js as well as HTML, CSS, and React Bootstrap including the Simple React Lightbox image viewer for an improved, updated photo gallery experience!
 
-- This a second reboot of a website I first created in 2011 now recreated in React.js as well as HTML, CSS, and React Bootstrap including the Simple React Lightbox image viewer for an improved photo slideshow experience
-
-
-
+## Published website: https://lisabflamenco.herokuapp.com/
 
 
