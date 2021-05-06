@@ -16,18 +16,19 @@ const App = () => {
  
 return (
   <div>
-    <Router basename="/Home">
+    <Router>
       <main>
+        {/* <Switch> */}
       <Navbar />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/gallery" component={Gallery} />
-      
-      <Route exact path="/notable" component={Notable} /> 
-      <Route exact path="/choreography" component={Choreography} />
-      <Route exact path="/bio" component={Bio} />
-      <Route exact path="/press" component={Press} />
-      <Route exact path="/classes" component={Classes} />
-      <Route exact path="/events" component={Events} />
+      <Route  exact path="/" component={Home} />
+      <Route  path="/gallery" component={Gallery} />
+      <Route  path="/notable" component={Notable} /> 
+      <Route  path="/choreography" component={Choreography} />
+      <Route  path="/bio" component={Bio} />
+      <Route  path="/press" component={Press} />
+      <Route  path="/classes" component={Classes} />
+      <Route  path="/events" component={Events} />
+      {/* </Switch> */}
      </main>
     </Router>
     

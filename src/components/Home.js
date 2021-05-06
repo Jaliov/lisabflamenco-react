@@ -3,6 +3,7 @@
 import Row from 'react-bootstrap/Row';
 import Homephoto from './Homephoto';
 import cover from '../assets/ShawlintheAirfade.png';
+import { Container } from 'react-bootstrap';
 
 
 
@@ -10,7 +11,7 @@ const Home = () => {
     return (
 
     <Row>
-        <div className = "container">
+        <Container>
         {/* <Col xs ="2" />
     <Col size="8"> */}
         <h1 className = "text-center"><em>Lisa Botalico </em></h1>
@@ -22,7 +23,7 @@ const Home = () => {
         < Homephoto cover = {cover}/>
         {/* </Col> */}
        
-    </div>
+    </Container>
     {/* // <Col xs ="2" /> */}
     </Row>
    

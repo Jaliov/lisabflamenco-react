@@ -1,8 +1,6 @@
 import { Container, Row, Col, Card, Alert } from 'react-bootstrap';
 import AddEvent from './AddEvent';
 
-// import React, { useState } from 'react';
-
 const Events = () => {
   return (
     <div>
@@ -80,12 +78,12 @@ const Events = () => {
                   </Card.Link>
                 </Card.Text>
                
-                <p>
+                {/* <p>
                   <em style={{ color: '#FFFFCC' }}>
                     Lisa teaches students at Rutgers University, Feb, 2015.
                     Scroll to Page 5 for article below
                   </em>
-                </p>
+                </p> */}
                 <div
                   data-configid='0/11648128'
                   style={{

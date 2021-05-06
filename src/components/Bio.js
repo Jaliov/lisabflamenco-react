@@ -1,14 +1,16 @@
 import cubanLunge from '../assets/cubanlungefade.png';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Bio = () => {
   return (
-    <>
-      <div className='container'>
+    <> 
+      <Container>
       <h1>About</h1>
-        <div className='row'>
-          <div className='col-md-8 text-light'>
+        <Row>
+          <Col sm = {8} className = "text-light">
+            <>
             <p>
-              <em>Lisa Botalico</em> toured the USA as Artistic Director and
+              <em><strong>Lisa Botalico</strong></em> toured the USA as Artistic Director and
               Principal dancer of <em>La Compañia Folklorica Latina</em> under the
               auspices of the National Theatre of the Performing Arts,
               performing in: Town Hall (NYC), Constitution Hall (DC), Society of
@@ -23,7 +25,8 @@ const Bio = () => {
               guest artist with the Nassau Symphony in Long Island and in
               tablaos in NYC.{' '}
             </p>
-
+             </>
+             <>
             <p>
               <em>Lisa</em> debuted with the Alborada Spanish Dance Theatre in
               2000 as a guest artist, joining the company as principal dancer in
@@ -40,7 +43,8 @@ const Bio = () => {
               <em>The Spanish Guitar</em>. Lisa dances regularly in the tablao at
               Spain Inn II in Clinton, NJ.{' '}
             </p>
-
+            </>
+            <>
             <p>
               <em>Lisa</em> has been a dance instructor since 1989 and now
               teaches throughout the Princeton, NJ area. In 1999 she founded the
@@ -56,10 +60,10 @@ const Bio = () => {
               Audiences of New Jersey and was a guest teacher for the State
               Theatre in New Brunswick.
             </p>
-          </div>
+            </>
+          </Col>
 
-          <div
-            className='col-md-4'
+          <Col xs = {4}
             style={{ backgroundColor: 'rgb(216, 79, 79, 0.3)' }}
           >
             <img
@@ -68,9 +72,9 @@ const Bio = () => {
               alt='Lisa Cuban'
             />
 
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };
