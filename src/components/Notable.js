@@ -12,10 +12,10 @@ const Notable = () => {
       thumbnail: 'images/LisaNY1smll copy.gif',
       title: 'Lisa with legendary dancers Manolo Rivera and Luisa Triana',
     },
-    {
+    { 
       id: 42,
-      link: 'images/LisaNY5.jpg',
-      thumbnail: 'images/LisaNY5.jpg',
+      link: 'images/LisaNY5.JPG',
+      thumbnail: 'images/LisaNY5.JPG',
       title:
         'Slide of Lisa performance Lincoln Center Outdoors in 1996(!), with cantaor Dominico Caro and guitarist Arturo Martinez',
     },
