@@ -39,8 +39,8 @@ const Choreography = () => {
     },
     {
       id: 25,
-      link: 'images/choreography/CarmenMedia_018.jpg',
-      thumbnail: 'images/choreography/CarmenMedia_018.jpg',
+      link: 'images/choreography/CarmenMedia_018.JPG',
+      thumbnail: 'images/choreography/CarmenMedia_018.JPG',
       title: "Roxey Ballet production of 'Carmen'",
     },
     {
