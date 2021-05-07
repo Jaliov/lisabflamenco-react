@@ -14,9 +14,6 @@ const Events = () => {
             <Card className='bg-transparent text-light'>
               {/* <Card.Header>Featured</Card.Header> */}
               <Card.Body>
-                <Card.Title className='text-light'>
-                    
-                </Card.Title>
                 
                 <Card.Title className='text-light'>
                   {' '}

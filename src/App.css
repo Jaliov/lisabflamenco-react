@@ -25,7 +25,7 @@ body {
   background-image: url(./assets/Reviewbackground3.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-position: relative; 
+  background-position: relative;
   width: 800px;
   height: 700px;
 }
@@ -40,65 +40,67 @@ body {
 }
 
 @font-face {
-  font-family: "matura-mt-script-capitals-cufonfonts";
+  font-family: 'matura-mt-script-capitals-cufonfonts';
   src: url(./assets/MATURASC_1.TTF);
 }
 
 h1 {
   color: #ffff66;
   text-align: left;
-  font-family: "matura-mt-script-capitals-cufonfonts";
+  font-family: 'matura-mt-script-capitals-cufonfonts';
   font-style: italic;
   margin-top: 30px;
 }
 
 h1 em {
-font-size: 125%;
- color: #ffff66;
- text-align: left;
-
+  font-size: 125%;
+  color: #ffff66;
+  text-align: left;
 }
 
 h5 {
-    text-align: center;
-    margin-left: 70px;
-    color: white}
+  text-align: center;
+  margin-left: 70px;
+  color: white;
+}
 
-  .navv {
-    background-color: rgb(217, 83, 79, 0.4);
-    margin-bottom: 40px;
-    
-  }
-  
-  .alertyellow 
-  {
-    color: #ffff66;
-  }
- 
-  .larger {
-    font-size: 120%;
-  }
+.navv {
+  background-color: rgb(217, 83, 79, 0.4);
+  margin-bottom: 40px;
+}
 
-  a:link {
-    color: rgb(240, 173, 78);
-  }
+.alertyellow {
+  color: #ffff66;
+}
 
-  a:visited {
-    color: rgb(240, 173, 78);
-  }
+.larger {
+  font-size: 120%;
+}
+a {
+  -webkit-transition: color 3s;
+  transition: color 3s;
+}
 
+a:link {
+  color: rgb(240, 173, 78);
+}
 
-   a:hover {
-    background-color: #ffff66;
-  }
+a:visited {
+  color: rgb(240, 173, 78);
+}
 
-  a:active {
-    color: rgb(240, 173, 78);
-  }
+Card.Link:hover {
+  background-color: rgb(248, 244, 244);
+}
+a:hover {
+  background: rgb(217, 83, 79, 0.5);
+}
 
- #alert {
-   padding: 0;
-   margin-bottom: -10px;
- } 
-    
-   
+a:active {
+  color: rgb(240, 173, 78);
+}
+
+#alert {
+  padding: 0;
+  margin-bottom: -10px;
+}

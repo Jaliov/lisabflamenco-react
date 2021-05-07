@@ -25,18 +25,17 @@ const Classes = () => {
             
 
               <p className='text-left larger alertyellow'>Contact:</p>
-              <a 
-                href='http://www.artscouncilofprinceton.org/'
-                className='card-link text-info larger'
+              <Card.Link href='http://www.artscouncilofprinceton.org/'
+                className='larger'
                 target='blank'
               >
                 Arts Council of Princeton
-              </a>
+              </Card.Link>
               <br />
 
               <a
                 href="<'mailto:lisasolea@aol.com'>"
-                className='card-link text-info larger'
+                className='card-link larger'
               >
                 Email
               </a>

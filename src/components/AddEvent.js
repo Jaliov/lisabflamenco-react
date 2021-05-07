@@ -14,11 +14,9 @@ const  AddEvent = () => {
       return (  
         addEvents ? addEvents.map((event) => (
             <>
-            <Card.Text key = {event.id} className= 'text-warning'> <Card.Link href = {event.link} target='blank'><span style={{color:'yellow'}}> {event.date}</span> {event.text}  </Card.Link></Card.Text>
+            <Card.Text key = {event.id} className= 'text-warning'><span style={{color:'yellow'}}> {event.date}</span>  <Card.Link href = {event.link} target='blank'>{event.text}  </Card.Link></Card.Text>
             </>
-            )) : null
-
-       
+            )) : <Card.Text>No upcoming at this time</Card.Text>
 
       )
 }
