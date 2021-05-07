@@ -41,7 +41,7 @@ body {
 
 @font-face {
   font-family: "matura-mt-script-capitals-cufonfonts";
-  src: url(assets/MATURASC_1.TTF);
+  src: url(./assets/MATURASC_1.TTF);
 }
 
 h1 {
