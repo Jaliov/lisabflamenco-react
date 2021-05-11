@@ -3,7 +3,8 @@ import PhotoLayout from './PhotoLayout';
 import { Fragment } from 'react';
 import {  Link } from "react-router-dom";
 // import Gallery from './Gallery';
-const PhotoDisplay = ({ lisaImages, choreoImages, njpacImages }) => {
+
+const PhotoDisplay = ({ lisaImages, choreoImages, njpacImages, videoImages }) => {
   return (
     <>
       <Row>
@@ -17,11 +18,11 @@ const PhotoDisplay = ({ lisaImages, choreoImages, njpacImages }) => {
                     alt={image.title}
                     className='border border-secondary'
                   /></Link>
-                </Fragment>
-              ))
-            : null}
+                </Fragment>)) :
+            
+             
 
-          {choreoImages
+          choreoImages
             ? choreoImages.map((image, id) => (
                 <Fragment key={image.id}>
                    <Link to = {image.link}><img
@@ -32,9 +33,9 @@ const PhotoDisplay = ({ lisaImages, choreoImages, njpacImages }) => {
                   /></Link>
                 </Fragment>
               ))
-            : null}
+            : 
  
-          {njpacImages
+          njpacImages
             ? njpacImages.map((image, id) => (
                 <Fragment key={image.id}>
                   <img
@@ -44,12 +45,25 @@ const PhotoDisplay = ({ lisaImages, choreoImages, njpacImages }) => {
                     className='border border-secondary'
                   />
                 </Fragment>
-              ))
-            : null}
+              )) :
+
+
+            videoImages
+            ? videoImages.map((image, id) => (
+                <Fragment key={image.id}>
+                  <img
+                   src ={image.url}
+                    style={PhotoLayout.videolayout}
+                    alt={image.altTag}
+                    className='border border-secondary'
+                  />
+                </Fragment>
+              )) : null
+            }
         </Col>
       </Row>
     </>
+ 
   );
-};
-
+          }
 export default PhotoDisplay;

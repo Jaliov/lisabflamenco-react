@@ -89,15 +89,12 @@ a:visited {
   color: rgb(240, 173, 78);
 }
 
-Card.Link:hover {
-  background-color: rgb(248, 244, 244);
-}
 a:hover {
-  background: rgb(217, 83, 79, 0.5);
+  background: rgb(217, 83, 79, 0.3);
 }
 
 a:active {
-  color: rgb(240, 173, 78);
+  color: rgb(228, 225, 78);
 }
 
 #alert {

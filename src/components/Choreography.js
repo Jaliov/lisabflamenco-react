@@ -3,9 +3,12 @@ import PhotoDisplay from './PhotoDisplay';
 import React, { useState } from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
 import { Container, Col } from 'react-bootstrap';
+// import ReactPlayer from "react-player";
 
 const Choreography = () => {
   const [choreoImages] = useState([
+  
+   
     {
       id: 20,
       link: 'images/choreography/CompaniaLisanormal.jpg',
@@ -148,16 +151,32 @@ const Choreography = () => {
       title:
         'Reunited: with Ramya Ramnarayan in virtual performance on Instagram, May, 2020',
     },
-  ]);
+    {
+      id: 51,
+      link: 'images/choreography/Ramya_Lisa_The HinduArticle.jpg',
+      thumbnail: 'images/choreography/Ramya_Lisa_The HinduArticle.jpg',
+      title:
+        'Article in The Hindu',
+    }
+   
+  
+  ])
+  
 
   return (
     <Container className='fluid choreography'>
       <h1>Choreography/Collaborations</h1>
       <Col xs={10}>
+      
         <SimpleReactLightbox>
+      
           <SRLWrapper>
             <PhotoDisplay choreoImages={ choreoImages }/>
+           
+           
+    
           </SRLWrapper>
+     
         </SimpleReactLightbox>
       </Col>
     </Container>

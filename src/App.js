@@ -11,6 +11,8 @@ import Press from './components/Press';
 import Bio from './components/Bio';
 import Classes from './components/Classes';
 import Events from './components/Events';
+import VideoGallery from './components/VideoGallery';
+
 
 const App = () => {
  
@@ -28,7 +30,9 @@ return (
       <Route  path="/press" component={Press} />
       <Route  path="/classes" component={Classes} />
       <Route  path="/events" component={Events} />
-      {/* </Switch> */}
+      <Route  path="/videogallery" component={ VideoGallery } />
+      {/* </Switch> */} 
+      
      </main>
     </Router>
     
