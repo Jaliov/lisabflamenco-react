@@ -4,11 +4,11 @@ import React, { useState } from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
 import { Container, Col } from 'react-bootstrap';
 // import ReactPlayer from "react-player";
+// import Iframe from 'react-iframe'
 
 const Choreography = () => {
   const [choreoImages] = useState([
   
-   
     {
       id: 20,
       link: 'images/choreography/CompaniaLisanormal.jpg',

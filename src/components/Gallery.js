@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
 import { Container } from 'react-bootstrap';
 
+
 const Gallery = () => {
   const [lisaImages] = useState([
     {

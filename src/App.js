@@ -1,11 +1,10 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import Gallery from "./components/Gallery";
-// import Gallery2 from "./components/Gallery2";
-import Notable from "./components/Notable";
-import Choreography from "./components/Choreography";
-import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Gallery from './components/Gallery';
+import Notable from './components/Notable';
+import Choreography from './components/Choreography';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Press from './components/Press';
 import Bio from './components/Bio';
@@ -13,31 +12,26 @@ import Classes from './components/Classes';
 import Events from './components/Events';
 import VideoGallery from './components/VideoGallery';
 
-
 const App = () => {
- 
-return (
-  <div>
-    <Router>
-      <main>
-        {/* <Switch> */}
-      <Navbar />
-      <Route  exact path="/" component={Home} />
-      <Route  path="/gallery" component={Gallery} />
-      <Route  path="/notable" component={Notable} /> 
-      <Route  path="/choreography" component={Choreography} />
-      <Route  path="/bio" component={Bio} />
-      <Route  path="/press" component={Press} />
-      <Route  path="/classes" component={Classes} />
-      <Route  path="/events" component={Events} />
-      <Route  path="/videogallery" component={ VideoGallery } />
-      {/* </Switch> */} 
-      
-     </main>
-    </Router>
-    
+  return (
+    <div>
+      <Router>
+        <main>
+          {/* <Switch> */}
+          <Navbar />
+          <Route exact path='/' component={Home} />
+          <Route path='/gallery' component={Gallery} />
+          <Route path='/notable' component={Notable} />
+          <Route path='/choreography' component={Choreography} />
+          <Route path='/bio' component={Bio} />
+          <Route path='/press' component={Press} />
+          <Route path='/classes' component={Classes} />
+          <Route path='/events' component={Events} />
+          <Route path='/videogallery' component={VideoGallery} />
+          {/* </Switch> */}
+        </main>
+      </Router>
     </div>
-)
-}
+  );
+};
 export default App;
- 

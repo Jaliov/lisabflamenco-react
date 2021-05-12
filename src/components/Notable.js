@@ -12,7 +12,7 @@ const Notable = () => {
       thumbnail: 'images/LisaNY1smll copy.gif',
       title: 'Lisa with legendary dancers Manolo Rivera and Luisa Triana',
     },
-    { 
+    {
       id: 42,
       link: 'images/LisaNY5.JPG',
       thumbnail: 'images/LisaNY5.JPG',
@@ -56,33 +56,33 @@ const Notable = () => {
                   </h4>
                 </Card.Title>
                 <Card.Text className='text-light larger'>
-                 
-                    <em>
-                      Our{' '}
-                      <a href='http://artscouncilofprinceton.org/artists/anne-reeves-air/current-artist-in-residence/'>
-                        fall Artist-in-Residence
-                      </a>
-                      , critically acclaimed Flamenco dancer and ACP instructor
-                      <strong> Lisa Botalio </strong>
-                      proved to be one of our most popular residencies.
-                      Throughout the fall season, Lisa, in collaboration with
-                      visual artist Libby Ramage, led a free community dance and
-                      art workshop, a free public forum and a sold-out final
-                      performance, all of which explored the universal themes of
-                      passion, oppression and hope through original Flamenco
-                      dance choreography, music, and visual art imagery. Lisa’s{' '}
-                      <a href='http://artscouncilofprinceton.org/2014/10/finding-light-through-fire/'>
-                        blog wrap-up
-                      </a>{' '}
-                      after her residency currently holds the ACP record for
-                      most comments on a post, a testament to her impact.
-                    </em><br />
-                  
+                  <em>
+                    Our{' '}
+                    <a href='http://artscouncilofprinceton.org/artists/anne-reeves-air/current-artist-in-residence/'>
+                      fall Artist-in-Residence
+                    </a>
+                    , critically acclaimed Flamenco dancer and ACP instructor
+                    <strong> Lisa Botalio </strong>
+                    proved to be one of our most popular residencies. Throughout
+                    the fall season, Lisa, in collaboration with visual artist
+                    Libby Ramage, led a free community dance and art workshop, a
+                    free public forum and a sold-out final performance, all of
+                    which explored the universal themes of passion, oppression
+                    and hope through original Flamenco dance choreography,
+                    music, and visual art imagery. Lisa’s{' '}
+                    <a href='http://artscouncilofprinceton.org/2014/10/finding-light-through-fire/'>
+                      blog wrap-up
+                    </a>{' '}
+                    after her residency currently holds the ACP record for most
+                    comments on a post, a testament to her impact.
+                  </em>
+                  <br />
+
                   <>
                     <small className='text-light'>
                       Jeff Nathanson, Executive Director
                     </small>
-                  <br />
+                    <br />
                   </>
                 </Card.Text>
               </Card.Body>
@@ -104,15 +104,15 @@ const Notable = () => {
                   </h4>
                 </Card.Title>
 
-                <Card.Text className = "text-light">
+                <Card.Text className='text-light'>
                   {/* <p className ="larger"> */}
                   Opening reception
                   <br />
                   The New York Public Library for the Performing Arts, Vincent
                   Astor Gallery <br />
-                 Mar 12 - Aug 3, 2013
+                  Mar 12 - Aug 3, 2013
                 </Card.Text>
-              
+
                 <SimpleReactLightbox>
                   <SRLWrapper>
                     <PhotoDisplay choreoImages={choreoImages} /> <br />
@@ -126,14 +126,14 @@ const Notable = () => {
                 <Card.Title className='text-warning'>
                   <h4>
                     <em>Jersey Moves!</em> Festival of Dance at the New Jersey
-                    Perfroming Arts Center (NJPAC)
+                    Performing Arts Center (NJPAC)
                   </h4>{' '}
                   <p className='text-light'>March 24, 2012</p>
                 </Card.Title>
                 <SimpleReactLightbox>
                   <SRLWrapper>
                     <Card className='bg-transparent'>
-                    <PhotoDisplay njpacImages={ njpacImages } />
+                      <PhotoDisplay njpacImages={njpacImages} />
                     </Card>
                   </SRLWrapper>
                 </SimpleReactLightbox>

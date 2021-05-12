@@ -1,5 +1,6 @@
 import React, { Row, Col } from 'react-bootstrap';
 import PhotoLayout from './PhotoLayout';
+
 import { Fragment } from 'react';
 import {  Link } from "react-router-dom";
 // import Gallery from './Gallery';
