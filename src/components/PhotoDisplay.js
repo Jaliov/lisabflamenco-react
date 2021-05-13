@@ -13,10 +13,11 @@ const PhotoDisplay = ({ lisaImages, choreoImages, njpacImages, videoImages }) =>
           {lisaImages
             ? lisaImages.map((image, id) => (
                 <Fragment key={image.id}>
-                  <Link to = {image.link}><img
+                  <Link to = {image.link}><img 
                    src ={image.thumbnail}
                     style={PhotoLayout.photolayout1}
                     alt={image.title}
+                    caption = {image.catpion}
                     className='border border-secondary'
                   /></Link>
                 </Fragment>)) :

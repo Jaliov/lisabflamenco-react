@@ -39,10 +39,10 @@ body {
   pointer-events: none;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'matura-mt-script-capitals-cufonfonts';
   src: url(./MATURASC_1.TTF);
-}
+} */
 
 h1 {
   color: #ffff66;
@@ -102,4 +102,8 @@ a:active {
 #alert {
   padding: 0;
   margin-bottom: -10px;
+}
+
+img {
+  color: red; 
 }

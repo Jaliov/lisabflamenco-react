@@ -26,13 +26,14 @@ const Choreography = () => {
       id: 22,
       link: 'images/choreography/Sueno_Verdiales.jpg',
       thumbnail: 'images/choreography/Verdialis_smll copy.gif',
-      title: "Lisa's choreography 'Verdiales'",
+      title: 'Lisa Choreography: The "Verdiales" was a powerhouse of community. (Robert Johnson, Star Ledger)',
     },
     {
       id: 23,
       link: 'images/choreography/Lisacomedypiece.jpg',
       thumbnail: 'images/choreography/Lisacomedypiecesmll copy.gif',
-      title: "'Tanguillo por Chufla' with Eva Lucena",
+      title: '"Lisa Botalico and Eva Lucena stole the show with their comedic, \'Tanguillos por Chufla\'. (Damaris Solis, Flamenco Buzz)"',
+      
     },
     {
       id: 24,
@@ -77,13 +78,13 @@ const Choreography = () => {
       link: 'images/choreography/Photo-0035.jpg',
       thumbnail: 'images/choreography/Lisa_Willie copy.gif',
       title:
-        "Willie Sanchez of NJN's 'Images/Imagenes' and the Emmy for his documentary'The Spanish  Guitar' with Lisa, featured dancer",
+        'Willie Sanchez of NJN: "Images/Imagenes" and the Emmy for his documentary "The Spanish Guitar" with Lisa, featured dancer',
     },
     {
       id: 31,
       link: 'images/choreography/Lisa_Ramya2.jpg',
       thumbnail: 'images/choreography/Lisa_Ramya2.jpg',
-      title: 'With Bharathanatyam dancer Ramya Ramnarayan',
+      title: 'With Bharathanatyam dancer Ramya Ramnarayan: "...creating an atmosphere of moonlit rapture." (Star Ledger)',
     },
     {
       id: 32,
@@ -116,14 +117,14 @@ const Choreography = () => {
       link: 'images/FlamencoMoro1.jpg',
       thumbnail: 'images/FlamencoMoro1.gif',
       title:
-        "'Flamenco Moro', 1985: Lisa, left, with legends Maria Alba & Victorio.",
+        '"Flamenco Moro", 1985: Lisa, left, with legends Maria Alba & Victorio.',
     },
     {
       id: 37,
       link: 'images/choreography/FireDance.jpg',
       thumbnail: 'images/choreography/FireDance.jpg',
       title:
-        "'Fire Dance', choreographed by Lisa Botalico to the magnficent music of Manuel deFalla",
+        '"Fire Dance", choreographed by Lisa Botalico to the magnficent music of Manuel deFalla',
     },
     {
       id: 38,
