@@ -1,5 +1,5 @@
 body {
-  background-image: url(./assets/IMG_0473.jpg);
+  background-image: url(./IMG_0473.jpg);
   border-width: 100%;
 }
 
@@ -41,7 +41,7 @@ body {
 
 @font-face {
   font-family: 'matura-mt-script-capitals-cufonfonts';
-  src: url(./assets/MATURASC_1.TTF);
+  src: url(./MATURASC_1.TTF);
 }
 
 h1 {
