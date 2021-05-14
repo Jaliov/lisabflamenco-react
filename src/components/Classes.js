@@ -5,14 +5,12 @@ const Classes = () => {
   return (
     <Container>
       <h1>Classes</h1>
-        <Row>
-       
+      <Row>
         <Col xs={9}>
-       
-          <Card.Img variant = "top" src = { LisaChildren } />
-          </Col>
-          <Col>
-          <Card className = "bg-transparent">
+          <Card.Img variant='top' src={LisaChildren} />
+        </Col>
+        <Col>
+          <Card className='bg-transparent'>
             <Card.Body>
               <Card.Text>
                 <p className='text-light larger'>
@@ -22,30 +20,27 @@ const Classes = () => {
                   She is also available for private instruction.
                   <br />
                 </p>
-            
 
-              <p className='text-left larger alertyellow'>Contact:</p>
-              <Card.Link href='http://www.artscouncilofprinceton.org/'
-                className='larger'
-                target='blank'
-              >
-                Arts Council of Princeton
-              </Card.Link>
-              <br />
-
-              <a
-                href="<'mailto:lisasolea@aol.com'>"
-                className='card-link larger'
-              >
-                Email
-              </a>
-              <br />
+                <p className='text-left larger alertyellow'>Contact:</p>
+                <Card.Link
+                  href='http://www.artscouncilofprinceton.org/'
+                  className='larger'
+                  target='blank'
+                >
+                  Arts Council of Princeton
+                </Card.Link>
+                <br />
+                <Card.Link
+                  href='mailto:lisasolea@aol.com'
+                  className='card-link larger'
+                >
+                  Email
+                </Card.Link>
               </Card.Text>
             </Card.Body>
           </Card>
-          </Col>
-          </Row>
-    
+        </Col>
+      </Row>
     </Container>
   );
 };
