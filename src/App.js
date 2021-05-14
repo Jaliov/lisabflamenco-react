@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App-min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Gallery from './components/Gallery';
@@ -18,6 +18,7 @@ const App = () => {
       <Router>
         <main>
           <Navbar />
+          <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/gallery' component={Gallery} />
           <Route path='/notable' component={Notable} />
@@ -27,6 +28,7 @@ const App = () => {
           <Route path='/classes' component={Classes} />
           <Route path='/events' component={Events} />
           <Route path='/videogallery' component={VideoGallery} />
+          </Switch>
         </main>
       </Router>
     </div>
