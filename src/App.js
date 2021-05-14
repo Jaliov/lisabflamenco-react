@@ -14,7 +14,6 @@ import VideoGallery from './components/VideoGallery';
 
 const App = () => {
   return (
-    <div>
       <Router>
         <main>
           <Navbar />
@@ -31,7 +30,6 @@ const App = () => {
           </Switch>
         </main>
       </Router>
-    </div>
   );
 };
 export default App;
