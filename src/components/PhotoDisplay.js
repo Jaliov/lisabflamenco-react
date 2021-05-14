@@ -1,11 +1,14 @@
 import React, { Row, Col } from 'react-bootstrap';
 import PhotoLayout from './PhotoLayout';
-
 import { Fragment } from 'react';
-import {  Link } from "react-router-dom";
-// import Gallery from './Gallery';
+import { Link } from 'react-router-dom';
 
-const PhotoDisplay = ({ lisaImages, choreoImages, njpacImages, videoImages }) => {
+const PhotoDisplay = ({
+  lisaImages,
+  choreoImages,
+  njpacImages,
+  videoImages,
+}) => {
   return (
     <>
       <Row>
@@ -13,59 +16,56 @@ const PhotoDisplay = ({ lisaImages, choreoImages, njpacImages, videoImages }) =>
           {lisaImages
             ? lisaImages.map((image, id) => (
                 <Fragment key={image.id}>
-                  <Link to = {image.link}><img 
-                   src ={image.thumbnail}
-                    style={PhotoLayout.photolayout1}
-                    alt={image.title}
-                    caption = {image.catpion}
-                    className='border border-secondary'
-                  /></Link>
-                </Fragment>)) :
-            
-             
-
-          choreoImages
-            ? choreoImages.map((image, id) => (
-                <Fragment key={image.id}>
-                   <Link to = {image.link}><img
-                   src ={image.thumbnail}
-                    style={PhotoLayout.photolayout2}
-                    alt={image.title}
-                    className='border border-secondary'
-                  /></Link>
+                  <Link to={image.link}>
+                    <img
+                      src={image.thumbnail}
+                      style={PhotoLayout.photolayout1}
+                      alt={image.title}
+                      caption={image.catpion}
+                      className='border border-secondary'
+                    />
+                  </Link>
                 </Fragment>
               ))
-            : 
- 
-          njpacImages
+            : choreoImages
+            ? choreoImages.map((image, id) => (
+                <Fragment key={image.id}>
+                  <Link to={image.link}>
+                    <img
+                      src={image.thumbnail}
+                      style={PhotoLayout.photolayout2}
+                      alt={image.title}
+                      className='border border-secondary'
+                    />
+                  </Link>
+                </Fragment>
+              ))
+            : njpacImages
             ? njpacImages.map((image, id) => (
                 <Fragment key={image.id}>
                   <img
-                   src ={image.link}
+                    src={image.link}
                     style={PhotoLayout.photolayout2}
                     alt={image.title}
                     className='border border-secondary'
                   />
                 </Fragment>
-              )) :
-
-
-            videoImages
+              ))
+            : videoImages
             ? videoImages.map((image, id) => (
                 <Fragment key={image.id}>
                   <img
-                   src ={image.url}
+                    src={image.url}
                     style={PhotoLayout.videolayout}
                     alt={image.altTag}
                     className='border border-secondary'
                   />
                 </Fragment>
-              )) : null
-            }
+              ))
+            : null}
         </Col>
       </Row>
     </>
- 
   );
-          }
+};
 export default PhotoDisplay;

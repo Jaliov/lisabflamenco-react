@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './App.css';
+import './App-min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Gallery from './components/Gallery';
 import Notable from './components/Notable';
@@ -17,7 +17,6 @@ const App = () => {
     <div>
       <Router>
         <main>
-          {/* <Switch> */}
           <Navbar />
           <Route exact path='/' component={Home} />
           <Route path='/gallery' component={Gallery} />
@@ -28,7 +27,6 @@ const App = () => {
           <Route path='/classes' component={Classes} />
           <Route path='/events' component={Events} />
           <Route path='/videogallery' component={VideoGallery} />
-          {/* </Switch> */}
         </main>
       </Router>
     </div>
