@@ -2,7 +2,7 @@ import SimpleReactLightbox from 'simple-react-lightbox';
 import PhotoDisplay from './PhotoDisplay';
 import React, { useState } from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
-import { Container, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const Choreography = () => {
   const [choreoImages] = useState([
@@ -162,13 +162,13 @@ const Choreography = () => {
   return (
     <Container className='fluid choreography'>
       <h1>Choreography/Collaborations</h1>
-      <Col xs={10}>
+     
         <SimpleReactLightbox>
           <SRLWrapper>
             <PhotoDisplay choreoImages={choreoImages} />
           </SRLWrapper>
         </SimpleReactLightbox>
-      </Col>
+      
     </Container>
   );
 };

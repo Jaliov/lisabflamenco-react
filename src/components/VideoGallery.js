@@ -4,7 +4,7 @@ const cardStyle = {
   width: '475px',
   height: '350px',
   marginBottom: '10px',
-  boxShadow: '3px 3px 3px rgb(217, 83, 79, 0.5)',
+  boxShadow: '3px 5px 3px rgb(217, 83, 79, 0.5)',
 };
 
 const VideoGallery = () => {
@@ -13,7 +13,7 @@ const VideoGallery = () => {
       <Container>
         <h1>Videos!</h1>
         <Row>
-        <Col>
+          <Col>
             <Card className='bg-dark text-light' style={cardStyle}>
               <Iframe
                 url='https://www.youtube.com/embed/Wwou3GZ4tZ8'
@@ -35,7 +35,7 @@ const VideoGallery = () => {
               </Card.Body>
             </Card>
           </Col>
-
+          <Col xs = {1}></Col>
           <Col>
             <Card className='bg-dark text-light' style={cardStyle}>
               <Iframe
@@ -48,17 +48,16 @@ const VideoGallery = () => {
                 className='border border-secondary'
                 allowFullScreen
               />
-                <Card.Body>
-              <Card.Title>
-                <em>Sevillanas, Noche en el Jardin</em>
-              </Card.Title>
-            
+              <Card.Body>
+                <Card.Title>
+                  <em>Sevillanas, Noche en el Jardin</em>
+                </Card.Title>
+
                 <Card.Text>Quarantine Project</Card.Text>
               </Card.Body>
             </Card>
           </Col>
 
-          
           <p className='text-light larger'>
             <em>More soon!</em>
           </p>
