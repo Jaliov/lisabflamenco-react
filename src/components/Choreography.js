@@ -142,7 +142,8 @@ const Choreography = () => {
       id: 40,
       link: 'images/choreography/lisajoel.jpg',
       thumbnail: 'images/choreography/lisajoelcropped.gif',
-      title: 'Singing "Anda Jaleo" with violist Joel Rudin and guitarist Ivan Max',
+      title:
+        'Singing "Anda Jaleo" with violist Joel Rudin and guitarist Ivan Max',
     },
     {
       id: 41,
@@ -158,17 +159,14 @@ const Choreography = () => {
       title: 'Article in The Hindu, India',
     },
   ]);
-
   return (
     <Container className='fluid choreography'>
       <h1>Choreography/Collaborations</h1>
-     
-        <SimpleReactLightbox>
-          <SRLWrapper>
-            <PhotoDisplay choreoImages={choreoImages} />
-          </SRLWrapper>
-        </SimpleReactLightbox>
-      
+      <SimpleReactLightbox>
+        <SRLWrapper>
+          <PhotoDisplay choreoImages={choreoImages} />
+        </SRLWrapper>
+      </SimpleReactLightbox>
     </Container>
   );
 };
