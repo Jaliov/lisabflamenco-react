@@ -35,7 +35,7 @@ const VideoGallery = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs = {1}></Col>
+          <Col xs={1}></Col>
           <Col>
             <Card className='bg-dark text-light' style={cardStyle}>
               <Iframe

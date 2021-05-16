@@ -8,40 +8,31 @@ const Events = () => {
         <h1>Events/Links</h1>
         <Row>
           <Col xs={8}>
-          <Alert variant={'transparent text-light bg-transparent'} id ="alert">
-          For Information about Performances & Classes:{' '}<Alert.Link href = 'mailto:lisasolea@aol.com'> email</Alert.Link>
-          </Alert>l
+            <Alert variant={'transparent text-light bg-transparent'} id='alert'>
+              For Information about Performances & Classes:{' '}
+              <Alert.Link href='mailto:lisasolea@aol.com'> email</Alert.Link>
+            </Alert>
+            l
             <Card className='bg-transparent text-light'>
-              {/* <Card.Header>Featured</Card.Header> */}
               <Card.Body>
-                
-                <Card.Title className='text-light'>
-                  {' '}
-                 
-                   Upcoming Events{' '}
-                  
-                </Card.Title>
+                <Card.Title className='text-light'>Upcoming Events </Card.Title>
                 <AddEvent />
               </Card.Body>
             </Card>
-
             <Card className='bg-transparent text-light'>
               <Card.Body>
-                <Card.Title>
-                  {' '}
-                  Important Links
-                </Card.Title>
-                {/* <Card.Subtitle className='mb-2 text-muted'>
-                  Card Subtitle
-                </Card.Subtitle> */}
+                <Card.Title>Important Links</Card.Title>
                 <Card.Text>
                   <Card.Link href='http://www.AlboradaDance.org/'>
-                  {' '}
+                    {' '}
                     Alborada Spanish Dance Theatre
                   </Card.Link>
                 </Card.Text>
                 <Card.Text>
-                  <Card.Link href='http://www.towntopics.com/wordpress/2015/10/14/ole-flamenco-flourishes-in-princeton-as-lisa-botalico-leads-eager-spanish-dancers' target = "blank">
+                  <Card.Link
+                    href='http://www.towntopics.com/wordpress/2015/10/14/ole-flamenco-flourishes-in-princeton-as-lisa-botalico-leads-eager-spanish-dancers'
+                    target='blank'
+                  >
                     <em>
                       “Ole!” Flamenco Flourishes in Princeton As Lisa Botalico
                       Leads Eager Spanish Dancers,{' '}
@@ -51,30 +42,35 @@ const Events = () => {
                   </Card.Link>
                 </Card.Text>
                 <Card.Text>
-                  <Card.Link href='http://artscouncilofprinceton.org/events/fiesta-del-dia-de-los-reyes-magos-a-three-kings-day-celebration/'> 
-                  Three Kings Day
-                  {' '}
+                  <Card.Link href='http://artscouncilofprinceton.org/events/fiesta-del-dia-de-los-reyes-magos-a-three-kings-day-celebration/'>
+                    Three Kings Day{' '}
                   </Card.Link>
                 </Card.Text>
                 <Card.Text>
-                <Card.Link href='https://www.pinnworth.com/'>
-                  {' '}
-                  <em>Zorro, The Musical</em>, Pinnworth Productions
-                </Card.Link>
+                  <Card.Link href='https://www.pinnworth.com/'>
+                    {' '}
+                    <em>Zorro, The Musical</em>, Pinnworth Productions
+                  </Card.Link>
                 </Card.Text>
-                <Card.Text>
+                {/* <Card.Text>
                   <Card.Link href='images/cityartsphoto.jpg'>
                     {' '}
                     Lisa teaching students at CityArts, Trenton, 2010
                   </Card.Link>
-                </Card.Text>
+                </Card.Text> */}
                 <Card.Text>
-                  <Card.Link href='http://www.joelrudinart.com'>
+                  <Card.Link href='https://jaliov.github.io/JoelRudinArt/index.html'>
                     {' '}
                     <em>Cosmic Visions, </em> Art by Joel Rudin
                   </Card.Link>
                 </Card.Text>
-               
+                <Card.Text>
+                  <Card.Link href='https://boiling-beyond-86124.herokuapp.com/'>
+                    {' '}
+                    Website Portfolio of Joel Rudin who built this site
+                  </Card.Link>
+                </Card.Text>
+
                 {/* <p>
                   <em style={{ color: '#FFFFCC' }}>
                     Lisa teaches students at Rutgers University, Feb, 2015.
@@ -95,11 +91,8 @@ const Events = () => {
                 ></div>
               </Card.Body>
             </Card>
-
             <br />
-
             {/* Start of SimpleHitCounter Code */}
-
             <div>
               <a href='http://www.simplehitcounter.com' target='blank'>
                 <img

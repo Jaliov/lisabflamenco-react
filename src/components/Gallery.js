@@ -9,7 +9,6 @@ const lisaImages = [
       thumbnail: 'images/Classic Yellow Lisa.jpg',
       title: '',
     },
-
     {
       id: 2,
       link: 'images/Lisapicin_NYTimesDec2010.jpg',
