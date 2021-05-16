@@ -21,7 +21,6 @@ const PhotoDisplay = ({
                       src={image.thumbnail}
                       style={PhotoLayout.photolayout1}
                       alt={image.title}
-                      caption={image.catpion}
                       className='border border-secondary'
                     />
                   </Link>

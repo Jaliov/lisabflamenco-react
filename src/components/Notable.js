@@ -1,52 +1,48 @@
-import React, { useState } from 'react';
 import { Container, Row, Card, Col } from 'react-bootstrap';
-import SimpleReactLightbox from 'simple-react-lightbox';
 import PhotoDisplay from './PhotoDisplay';
 import { SRLWrapper } from 'simple-react-lightbox';
 
-const Notable = () => {
-  const [choreoImages] = useState([
-    {
-      id: 43,
-      link: 'images/LisaNY1.JPG',
-      thumbnail: 'images/LisaNY1smll copy.gif',
-      title: 'Lisa with legendary dancers Manolo Rivera and Luisa Triana',
-    },
-    {
-      id: 42,
-      link: 'images/LisaNY5.JPG',
-      thumbnail: 'images/LisaNY5.JPG',
-      title:
-        'Slide of Lisa performance Lincoln Center Outdoors in 1996(!), with cantaor Dominico Caro and guitarist Arturo Martinez',
-    },
-    {
-      id: 44,
-      link: 'images/LisaNY3.JPG',
-      thumbnail: 'images/LisaNY3.gif',
-      title: 'With cantaor Dominico Caro',
-    },
-  ]);
-  const [njpacImages] = useState([
-    { id: 46, link: 'images/NJPAC002/NJPAC026.jpg', title: 'At NJPAC!' },
-    {
-      id: 45,
-      link: 'images/NJPAC002/LisaBotalicoNJPAC.jpg',
-      title: 'At NJPAC!',
-    },
-    { id: 47, link: 'images/NJPAC002/NJPAC086.jpg', title: 'At NJPAC!' },
-    { id: 48, link: 'images/NJPAC002/NJPAC093.jpg', title: 'At NJPAC!' },
-    { id: 49, link: 'images/NJPAC002/NJPAC094.jpg', title: 'At NJPAC!' },
-    { id: 50, link: 'images/NJPAC002/NJPAC002.jpg', title: 'At NJPAC!' },
-  ]);
+const choreoImages = [
+  {
+    id: 43,
+    link: 'images/LisaNY1.JPG',
+    thumbnail: 'images/LisaNY1smll copy.gif',
+    title: 'Lisa with legendary dancers Manolo Rivera and Luisa Triana',
+  },
+  {
+    id: 42,
+    link: 'images/LisaNY5.JPG',
+    thumbnail: 'images/LisaNY5.JPG',
+    title:
+      'Slide of Lisa performance Lincoln Center Outdoors in 1996(!), with cantaor Dominico Caro and guitarist Arturo Martinez',
+  },
+  {
+    id: 44,
+    link: 'images/LisaNY3.JPG',
+    thumbnail: 'images/LisaNY3.gif',
+    title: 'With cantaor Dominico Caro',
+  },
+];
+const njpacImages = [
+  { id: 46, link: 'images/NJPAC002/NJPAC026.jpg', title: 'At NJPAC!' },
+  {
+    id: 45,
+    link: 'images/NJPAC002/LisaBotalicoNJPAC.jpg',
+    title: 'At NJPAC!',
+  },
+  { id: 47, link: 'images/NJPAC002/NJPAC086.jpg', title: 'At NJPAC!' },
+  { id: 48, link: 'images/NJPAC002/NJPAC093.jpg', title: 'At NJPAC!' },
+  { id: 49, link: 'images/NJPAC002/NJPAC094.jpg', title: 'At NJPAC!' },
+  { id: 50, link: 'images/NJPAC002/NJPAC002.jpg', title: 'At NJPAC!' },
+];
 
+const Notable = () => {
   return (
     <Container>
       <Row>
         <Col></Col>
         <Col xs={12}>
-          {/* <div className='container fluid bg-transparent'> */}
           <h1>Notable Events</h1>
-
           <div>
             <Card className='bg-transparent'>
               <Card.Body>
@@ -112,12 +108,9 @@ const Notable = () => {
                   Astor Gallery <br />
                   Mar 12 - Aug 3, 2013
                 </Card.Text>
-
-                <SimpleReactLightbox>
-                  <SRLWrapper>
-                    <PhotoDisplay choreoImages={choreoImages} /> <br />
-                  </SRLWrapper>
-                </SimpleReactLightbox>
+                <SRLWrapper>
+                  <PhotoDisplay choreoImages={choreoImages} /> <br />
+                </SRLWrapper>
               </Card.Body>
             </Card>
 
@@ -130,13 +123,11 @@ const Notable = () => {
                   </h4>{' '}
                   <p className='text-light'>March 24, 2012</p>
                 </Card.Title>
-                <SimpleReactLightbox>
-                  <SRLWrapper>
-                    <Card className='bg-transparent'>
-                      <PhotoDisplay njpacImages={njpacImages} />
-                    </Card>
-                  </SRLWrapper>
-                </SimpleReactLightbox>
+                <SRLWrapper>
+                  <Card className='bg-transparent'>
+                    <PhotoDisplay njpacImages={njpacImages} />
+                  </Card>
+                </SRLWrapper>
               </Card.Body>
             </Card>
           </Col>

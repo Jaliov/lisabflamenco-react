@@ -1,12 +1,8 @@
-import SimpleReactLightbox from 'simple-react-lightbox';
 import PhotoDisplay from './PhotoDisplay';
-import React, { useState } from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
 import { Container } from 'react-bootstrap';
-
-
-const Gallery = () => {
-  const [lisaImages] = useState([
+  
+const lisaImages = [
     {
       id: 1,
       link: 'images/Classic Yellow Lisa.jpg',
@@ -102,17 +98,17 @@ const Gallery = () => {
       title:
         "Dancing 'Guajiras' solo in a white suit and hat: Lisa's tribute to the late Orlando Romero",
     },
-  ]);
+  ];
+ 
+const Gallery = () => {
   return (
-    <Container className='container fluid gallery'>
+      <Container className = "gallery">
       <h1>Gallery</h1>
-      <SimpleReactLightbox>
         <SRLWrapper>
-          <PhotoDisplay lisaImages={lisaImages} />
+          <PhotoDisplay lisaImages={lisaImages}/>
         </SRLWrapper>
-      </SimpleReactLightbox>
-    </Container>
-  );
+        </Container>
+  )
 };
 
 export default Gallery;

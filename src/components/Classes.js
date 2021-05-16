@@ -28,7 +28,7 @@ const Classes = () => {
                   target='blank'
                 >
                   Arts Council of Princeton
-                </Card.Link>
+                </Card.Link>klk
                 <br />
                 <Card.Link
                   href='mailto:lisasolea@aol.com'
