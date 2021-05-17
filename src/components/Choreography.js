@@ -158,7 +158,7 @@ const choreoImages = [
 ];
 const Choreography = () => {
   return (
-    <Container className = "choreography">
+    <Container className='choreography'>
       <h1>Choreography/Collaborations</h1>
       <SRLWrapper>
         <PhotoDisplay choreoImages={choreoImages} />

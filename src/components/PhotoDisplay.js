@@ -16,14 +16,12 @@ const PhotoDisplay = ({
           {lisaImages
             ? lisaImages.map((image, id) => (
                 <Fragment key={image.id}>
-                  <Link to={image.link}>
                     <img
                       src={image.thumbnail}
                       style={PhotoLayout.photolayout1}
                       alt={image.title}
                       className='border border-secondary'
                     />
-                  </Link>
                 </Fragment>
               ))
             : choreoImages

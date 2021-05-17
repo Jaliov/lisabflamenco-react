@@ -5,26 +5,22 @@ import { Container } from 'react-bootstrap';
 const lisaImages = [
     {
       id: 1,
-      link: 'images/Classic Yellow Lisa.jpg',
       thumbnail: 'images/Classic Yellow Lisa.jpg',
       title: '',
     },
     {
       id: 2,
-      link: 'images/Lisapicin_NYTimesDec2010.jpg',
       thumbnail: 'images/Lisapicin_NYTimesDec2010.jpg',
       title: "Dancing 'Garrotin' photo: NY Times",
     },
     {
       id: 3,
-      link: 'images/LisaClavilitos.jpg',
       thumbnail: 'images/LisaClavilitos.jpg',
       title: "Singing 'Clavelitos'",
       text: 'Great singng',
     },
     {
       id: 4,
-      link: 'images/Lisa_BilliMartitango.jpg',
       thumbnail: 'images/Lisa_BilliMartitango.jpg',
       title: "Latin Hustle, 1980's",
     },
@@ -35,52 +31,44 @@ const lisaImages = [
     },
     {
       id: 6,
-      link: 'images/Manolo_Tanguillo2smll.jpg',
       thumbnail: 'images/Manolo_Tanguillo2smll.jpg',
       title:
         "'Tanguillo' with the great Manonlo Rivera at Cami Hall, NYC (VHS screen capture)",
     },
     {
       id: 7,
-      link: 'images/LisaYellowcape.jpg',
       thumbnail: 'images/LisaYellowcape.jpg',
       title: "'El Relicario Pasadoble' for Morris Arts",
     },
     {
       id: 8,
-      link: 'images/LisaZapcostmeEdit.jpg',
       thumbnail: 'images/LisaZapcostmeEdit.jpg',
       title: 'Zapateado!',
     },
     {
       id: 9,
-      link: 'images/D7K_8201_edited-2.jpg',
       thumbnail: 'images/D7K_8201_edited-2.jpg',
       title: 'Alborada Feria',
     },
 
     {
       id: 10,
-      link: 'images/Feria_GreenCostume_Irina.jpg',
       thumbnail: 'images/Feria_GreenCostume_Irina.jpg',
       title: 'Alborada Feria',
     },
     {
       id: 11,
-      link: 'images/Lisa_Elena_FlamencoMoro.jpg',
       thumbnail: 'images/Lisa_Elena_FlamencoMoro.jpg',
       title: 'Flamenco Moro',
     },
     {
       id: 12,
-      link: 'images/Lisa_Orlando2.jpg',
       thumbnail: 'images/Lisa_Orlando2.jpg',
       title: 'with Orlando Romero',
     },
     {
       id: 13,
-      link: 'images/Lisa_LincolnCntrCrafts2.jpg',
-      thumbnail: 'images/LnclnCntrold copy.gif',
+      thumbnail: 'images/Lisa_LincolnCntrCrafts2.jpg',
       title: "Lincoln Center Outdoors (1980's)",
     },
 
