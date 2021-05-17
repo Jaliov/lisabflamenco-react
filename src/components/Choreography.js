@@ -58,14 +58,14 @@ const choreoImages = [
   {
     id: 28,
     link: 'images/choreography/DSC_0179.JPG',
-    thumbnail: 'images/choreography/DSC_0179.JPG',
+    thumbnail: 'images/choreography/DSC_0179.GIF',
     title:
       'Lisa performing with young students at Communiversity, yearly outdoor festival, Princeton, Nj',
   },
   {
     id: 29,
     link: 'images/choreography/Lisa_Ramya_Co.jpg',
-    thumbnail: 'images/choreography/Lisa_Ramya_Co copy.gif',
+    thumbnail: 'images/choreography/Lisa_Ramya_Co.gif',
     title:
       'With Ramya Ramnarayan and the Ngifrithyanjali Ensemble, Crossroads Theatre',
   },
@@ -79,7 +79,7 @@ const choreoImages = [
   {
     id: 31,
     link: 'images/choreography/Lisa_Ramya2.jpg',
-    thumbnail: 'images/choreography/Lisa_Ramya2.jpg',
+    thumbnail: 'images/choreography/Lisa_Ramya2a copy.gif',
     title:
       'With Bharathanatyam dancer Ramya Ramnarayan: "...creating an atmosphere of moonlit rapture." (Star Ledger)',
   },
@@ -93,13 +93,13 @@ const choreoImages = [
   {
     id: 33,
     link: 'images/choreography/10042009_004.jpg',
-    thumbnail: 'images/choreography/10042009_004.jpg',
+    thumbnail: 'images/choreography/snakecstume2.jpg',
     title: 'Grounds for Sculpture',
   },
   {
     id: 34,
     link: 'images/choreography/IMG_1028.jpg',
-    thumbnail: 'images/choreography/IMG_1028.jpg',
+    thumbnail: 'images/choreography/LisaKim1.gif',
     title: 'Lisa & Alexia (Belly Dance & Beyond)',
   },
   {

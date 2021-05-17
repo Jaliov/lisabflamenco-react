@@ -25,16 +25,42 @@ const choreoImages = [
   },
 ];
 const njpacImages = [
-  { id: 46, link: 'images/NJPAC002/NJPAC026.jpg', title: 'At NJPAC!' },
+  {
+    id: 46,
+    link: 'images/NJPAC002/NJPAC026.jpg',
+    thumbnail: 'NJPACweb10 copy.gif',
+    title: 'At NJPAC!',
+  },
   {
     id: 45,
     link: 'images/NJPAC002/LisaBotalicoNJPAC.jpg',
+    thumbnail: 'NJPACweb9 copy.gif',
     title: 'At NJPAC!',
   },
-  { id: 47, link: 'images/NJPAC002/NJPAC086.jpg', title: 'At NJPAC!' },
-  { id: 48, link: 'images/NJPAC002/NJPAC093.jpg', title: 'At NJPAC!' },
-  { id: 49, link: 'images/NJPAC002/NJPAC094.jpg', title: 'At NJPAC!' },
-  { id: 50, link: 'images/NJPAC002/NJPAC002.jpg', title: 'At NJPAC!' },
+  {
+    id: 47,
+    link: 'images/NJPAC002/NJPAC086.jpg',
+    thumbnail: 'NJPACweb10 copy.gif',
+    title: 'At NJPAC!',
+  },
+  {
+    id: 48,
+    link: 'images/NJPAC002/NJPAC093.jpg',
+    thumbnail: 'NJPACweb3 copy.gif',
+    title: 'At NJPAC!',
+  },
+  {
+    id: 49,
+    link: 'images/NJPAC002/NJPAC094.jpg',
+    thumbnail: 'NJPACweb4 copy.gif',
+    title: 'At NJPAC!',
+  },
+  {
+    id: 50,
+    link: 'images/NJPAC002/NJPAC002.jpg',
+    thumbnail: 'NJPACweb5 copy.gif',
+    title: 'At NJPAC!',
+  },
 ];
 
 const Notable = () => {
