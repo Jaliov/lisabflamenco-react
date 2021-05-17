@@ -28,37 +28,37 @@ const njpacImages = [
   {
     id: 46,
     link: 'images/NJPAC002/NJPAC026.jpg',
-    thumbnail: 'NJPACweb10 copy.gif',
+    thumbnail: 'images/NJPAC002/NJPACweb10 copy.gif',
     title: 'At NJPAC!',
   },
   {
     id: 45,
     link: 'images/NJPAC002/LisaBotalicoNJPAC.jpg',
-    thumbnail: 'NJPACweb9 copy.gif',
+    thumbnail: 'images/NJPAC002/NJPACweb9 copy.gif',
     title: 'At NJPAC!',
   },
   {
     id: 47,
     link: 'images/NJPAC002/NJPAC086.jpg',
-    thumbnail: 'NJPACweb10 copy.gif',
+    thumbnail: 'images/NJPAC002/NJPACweb2 copy.gif',
     title: 'At NJPAC!',
   },
   {
     id: 48,
     link: 'images/NJPAC002/NJPAC093.jpg',
-    thumbnail: 'NJPACweb3 copy.gif',
+    thumbnail: 'images/NJPAC002/NJPACweb3 copy.gif',
     title: 'At NJPAC!',
   },
   {
     id: 49,
     link: 'images/NJPAC002/NJPAC094.jpg',
-    thumbnail: 'NJPACweb4 copy.gif',
+    thumbnail: 'images/NJPAC002/NJPACweb4 copy.gif',
     title: 'At NJPAC!',
   },
   {
     id: 50,
     link: 'images/NJPAC002/NJPAC002.jpg',
-    thumbnail: 'NJPACweb5 copy.gif',
+    thumbnail: 'images/NJPAC002/NJPACweb5 copy.gif',
     title: 'At NJPAC!',
   },
 ];

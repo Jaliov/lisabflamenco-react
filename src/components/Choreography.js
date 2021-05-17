@@ -34,25 +34,25 @@ const choreoImages = [
   {
     id: 24,
     link: 'images/choreography/CarmenMedia_002.JPG',
-    thumbnail: 'images/choreography/CarmenMedia_002.JPG',
+    thumbnail: 'images/choreography/CarmenMedia_002.gif',
     title: 'Roxey Ballet production of "Carmen"',
   },
   {
     id: 25,
     link: 'images/choreography/CarmenMedia_018.JPG',
-    thumbnail: 'images/choreography/CarmenMedia_018.JPG',
+    thumbnail: 'images/choreography/CarmenMedia_018.gif',
     title: 'Roxey Ballet production of "Carmen"',
   },
   {
     id: 26,
     link: 'images/choreography/CarmenMedia_020.JPG',
-    thumbnail: 'images/choreography/CarmenMedia_020.JPG',
+    thumbnail: 'images/choreography/CarmenMedia_020.gif',
     title: "Roxey Ballet production of 'Carmen'",
   },
   {
     id: 27,
     link: 'images/choreography/DSC_4334.JPG',
-    thumbnail: 'images/choreography/DSC_4334.JPG',
+    thumbnail: 'images/choreography/04-DSC_4330.jpg',
     title: '"Fire Dance" from Manuel deFalla\'s "El Amor Brujo"',
   },
   {
@@ -119,7 +119,7 @@ const choreoImages = [
   {
     id: 37,
     link: 'images/choreography/FireDance.jpg',
-    thumbnail: 'images/choreography/FireDance.jpg',
+    thumbnail: 'images/choreography/FireDance copy.gif',
     title:
       '"Fire Dance", choreographed by Lisa Botalico to the magnficent music of Manuel deFalla',
   },
@@ -132,7 +132,7 @@ const choreoImages = [
   {
     id: 39,
     link: 'images/Lisa and CristinaA11 cropped Nutwrk.jpg',
-    thumbnail: 'images/Lisa and CristinaA11 cropped Nutwrk.jpg',
+    thumbnail: 'images/choreography/Lisa and CristinaA11 cropped Nutwrk.gif',
     title:
       'Majas from "Sueño", a Flamenco Nutcracker conceived and directed by Lisa.',
   },
@@ -153,7 +153,7 @@ const choreoImages = [
   {
     id: 51,
     link: 'images/choreography/Ramya_Lisa_The HinduArticle.jpg',
-    thumbnail: 'images/choreography/Ramya_Lisa_The HinduArticle.jpg',
+    thumbnail: 'images/choreography/Ramya_Lisa_The HinduArticle.gif',
     title: 'Article in The Hindu, India',
   },
 ];

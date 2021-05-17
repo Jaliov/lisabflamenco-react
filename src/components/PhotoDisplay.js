@@ -43,14 +43,16 @@ const PhotoDisplay = ({
               ))
             : njpacImages
             ? njpacImages.map((image, id) => (
-                <Fragment key={image.id}>
-                  <img
-                    src={image.link}
-                    style={PhotoLayout.photolayout2}
-                    alt={image.title}
-                    className='border border-secondary'
-                  />
-                </Fragment>
+              <Fragment key={image.id}>
+              <Link to={image.link}>
+                <img
+                  src={image.thumbnail}
+                  style={PhotoLayout.photolayout2}
+                  alt={image.title}
+                  className='border border-secondary'
+                />
+              </Link>
+            </Fragment>
               ))
             : videoImages
             ? videoImages.map((image, id) => (
