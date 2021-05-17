@@ -1,6 +1,7 @@
+import React from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
 import PhotoDisplay from './PhotoDisplay';
-import React, { Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const choreoImages = [
   {

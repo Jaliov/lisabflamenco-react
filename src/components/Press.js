@@ -1,5 +1,6 @@
+import React from 'react';
 import Reviews from './Reviews';
-import React, { Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const Press = () => {
   return (

@@ -1,3 +1,4 @@
+import React from 'react';
 import cubanLunge from '../assets/cubanlungefade.png';
 import { Container, Row, Col } from 'react-bootstrap';
 

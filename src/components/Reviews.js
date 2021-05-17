@@ -1,7 +1,7 @@
-import React, { Carousel } from 'react-bootstrap';
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
 
 const carouselItemStyle = { height: '200px', interval: '10000' };
-
 
 const Reviews = () => {
   return (
@@ -12,7 +12,7 @@ const Reviews = () => {
         <Carousel.Item style={carouselItemStyle}>
           <Carousel.Caption>
             <h3>New York Times</h3>
-            <p className = "larger">
+            <p className='larger'>
               "Another notable solo was Lisa Botalico's <em>'Solea'</em> which,
               began as a lamentation and proceeded into a dance of pride and
               defiance."
@@ -25,14 +25,9 @@ const Reviews = () => {
         </Carousel.Item>
 
         <Carousel.Item style={carouselItemStyle}>
-          {/* <img style={{'height':"300px"}}  
-
-className="d-block w-100"  
-
-alt="first slide" />   */}
           <Carousel.Caption>
             <h3>New Jersey Star Ledger</h3>
-            <p className = "larger">
+            <p className='larger'>
               "Botalico passed through a variety of rhythms and moods in her
               solo
               <em>'Cantinas.'</em>
@@ -45,14 +40,9 @@ alt="first slide" />   */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={carouselItemStyle}>
-          {/* <img style={{'height':"300px"}}  
-
-className="d-block w-100"  
-
-alt="first slide" />   */}
           <Carousel.Caption>
             <h3>Asbury Park Press</h3>
-            <p className = "larger">
+            <p className='larger'>
               "Lisa Botalico was the essence of fiery passion, <br />
               first playing the role of a slyly sultry seductress, then becoming
               the personification of a flickering flame."
@@ -61,14 +51,9 @@ alt="first slide" />   */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={carouselItemStyle}>
-          {/* <img style={{'height':"300px"}}  
-
-className="d-block w-100"  
-
-alt="first slide" />   */}
           <Carousel.Caption>
             <h3>Il Progresso</h3>
-            <p className = "larger">
+            <p className='larger'>
               "Bravo Lisa Bottalico, in an <em>applauditissimo 'Solea'</em>; she
               made the stage tremble."
               <br />
@@ -77,14 +62,9 @@ alt="first slide" />   */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={carouselItemStyle}>
-          {/* <img style={{'height':"300px"}}  
-
-className="d-block w-100"  
-
-alt="first slide" />   */}
           <Carousel.Caption>
             <h3>Asbury Park Press</h3>
-            <p className = "larger">
+            <p className='larger'>
               "...Lisa Botalico's 'Solea' had the crowd on it's feet, clapping
               in rhythm because of the audacious display of drama emanating from
               her being." (Asbury Park Press)
@@ -92,14 +72,9 @@ alt="first slide" />   */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={carouselItemStyle}>
-          {/* <img style={{'height':"300px"}}  
-
-className="d-block w-100"  
-
-alt="first slide" />   */}
           <Carousel.Caption>
             <h3>Princeton Town Topics (link)</h3>
-            <p className = "larger">
+            <p className='larger'>
               <a
                 href='http://www.towntopics.com/wordpress/2015/10/14/ole-flamenco-flourishes-in-princeton-as-lisa-botalico-leads-eager-spanish-dancers/'
                 alt='towntopics'

@@ -1,4 +1,5 @@
-import React, { Row, Col } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import PhotoLayout from './PhotoLayout';
 import { Fragment } from 'react';
 import { Link } from 'react-router-dom';

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row, Card, Col } from 'react-bootstrap';
 import PhotoDisplay from './PhotoDisplay';
 import { SRLWrapper } from 'simple-react-lightbox';

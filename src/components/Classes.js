@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row, Card, Col } from 'react-bootstrap';
 import LisaChildren from '../assets/lisakiddiesedit.jpg';
 
