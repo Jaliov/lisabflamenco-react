@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import PhotoLayout from './PhotoLayout';
 import { Fragment } from 'react';
 import { Link } from 'react-router-dom';
@@ -12,21 +12,23 @@ const PhotoDisplay = ({
 }) => {
   return (
     <>
+    <Container>
+    <h1>Gallery</h1>
       <Row>
-        <Col xs={10}>
         {lisaImages
             ? lisaImages.map((image, id) => (
-                <Fragment key={image.id}>
+              <><Col><Fragment key={image.id}>
                   <Link to={image.link}>
                     <img
                       src={image.thumbnail}
-                      style={PhotoLayout.photolayout1}
+                      width= {150}
+                      height={175}
                       alt={image.title}
                       caption={image.catpion}
                       className='border border-secondary'
                     />
                        </Link>
-                </Fragment>
+                </Fragment></Col></>
               ))
             : choreoImages
             ? choreoImages.map((image, id) => (
@@ -66,8 +68,9 @@ const PhotoDisplay = ({
                 </Fragment>
               ))
             : null}
-        </Col>
+     
       </Row>
+      </Container>
     </>
   );
 };

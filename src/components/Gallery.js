@@ -1,7 +1,7 @@
 import React from 'react';
 import PhotoDisplay from './PhotoDisplay';
 import { SRLWrapper } from 'simple-react-lightbox';
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
   
 const lisaImages = [
   {
@@ -103,12 +103,12 @@ const lisaImages = [
  
 const Gallery = () => {
   return (
-      <Container className = "gallery">
-      <h1>Gallery</h1>
+     <>
         <SRLWrapper>
           <PhotoDisplay lisaImages={lisaImages}/>
         </SRLWrapper>
-        </Container>
+        </>
+      
   )
 };
 
