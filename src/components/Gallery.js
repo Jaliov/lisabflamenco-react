@@ -103,7 +103,7 @@ const lisaImages = [
  
 const Gallery = () => {
   return (
-         <Container className = "gallery">
+         <Container>
         <SRLWrapper>
          
           <PhotoDisplay lisaImages={lisaImages}/>
