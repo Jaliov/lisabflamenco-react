@@ -103,11 +103,13 @@ const lisaImages = [
 
 const Gallery = () => {
   return (
+    <><h1>Gallery</h1>
     <Container>
       <SRLWrapper>
         <PhotoDisplay lisaImages={lisaImages} />
       </SRLWrapper>
     </Container>
+    </>
   );
 };
 
