@@ -22,7 +22,7 @@ const PhotoDisplay = ({
                       src={image.thumbnail}
                       width= {150}
                       height={175}
-                      style = {{padding: '5px'}}
+                      style = {{margin: '5px'}}
                       alt={image.title}
                     />
                        </Link>
@@ -37,7 +37,7 @@ const PhotoDisplay = ({
                           src={image.thumbnail}
                           width= {150}
                           height={175}
-                          style = {{padding: '5px'}}
+                          style = {{margin: '5px'}}
                           alt={image.title}
                         />
                            </Link>
@@ -52,7 +52,7 @@ const PhotoDisplay = ({
                         src={image.thumbnail}
                         width= {150}
                         height={175}
-                        style = {{padding: '5px'}}
+                        style = {{margin: '5px'}}
                         alt={image.title}
                       />
                          </Link>
