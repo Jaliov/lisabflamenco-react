@@ -2,12 +2,12 @@ import React from 'react';
 import PhotoDisplay from './PhotoDisplay';
 import { SRLWrapper } from 'simple-react-lightbox';
 import { Container } from 'react-bootstrap';
-  
+
 const lisaImages = [
   {
     id: 1,
     link: 'images/Classic Yellow Lisa.jpg',
-    thumbnail: 'images/Lisa classic yellow fan.gif', 
+    thumbnail: 'images/Lisa classic yellow fan.gif',
     title: '',
   },
 
@@ -100,18 +100,15 @@ const lisaImages = [
       "Dancing 'Guajiras' solo in a white suit and hat: Lisa's tribute to the late Orlando Romero",
   },
 ];
- 
+
 const Gallery = () => {
   return (
-         <Container>
-        <SRLWrapper>
-         
-          <PhotoDisplay lisaImages={lisaImages}/>
-        
-        </SRLWrapper>
-        </Container>
-      
-  )
+    <Container>
+      <SRLWrapper>
+        <PhotoDisplay lisaImages={lisaImages} />
+      </SRLWrapper>
+    </Container>
+  );
 };
 
 export default Gallery;

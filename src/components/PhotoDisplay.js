@@ -13,7 +13,8 @@ const PhotoDisplay = ({
   return (
      <>
       <Row>
-      <Col xs = {10}>
+      
+      <Col>
         {lisaImages
             ? lisaImages.map((image, id) => (
              <Fragment key={image.id}>
@@ -22,7 +23,6 @@ const PhotoDisplay = ({
                       src={image.thumbnail}
                       width= {150}
                       height={175}
-                 
                       alt={image.title}
                     />
                        </Link>
