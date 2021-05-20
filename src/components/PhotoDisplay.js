@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom';
 const PhotoDisplay = ({
   lisaImages,
   choreoImages,
+  nyImages, 
   njpacImages,
   videoImages,
 }) => {
   return (
      <>
       <Row>
-      
       <Col>
         {lisaImages
             ? lisaImages.map((image, id) => (
@@ -31,7 +31,7 @@ const PhotoDisplay = ({
               )) :
               choreoImages ?
                 choreoImages.map((image, id) => (
-                  <><Fragment key={image.id}>
+                  <Fragment key={image.id}>
                       <Link to={image.link}>
                       <img
                           src={image.thumbnail}
@@ -42,11 +42,22 @@ const PhotoDisplay = ({
                         />
                            </Link>
                     </Fragment>
-                    </>
-              )) :
-              njpacImages ?
+                  
+              )): nyImages?  nyImages.map((image) => (
+                  <Fragment key={image.id}>
+                    <Link to={image.link}>
+                      <img
+                        src={image.thumbnail}
+                        width={175}
+                        height={175}
+                        alt={image.title}
+                      />
+                    </Link>
+                  </Fragment>
+                 
+                 )) :  njpacImages ?
               njpacImages.map((image, id) => (
-                <><Fragment key={image.id}>
+               <Fragment key={image.id}>
                     <Link to={image.link}>
                     <img
                         src={image.thumbnail}
@@ -56,8 +67,7 @@ const PhotoDisplay = ({
                         alt={image.title}
                       />
                          </Link>
-                  </Fragment>
-                  </>
+                  </Fragment>  
               )) :
              videoImages
             ? videoImages.map((image, id) => (
@@ -66,9 +76,9 @@ const PhotoDisplay = ({
                     src={image.url}
                     style={PhotoLayout.videolayout}
                     alt={image.altTag}
-                    className='border border-secondary'
-                  />
+                    className='border border-secondary'/>
                 </Fragment>
+            
               ))
             : null}
        </Col>

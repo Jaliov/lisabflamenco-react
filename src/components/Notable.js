@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Card, Col } from 'react-bootstrap';
 import PhotoDisplay from './PhotoDisplay';
-import NYImages from './NYImages';
 import { SRLWrapper } from 'simple-react-lightbox';
 import SimpleReactLightbox from 'simple-react-lightbox';
 
@@ -17,7 +16,7 @@ const nyImages = [
     link: 'images/LisaNY5.JPG',
     thumbnail: 'images/LisaNY5smll copy.gif',
     title:
-      'Slide of Lisa performance Lincoln Center Outdoors in 1996(!), with cantaor Dominico Caro and guitarist Arturo Martinez',
+      'Slide of Lisa performance Lincoln Center Outdoors in 1986(!), with cantaor Dominico Caro and guitarist Arturo Martinez',
   },
   {
     id: 102,
@@ -51,25 +50,20 @@ const njpacImages = [
     link: 'images/choreography/NJPAC093.jpg',
     thumbnail: 'images/choreography/NJPACweb3 copy.gif',
     title: 'At NJPAC!',
-  },
+  }, 
   {
     id: 49,
-    link: 'images/NJPAC002.jpg',
+    link: 'images/choreography/NJPAC094.jpg',
     thumbnail: 'images/choreography/NJPACweb4 copy.gif',
     title: 'At NJPAC!',
   },
   {
     id: 50,
-    link: 'images/NJPAC002.jpg',
+    link: 'images/choreography/NJPAC002.jpg',
     thumbnail: 'images/choreography/NJPACweb5 copy.gif',
     title: 'At NJPAC!',
   },
 ];
-
-const NYIMAGES = {
-  nyImages,
-  njpacImages,
-};
 
 const Notable = () => {
   return (
@@ -78,7 +72,7 @@ const Notable = () => {
         <Container>
           <Row>
             <Col></Col>
-            <Col xs={12}>
+            <Col xs={10}>
               <h1>Past Events</h1>
               <div>
                 <Card className='bg-transparent'>
@@ -127,7 +121,7 @@ const Notable = () => {
 
           <Row>
             <Col></Col>
-            <Col xs={12}>
+            <Col xs={10}>
               <Card className='bg-transparent'>
                 <Card.Body>
                   <Card.Title>
@@ -148,7 +142,7 @@ const Notable = () => {
 
                   <SimpleReactLightbox>
                     <SRLWrapper>
-                      <NYImages nyImages={NYIMAGES.nyImages} />
+                      <PhotoDisplay nyImages={nyImages} />
                     </SRLWrapper>
                   </SimpleReactLightbox>
                 </Card.Body>
@@ -157,7 +151,8 @@ const Notable = () => {
             <Col></Col>
           </Row>
           <Row>
-            <Col>
+            <Col></Col>
+            <Col xs = {10}>
               <Card className='bg-transparent'>
                 <Card.Body>
                   <Card.Title className='text-warning'>
@@ -167,7 +162,7 @@ const Notable = () => {
                   <Card.Text className='text-light'>March 24, 2012</Card.Text>
                   <SimpleReactLightbox>
                   <SRLWrapper>
-                    <PhotoDisplay njpacImages={NYIMAGES.njpacImages} />
+                    <PhotoDisplay njpacImages={njpacImages} />
                   </SRLWrapper>
                   </SimpleReactLightbox>
                 </Card.Body>
