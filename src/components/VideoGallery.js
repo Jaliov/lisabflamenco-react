@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player/youtube';
+import ReactPlayer from 'react-player';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Iframe from 'react-iframe';
 const cardStyle = {
@@ -8,8 +8,9 @@ const cardStyle = {
   marginBottom: '10px',
   boxShadow: '5px 3px 3px rgb(217, 83, 79, 0.5)',
 };
-const TubeUrl = 'https://www.youtube.com/embed/Wwou3GZ4tZ8';
-
+const vidUrl1 = 'https://www.youtube.com/embed/Wwou3GZ4tZ8';
+const vidUrl2 =
+  'https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview';
 const VideoGallery = () => {
   return (
     <>
@@ -22,7 +23,13 @@ const VideoGallery = () => {
               key={Iframe.id}
               style={cardStyle}
             >
-              <ReactPlayer url={TubeUrl} width={475} controls={true}   className='border border-secondary'/>
+              <ReactPlayer
+                url={vidUrl1}
+                width={475}
+                controls={true}
+                className='border border-secondary'
+                origin='window.location.host'
+              />
               <Card.Body>
                 <Card.Title>
                   Lisa as Juana la Loca in Alborada's <em>Trail of Gold </em>
@@ -39,7 +46,7 @@ const VideoGallery = () => {
               style={cardStyle}
             >
               <Iframe
-                url='https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview'
+                url={vidUrl2}
                 alt='Lisa dancing'
                 title='Nighttime Sevillanas'
                 id='70'
@@ -48,6 +55,7 @@ const VideoGallery = () => {
                 className='border border-secondary'
                 allowFullScreen
               />
+
               <Card.Body>
                 <Card.Title>
                   <em>Sevillanas, Noche en el Jardin</em>
