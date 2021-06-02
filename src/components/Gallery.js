@@ -99,6 +99,13 @@ const lisaImages = [
     title:
       "Dancing 'Guajiras' solo in a white suit and hat: Lisa's tribute to the late Orlando Romero",
   },
+   {
+    id: 16,
+    link: 'images/Lisa_LuisVargas.jpg',
+    thumbnail: 'images/Lisa_LuisVargas copy.gif',
+    title:
+      "With famed cantaor Luis Vargas",
+   },
 ];
 
 const Gallery = () => {
