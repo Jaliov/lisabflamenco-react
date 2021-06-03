@@ -6,6 +6,7 @@ const cardStyle = {
   width: '100%',
   height: '350px',
   boxShadow: '5px 3px 3px rgb(217, 83, 79, 0.5)',
+  marginBottom: '5%',
 };
 const vidUrl1 = 'https://www.youtube.com/embed/Wwou3GZ4tZ8';
 const vidUrl2 =
@@ -16,7 +17,7 @@ const VideoGallery = () => {
       <Container>
         <h1>Videos!</h1>
         <Row>
-          <Col>
+          <Col md = {5}>
             <Card
               className='bg-dark text-light'
               key={Iframe.id}
@@ -38,8 +39,8 @@ const VideoGallery = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={1}></Col>
-          <Col>
+          <Col md={1}></Col>
+          <Col md = {5}>
             <Card
               className='bg-dark text-light'
               key={Iframe.id}
