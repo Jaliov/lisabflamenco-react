@@ -3,9 +3,8 @@ import ReactPlayer from 'react-player';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Iframe from 'react-iframe';
 const cardStyle = {
-  width: '475px',
+  width: '100%',
   height: '350px',
-  marginBottom: '10px',
   boxShadow: '5px 3px 3px rgb(217, 83, 79, 0.5)',
 };
 const vidUrl1 = 'https://www.youtube.com/embed/Wwou3GZ4tZ8';
@@ -25,10 +24,11 @@ const VideoGallery = () => {
             >
               <ReactPlayer
                 url={vidUrl1}
-                width={475}
+                width={cardStyle.width}
                 controls={true}
                 className='border border-secondary'
                 origin='window.location.host'
+                alt='Lisa as Juana la'
               />
               <Card.Body>
                 <Card.Title>
@@ -47,11 +47,11 @@ const VideoGallery = () => {
             >
               <Iframe
                 url={vidUrl2}
-                alt='Lisa dancing'
+                alt='Lisa dancing Sevillanas por la noche'
                 title='Nighttime Sevillanas'
                 id='70'
-                width='475'
-                height='275'
+                width={cardStyle.width}
+                height={cardStyle.height}
                 className='border border-secondary'
                 allowFullScreen
               />
