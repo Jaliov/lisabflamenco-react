@@ -1,15 +1,13 @@
 import React from 'react';
-import { Carousel, Row, Col } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 
-const carouselItemStyle = { height: '200px', interval: '10000', width: '100%'};
+const carouselItemStyle = { height: '300px', interval: '10000', width: '100%'};
 
 const Reviews = () => {
   return (
     <>
       <h1>Press</h1>
-      <Row>
-        <Col>
-      <Carousel>
+      <Carousel className = 'press'>
         <Carousel.Item style={carouselItemStyle}>
           <Carousel.Caption>
             <h3>New York Times</h3>
@@ -39,7 +37,6 @@ const Reviews = () => {
         </Carousel.Item>
         <Carousel.Item style={carouselItemStyle}>
           <Carousel.Caption>
-           
             <p className='larger'>
               "Lisa Botalico was the essence of fiery passion, <br />
               first playing the role of a slyly sultry seductress, then becoming
@@ -87,8 +84,6 @@ const Reviews = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      </Col>
-      </Row>
     </>
   );
 };

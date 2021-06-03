@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 
 const Press = () => {
   return (
-    <Container className='press'>
+    <Container>
       <Reviews />
     </Container>
   );
