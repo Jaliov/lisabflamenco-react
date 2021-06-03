@@ -65,11 +65,11 @@ const VideoGallery = () => {
               </Card.Body>
             </Card>
           </Col>
-
+          </Row>
           <p className='text-light larger'>
             <em>More soon!</em>
           </p>
-        </Row>
+       
       </Container>
     </>
   );

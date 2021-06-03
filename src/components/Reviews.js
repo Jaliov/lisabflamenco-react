@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Row, Col } from 'react-bootstrap';
 
 const carouselItemStyle = { height: '200px', interval: '10000' };
 
@@ -7,7 +7,8 @@ const Reviews = () => {
   return (
     <>
       <h1>Press</h1>
-
+      <Row>
+        <Col>
       <Carousel>
         <Carousel.Item style={carouselItemStyle}>
           <Carousel.Caption>
@@ -90,6 +91,8 @@ const Reviews = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      </Col>
+      </Row>
     </>
   );
 };
