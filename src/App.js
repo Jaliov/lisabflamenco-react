@@ -16,8 +16,8 @@ import VideoGallery from './components/VideoGallery';
 const App = () => {
   return (
     <>
-    <Navbar />
      <Router>
+     <Navbar />
           <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/gallery' component={Gallery} />

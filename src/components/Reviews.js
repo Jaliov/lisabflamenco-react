@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel, Row, Col } from 'react-bootstrap';
 
-const carouselItemStyle = { height: '200px', interval: '10000' };
+const carouselItemStyle = { height: '200px', interval: '10000', width: '100%'};
 
 const Reviews = () => {
   return (
