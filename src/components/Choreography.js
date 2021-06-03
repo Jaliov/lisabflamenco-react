@@ -2,7 +2,6 @@ import React from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
 import PhotoDisplay from './PhotoDisplay';
 import { Container } from 'react-bootstrap';
-
 const choreoImages = [
   {
     id: 20,
@@ -155,6 +154,12 @@ const choreoImages = [
     link: 'images/choreography/Ramya_Lisa_The HinduArticle.jpg',
     thumbnail: 'images/choreography/Ramya_Lisa_The HinduArticle.gif',
     title: 'Article in The Hindu, India',
+  },
+  {
+    id: 52,
+    link: 'images/choreography/Lisamarie4fade.png',
+    thumbnail: 'images/choreography/Lisamarie4fade.png',
+    title: 'Collaboration!',
   },
 ];
 const Choreography = () => {
