@@ -9,17 +9,18 @@ const Home = () => {
          <Row>
         <Col></Col>
        <Col md ={4}>
-        <h1 style = {{paddingBottom:'0px'}}>
+       <header>
+        <h1 style = {{paddingBottom:'0px', textAlign:'left'}}>
           <em>Lisa Botalico </em>
         </h1>
-        <p className = 'larger text-light text-center' style={{marginTop:'-10px'}}>
+        <p className = 'larger text-light' style={{marginTop:'-10px', lineHeight:'98%', textAlign:'right'}}>
           <em>
-            ...danced and sang with her head thrown back,
-            <br />
-            her energy seemingly unquenchable.{' '}<br />
+            ...danced and sang with her head  
+            thrown back, her energy seemingly unquenchable.{' '}<br />
           </em>
-          <small>(Star Ledger)</small>
+          <p><small>(Star Ledger)</small></p>
         </p>
+        </header>
         <Homephoto cover={cover} />
         </Col>
         <Col></Col>

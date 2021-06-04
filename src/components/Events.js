@@ -114,6 +114,7 @@ const Events = () => {
               </a>
             </div>
           </Col>
+          <Col></Col>
           {/* End of SimpleHitCounter Code */}
         </Row>
       </Container>
