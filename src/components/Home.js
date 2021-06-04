@@ -1,32 +1,30 @@
 import React from 'react';
-import Row from 'react-bootstrap/Row';
 import Homephoto from './Homephoto';
 import cover from '../assets/ShawlintheAirfade.png';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Home = () => {
   return (
-    <Row>
       <Container>
-        {/* <Col xs ="2" />
-    <Col size="8"> */}
-        <h1 className='text-center'>
+         <Row>
+        <Col></Col>
+       <Col md ={4}>
+        <h1 style = {{paddingBottom:'0px'}}>
           <em>Lisa Botalico </em>
         </h1>
-        <h5 style={{ marginTop: '-10px' }}>
+        <p className = 'larger text-light text-center' style={{marginTop:'-10px'}}>
           <em>
             ...danced and sang with her head thrown back,
             <br />
-            her energy seemingly unquenchable.{' '}
+            her energy seemingly unquenchable.{' '}<br />
           </em>
           <small>(Star Ledger)</small>
-        </h5>
-        {/* <hr class="style2" /> */}
+        </p>
         <Homephoto cover={cover} />
-        {/* </Col> */}
+        </Col>
+        <Col></Col>
+        </Row>
       </Container>
-      {/* // <Col xs ="2" /> */}
-    </Row>
   );
 };
 export default Home;
