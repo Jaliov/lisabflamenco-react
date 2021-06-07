@@ -2,7 +2,7 @@ import React from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
 import PhotoDisplay from './PhotoDisplay';
 import { Container } from 'react-bootstrap';
-const choreoImages = [
+const lisaImages = [
   {
     id: 20,
     link: 'images/choreography/CompaniaLisanormal.jpg',
@@ -168,7 +168,7 @@ const Choreography = () => {
     <h1>Choreography/Collaborations</h1>
     <Container>
       <SRLWrapper>
-        <PhotoDisplay choreoImages={choreoImages} />
+        <PhotoDisplay lisaImages={lisaImages} />
       </SRLWrapper>
     </Container>
     </>

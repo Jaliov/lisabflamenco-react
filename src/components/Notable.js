@@ -26,7 +26,7 @@ const nyImages = [
   },
 ];
 
-const njpacImages = [
+const lisaImages = [
   {
     id: 46,
     link: 'images/choreography/NJPAC026.jpg',
@@ -50,7 +50,7 @@ const njpacImages = [
     link: 'images/choreography/NJPAC093.jpg',
     thumbnail: 'images/choreography/NJPACweb3 copy.gif',
     title: 'At NJPAC!',
-  }, 
+  },
   {
     id: 49,
     link: 'images/choreography/NJPAC094.jpg',
@@ -64,7 +64,6 @@ const njpacImages = [
     title: 'At NJPAC!',
   },
 ];
-
 const Notable = () => {
   return (
     <div>
@@ -92,13 +91,9 @@ const Notable = () => {
                         instructor
                         <strong> Lisa Botalio </strong>
                         proved to be one of our most popular residencies.
-                        Throughout the fall season, Lisa, in collaboration with
-                        visual artist Libby Ramage, led a free community dance
-                        and art workshop, a free public forum and a sold-out
-                        final performance, all of which explored the universal
-                        themes of passion, oppression and hope through original
-                        Flamenco dance choreography, music, and visual art
-                        imagery. Lisa’s{' '}
+                        Throughout the fall season, Lisa, in collaboration with  visual artist Libby Ramage, led a free community dance  and art workshop, a free public forum and a sold-out
+                        final performance, all of which explored the 
+                        universal themes of passion, oppression and hope through original Flamenco dance choreography, music, and visual art  imagery. Lisa’s{' '}
                         <a href='http://artscouncilofprinceton.org/2014/10/finding-light-through-fire/'>
                           blog wrap-up
                         </a>{' '}
@@ -106,7 +101,6 @@ const Notable = () => {
                         most comments on a post, a testament to her impact.
                       </em>
                       <br />
-
                       <small className='text-light'>
                         Jeff Nathanson, Executive Director
                       </small>
@@ -118,7 +112,6 @@ const Notable = () => {
             </Col>
             <Col></Col>
           </Row>
-
           <Row>
             <Col></Col>
             <Col xs={10}>
@@ -130,7 +123,6 @@ const Notable = () => {
                       <em>100 Years of Flamenco in New York</em>
                     </h4>
                   </Card.Title>
-
                   <Card.Text className='text-light'>
                     {/* <p className ="larger"> */}
                     Opening reception
@@ -139,20 +131,21 @@ const Notable = () => {
                     Astor Gallery <br />
                     Mar 12 - Aug 3, 2013
                   </Card.Text>
-
-                  <SimpleReactLightbox>
-                    <SRLWrapper>
-                      <PhotoDisplay nyImages={nyImages} />
-                    </SRLWrapper>
-                  </SimpleReactLightbox>
                 </Card.Body>
               </Card>
+              <Col>
+                <SimpleReactLightbox>
+                  <SRLWrapper>
+                    <PhotoDisplay nyImages={nyImages} />
+                  </SRLWrapper>
+                </SimpleReactLightbox>
+              </Col>
             </Col>
             <Col></Col>
           </Row>
           <Row>
             <Col></Col>
-            <Col xs = {10}>
+            <Col xs={10}>
               <Card className='bg-transparent'>
                 <Card.Body>
                   <Card.Title className='text-warning'>
@@ -161,9 +154,9 @@ const Notable = () => {
                   </Card.Title>
                   <Card.Text className='text-light'>March 24, 2012</Card.Text>
                   <SimpleReactLightbox>
-                  <SRLWrapper>
-                    <PhotoDisplay njpacImages={njpacImages} />
-                  </SRLWrapper>
+                    <SRLWrapper>
+                      <PhotoDisplay lisaImages={lisaImages} />
+                    </SRLWrapper>
                   </SimpleReactLightbox>
                 </Card.Body>
               </Card>
