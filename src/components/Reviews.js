@@ -6,7 +6,7 @@ const carouselItemStyle = { height: '300px', interval: '10000', width: '100%'};
 const Reviews = () => {
   return (
     <>
-      <h1>Press</h1>
+      <h1 className = 'home text-center'>Press</h1>
       <Carousel className = 'press'>
         <Carousel.Item style={carouselItemStyle}>
           <Carousel.Caption>
@@ -27,10 +27,9 @@ const Reviews = () => {
           <Carousel.Caption>
             <p className='larger'>
               "Botalico passed through a variety of rhythms and moods in her
-              solo <em>Cantinas.</em> In sequence, she emphasized the swaying of her hips, the curling
+              solo <em>Cantinas.</em>...she emphasized the swaying of her hips, the curling
               tracery of her arms, starkly dramatic poses and a rapid
-              'zapateado.' Finally, hitching up her skirts, she became a saucy
-              one woman fiesta."
+              'zapateado.' Finally, hitching up her skirts, she became a saucy one woman fiesta."
               <em>(Star Ledger)</em>
             </p>
           </Carousel.Caption>
@@ -38,7 +37,7 @@ const Reviews = () => {
         <Carousel.Item style={carouselItemStyle}>
           <Carousel.Caption>
             <p className='larger'>
-              "Lisa Botalico was the essence of fiery passion, <br />
+              "Lisa Botalico was the essence of fiery passion, 
               first playing the role of a slyly sultry seductress, then becoming
               the personification of a flickering flame." <em>(Asbury Park Press)</em>
               <br />

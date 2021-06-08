@@ -24,10 +24,10 @@ body {
   /* margin-top: 20px; */
   background-image: url(./assets/Reviewbackground3.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-position: relative;
+  background-position: 50% -20%;
+  
   width: 100%;
-  height: 700px;
+  height: 750px;
 }
 
 .App {
@@ -37,6 +37,12 @@ body {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.home {
+  margin-top:0px;
+  padding-bottom:0px; 
+  text-align:left; 
 }
 
 @font-face {

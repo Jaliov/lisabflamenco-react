@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const PhotoDisplay = ({
   lisaImages,
   nyImages,
-  njpacImages,
   videoImages,
 }) => {
   return (

@@ -10,7 +10,7 @@ const Home = () => {
         <Col></Col>
        <Col md ={4}>
        <header>
-        <h1 style = {{paddingBottom:'0px', textAlign:'left'}}>
+        <h1 className = 'home'>
           <em>Lisa Botalico </em>
         </h1>
         <p className = 'larger text-light' style={{marginTop:'-10px', lineHeight:'98%', textAlign:'right'}}>

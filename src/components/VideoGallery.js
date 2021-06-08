@@ -16,7 +16,7 @@ const VideoGallery = () => {
     <>
       <Container>
         <h1>Videos!</h1>
-        <Row>
+        <Row >
           <Col md = {5}>
             <Card
               className='bg-dark text-light'
@@ -39,7 +39,7 @@ const VideoGallery = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={1}></Col>
+          <Col md={2}></Col>
           <Col md = {5}>
             <Card
               className='bg-dark text-light'
