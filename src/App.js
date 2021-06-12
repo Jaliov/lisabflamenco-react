@@ -19,15 +19,16 @@ const App = () => {
      <Router>
      <Navbar />
           <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/gallery' component={Gallery} />
-          <Route path='/notable' component={Notable} />
-          <Route path='/choreography' component={Choreography} />
-          <Route path='/bio' component={Bio} />
-          <Route path='/press' component={Press} />
-          <Route path='/classes' component={Classes} />
-          <Route path='/events' component={Events} />
+          <Route exact path='/'><Home /> </Route >
+          <Route path='/gallery'> <Gallery /></Route >
+          <Route path='/choreography'> <Choreography /></Route> 
+          <Route path='/notable'> <Notable /></Route> 
           <Route path='/videogallery' component={VideoGallery} />
+          <Route path='/bio'> <Bio /></Route> 
+          <Route path='/press'> <Press /></Route> 
+          <Route path='/classes'><Classes/></Route> 
+          <Route path='/events'><Events /></Route> 
+       
           </Switch>
       </Router>
       </>
