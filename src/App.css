@@ -86,7 +86,7 @@ a:visited {
 }
 
 a:hover {
-  background: rgb(217, 83, 79, 0.3);
+  background: rgba(241, 102, 98, 0.3);
 }
 
 a:active {

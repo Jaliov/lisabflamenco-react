@@ -78,7 +78,7 @@ const Events = () => {
                     Scroll to Page 5 for article below
                   </em>
                 </p> */}
-                <div
+                {/* <div
                   data-configid='0/11648128'
                   style={{
                     marginTop: '0px',
@@ -89,7 +89,7 @@ const Events = () => {
                     paddingBottom: '10px',
                     className: 'issuuembed',
                   }}
-                ></div>
+                ></div> */}
               </Card.Body>
             </Card>
             <br />

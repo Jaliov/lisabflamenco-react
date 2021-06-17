@@ -28,7 +28,6 @@ const Classes = () => {
                 <br />
                 <Card.Link
                   href='mailto:lisasolea@aol.com'
-                  className='card-link larger'
                 >
                   Email
                 </Card.Link>
