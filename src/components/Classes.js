@@ -9,23 +9,18 @@ const Classes = () => {
       <Row>
         <Col></Col>
         <Col xs={8}>
-          <Card className = "bg-transparent">
-          <Card.Img variant='top' src={LisaChildren}
-          />
-            <Card.Body bg = 'transparent'>
-              <Card.Text >
-                <p className='text-light larger'>
-                  {' '}
-                  Lisa teaches classes for adults and children of all ages and
-                  levels. <br />
-                  She is also available for private instruction.
-                  <br /> <br />
-                  <span className = 'alertyellow'> Contact:</span> 
-                </p>
-               
+          <Card className='bg-transparent'>
+            <Card.Img variant='top' src={LisaChildren} />
+            <Card.Body bg='transparent'>
+              <Card.Text className='text-light larger'>
+                {' '}
+                Lisa teaches classes for adults and children of all ages and
+                levels. <br />
+                Private instruction also available.
+                <br /><br />
+                <span className='alertyellow'> Contact:</span><br />
                 <Card.Link
                   href='http://www.artscouncilofprinceton.org/'
-                  className='larger'
                   target='blank'
                 >
                   Arts Council of Princeton
@@ -37,9 +32,8 @@ const Classes = () => {
                 >
                   Email
                 </Card.Link>
-             
-                </Card.Text>
-                </Card.Body>
+              </Card.Text>
+            </Card.Body>
           </Card>
         </Col>
         <Col></Col>

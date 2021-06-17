@@ -29,8 +29,6 @@ const Bio = () => {
                 Center Craft Show, as guest artist with the Nassau Symphony in
                 Long Island and in tablaos in NYC.{' '}
               </p>
-            </>
-            <>
               <p>
                 <em>Lisa</em> debuted with the Alborada Spanish Dance Theatre in
                 2000 as a guest artist, joining the company as principal dancer
@@ -49,8 +47,6 @@ const Bio = () => {
                 <em>The Spanish Guitar</em>. Lisa dances regularly in the tablao
                 at Spain Inn II in Clinton, NJ.{' '}
               </p>
-            </>
-            <>
               <p>
                 <em>Lisa</em> has been a dance instructor since 1989 and now
                 teaches throughout the Princeton, NJ area. In 1999 she founded
