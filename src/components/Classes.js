@@ -7,29 +7,29 @@ const Classes = () => {
     <Container>
       <h1>Classes</h1>
       <Row>
-        <Col xs={9}>
-          <Card.Img variant='top' src={LisaChildren} />
-        </Col>
-        <Col>
-          <Card className='bg-transparent'>
-            <Card.Body>
-              <Card.Text>
+        <Col></Col>
+        <Col xs={8}>
+          <Card className = "bg-transparent">
+          <Card.Img variant='top' src={LisaChildren}
+          />
+            <Card.Body bg = 'transparent'>
+              <Card.Text >
                 <p className='text-light larger'>
                   {' '}
                   Lisa teaches classes for adults and children of all ages and
                   levels. <br />
                   She is also available for private instruction.
-                  <br />
+                  <br /> <br />
+                  <span className = 'alertyellow'> Contact:</span> 
                 </p>
-
-                <p className='text-left larger alertyellow'>Contact:</p>
+               
                 <Card.Link
                   href='http://www.artscouncilofprinceton.org/'
                   className='larger'
                   target='blank'
                 >
                   Arts Council of Princeton
-                </Card.Link>klk
+                </Card.Link>
                 <br />
                 <Card.Link
                   href='mailto:lisasolea@aol.com'
@@ -37,10 +37,12 @@ const Classes = () => {
                 >
                   Email
                 </Card.Link>
-              </Card.Text>
-            </Card.Body>
+             
+                </Card.Text>
+                </Card.Body>
           </Card>
         </Col>
+        <Col></Col>
       </Row>
     </Container>
   );
