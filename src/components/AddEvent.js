@@ -3,9 +3,9 @@ import { Card } from 'react-bootstrap';
 
 const  AddEvent = () => {
       const addEvents = [
-          {id: 45, date: 'May 25', text: 'Roxey Ballet Latin Creations, Lisa, guest dancer/choreographer, Roxey Ballet YouTube channel', link: 'https://www.roxeyballet.org/'},
-          {id: 46, date:'June 4 - 12', text: 'Alborada Spanish Dance Theatre, Romeria del Rocio, YouTube', link: 'http://www.AlboradaDance.org/'},
-          {id: 47, date:'June 6, 3 pm', link:'', nonlink:' Free Student Showcase at Princeton Shopping Center'}
+          {id: 45, date: 'May 25 - July', text: 'Roxey Ballet Latin Creations, Lisa, guest dancer/choreographer, Roxey Ballet YouTube channel', link: 'https://www.roxeyballet.org/'},
+          {id: 46, date:'Sept 19, 4 pm', text: "Alborada Spanish Dance Theatre: Sherry Tasting event at Lola's Bistro, Metuchen", link: 'http://www.AlboradaDance.org/'},
+          {id: 47, date:'Oct 17, 3 pm', text: 'Alborada Concert, New Brunswick', link: 'http://www.AlboradaDance.org/'}
       ]
       return (  
         addEvents ? addEvents.map((event) => (

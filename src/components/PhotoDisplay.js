@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import PhotoLayout from './PhotoLayout';
 import { Link } from 'react-router-dom';
+
 const PhotoDisplay = ({
   lisaImages,
   nyImages,

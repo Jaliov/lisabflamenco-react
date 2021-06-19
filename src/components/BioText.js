@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function BioText() {
     return (
-        <div>
+        <div className = "bio">
             <p>
                 <em>
-                  <strong>Lisa Botalico</strong>
+                  Lisa Botalico
                 </em>{' '}
                 toured the USA as Artistic Director and Principal dancer of{' '}
                 <em>La Compañia Folklorica Latina</em> under the auspices of the
@@ -28,8 +28,8 @@ export default function BioText() {
                 in 2001 and then Associate Artistic Director. She has
                 choreographed company dances including,{' '}
                 <em>Verdiales, Siguiryas </em> and{' '}
-                <em>l Ritmo de Las Piedras </em>A and directed and conceived{' '}
-                <em> El Sueno</em>A (A Spanish Dance Ballet based on the story
+                <em>El Ritmo de Las Piedras. </em>She directed and conceived{' '}
+                <em> El Sueño</em> (A Spanish Dance Ballet based on the story
                 of the Nutcracker). Her critically acclaimed solo performances
                 with the company include the George Street Playhouse, Crossroads
                 Theatre, Union County Arts Center, Community Theatre At Mayo
@@ -37,7 +37,7 @@ export default function BioText() {
                 Theatre, the Ocean County Arts Center and on NJN{' '}
                 <em>Images/Imagines</em>, most notably the 2009 Emmy award
                 winning documentary
-                <em>The Spanish Guitar</em>. Lisa dances regularly in the tablao
+                <em> The Spanish Guitar</em>. Lisa dances regularly in the tablao
                 at Spain Inn II in Clinton, NJ.{' '}
               </p>
               <p>
@@ -46,12 +46,12 @@ export default function BioText() {
                 the children's Spanish dance program at The Arts Council of
                 Princeton. Lisa currently teaches classes for adults at the
                 Princeton Dance and Theatre Studio, the Arts Council of
-                Princeton, The Dance Corner, Drum Dance and Learning Center, and
+                Princeton, and
                 has taught for the recreation departments at Princeton and
                 Rutgers Universities. Lisa has given workshops and residencies
                 throughout New Jersey, including: Princeton Day School, Stuart
                 Country Day School, Princeton Regional Schools, and the{' '}
-                <em>Bridge to the Arts</em>
+                <em>Bridge to the Arts </em>
                 Summer Camp in Trenton. With Alborada, Lisa performed for Young
                 Audiences of New Jersey and was a guest teacher for the State
                 Theatre in New Brunswick.

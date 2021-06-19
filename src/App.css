@@ -62,7 +62,10 @@ h5 {
 .navv {
   background-color: rgb(217, 83, 79, 0.4);
   margin-bottom: 40px;
-  /* border: 3px rgb(217, 83, 795);  */
+}
+
+#navbarBrand {
+  margin-left: 1rem;
 }
 
 .alertyellow {
@@ -100,4 +103,12 @@ a:active {
 
 img {
   color: red;
+}
+
+.bio em {
+  font-weight:bold;
+}
+
+@media screen and (max-width: 956px) {
+  .home {margin-top: 5rem;}
 }

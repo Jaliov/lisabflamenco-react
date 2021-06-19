@@ -6,7 +6,13 @@ const NavBar = () => {
     return (
 <>
 <Navbar variant="dark" expand="lg" className = "navv">
-    <Navbar.Brand href='/' className="text-danger" style={{fontWeight:'bold',  marginLeft:"10px"}}>Lisa Botalico Flamenco!</Navbar.Brand>
+    <Navbar.Brand href='/' className="text-danger" id="navbarBrand"><img
+        alt="flamenco"
+        src="/favicon.ico"
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+      />{' '}Lisa Botalico Flamenco!</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">

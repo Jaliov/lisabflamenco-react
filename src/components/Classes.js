@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Card, Col } from 'react-bootstrap';
 import LisaChildren from '../assets/lisakiddiesedit.jpg';
+import LisaStudents from '../assets/lisaWithStudents.jpg';
 
 const Classes = () => {
   return (
@@ -12,31 +13,49 @@ const Classes = () => {
           <Card className='bg-transparent'>
             <Card.Img variant='top' src={LisaChildren} />
             <Card.Body bg='transparent'>
-              <Card.Text className='text-light larger'>
+              <Card.Title className='text-light larger'>
                 {' '}
                 Lisa teaches classes for adults and children of all ages and
                 levels. <br />
-                Private instruction also available.
-                <br /><br />
-                <span className='alertyellow'> Contact:</span><br />
-                <Card.Link
+                Private instruction also available. </Card.Title>
+                <Card.Text className='alertyellow larger'> Contact: 
+                <br /><Card.Link
                   href='http://www.artscouncilofprinceton.org/'
-                  target='blank'
-                >
+                  target='blank'>
+               
                   Arts Council of Princeton
-                </Card.Link>
+                  </Card.Link>
+                 
+               
                 <br />
                 <Card.Link
                   href='mailto:lisasolea@aol.com'
                 >
                   Email
                 </Card.Link>
-              </Card.Text>
+                </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col></Col>
       </Row>
+       <Row>
+        <Col></Col>
+        <Col xs={8}>
+          <Card bg='transparent'>
+          <Card.Body>
+              <Card.Title className='text-light'>
+                {' '}
+                Group of students after the first in-person student showcase, June, 2021
+              </Card.Title>
+            </Card.Body>
+            <Card.Img variant='bottom' src={ LisaStudents } />
+           
+          </Card>
+        </Col>
+        <Col></Col>
+      </Row>
+      <br />
     </Container>
   );
 };
