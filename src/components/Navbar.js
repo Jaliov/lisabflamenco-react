@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
 <>
 <Navbar variant="dark" expand="lg" className = "navv">
-    <Navbar.Brand href='/' className="text-danger" id="navbarBrand"><img
+    <Navbar.Brand href='/' className='text-danger' id="navbarBrand"><img
         alt="flamenco"
         src="/favicon.ico"
         width="30"
@@ -15,7 +15,7 @@ const NavBar = () => {
       />{' '}Lisa Botalico Flamenco!</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
+    <Nav className="mr-auto container">
       <Nav.Link href='/'>Home</Nav.Link>
       <Nav.Link href='/bio'>About</Nav.Link>
       <Nav.Link href='/gallery'>Gallery</Nav.Link>

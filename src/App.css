@@ -64,8 +64,18 @@ h5 {
   margin-bottom: 40px;
 }
 
+Nav .container {
+  display: flex; 
+  justify-content: flex-end;
+  margin-right: 0;
+}
+
 #navbarBrand {
   margin-left: 1rem;
+}
+
+#navbarBrand:hover {
+  background-color: #fdfdaf;
 }
 
 .alertyellow {
