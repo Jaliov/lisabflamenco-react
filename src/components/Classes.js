@@ -10,7 +10,7 @@ const Classes = () => {
       <h1>Classes</h1>
       <Helmet>
           <title>Lisa's Flamenco Classes</title>
-          <meta name = "description" content = "Lisa Botalico Flamenco Classes" />
+          <meta name = "description" content = "Learn to Dance Flamenco with Lisa Botalico!" />
         </Helmet>
       <Row>
         <Col></Col>

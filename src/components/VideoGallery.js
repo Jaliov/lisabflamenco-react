@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import ReactPlayer from 'react-player';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Iframe from 'react-iframe';
@@ -16,6 +17,10 @@ const VideoGallery = () => {
     <>
       <Container>
         <h1>Videos!</h1>
+        <Helmet>
+        <title>Lisa Botalico Videos</title>
+          <meta name = "description" content = "Check out these Awesome Videos of Lisa Botalico!" />
+          </Helmet>
         <Row >
           <Col md = {5}>
             <Card

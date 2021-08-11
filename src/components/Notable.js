@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import { Container, Row, Card, Col } from 'react-bootstrap';
 import PhotoDisplay from './PhotoDisplay';
 import { SRLWrapper } from 'simple-react-lightbox';
@@ -73,6 +74,10 @@ const Notable = () => {
             <Col></Col>
             <Col xs={10}>
               <h1>Past Events</h1>
+              <Helmet>
+          <title>Notable Past Events</title>
+          <meta name = "description" content = "Lisa Botalico, Notable Past Events" />
+        </Helmet>
               <div>
                 <Card className='bg-transparent'>
                   <Card.Body>

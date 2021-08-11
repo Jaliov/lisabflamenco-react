@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import { Container, Row, Col, Card, Alert } from 'react-bootstrap';
 import AddEvent from './AddEvent';
 import UsefulLinks from './UsefulLinks';
@@ -8,6 +9,10 @@ const Events = () => {
     <div>
       <Container>
         <h1>Events/Links</h1>
+        <Helmet>
+        <title>Lisa Botalico Upcoming Events</title>
+          <meta name = "description" content = "Don't miss out on Lisa Botalico's Upcoming Events!" />
+        </Helmet>
         <Row>
           <Col xs={8}>
             <Alert variant={'transparent text-light bg-transparent'} id='alert'>
