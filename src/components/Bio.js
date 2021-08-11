@@ -9,7 +9,7 @@ const Bio = () => {
       <Container>
         <h1>About</h1>
         <Helmet>
-          <title>About Lisa Botalico</title>
+          <title>About</title>
           <meta name = "description" content = "Lisa Botalico Biography, About Lisa Botalico" />
         </Helmet>
         <Row>

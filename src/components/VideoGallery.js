@@ -18,7 +18,7 @@ const VideoGallery = () => {
       <Container>
         <h1>Videos!</h1>
         <Helmet>
-        <title>Lisa Botalico Videos</title>
+        <title>Videos</title>
           <meta name = "description" content = "Check out these Awesome Videos of Lisa Botalico!" />
           </Helmet>
         <Row >

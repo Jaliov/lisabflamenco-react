@@ -10,7 +10,7 @@ const Events = () => {
       <Container>
         <h1>Events/Links</h1>
         <Helmet>
-        <title>Lisa Botalico Upcoming Events</title>
+        <title>Upcoming Events</title>
           <meta name = "description" content = "Don't miss out on Lisa Botalico's Upcoming Events!" />
         </Helmet>
         <Row>

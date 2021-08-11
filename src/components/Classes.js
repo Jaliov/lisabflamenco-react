@@ -9,7 +9,7 @@ const Classes = () => {
     <Container>
       <h1>Classes</h1>
       <Helmet>
-          <title>Lisa's Flamenco Classes</title>
+          <title>Flamenco Classes</title>
           <meta name = "description" content = "Learn to Dance Flamenco with Lisa Botalico!" />
         </Helmet>
       <Row>

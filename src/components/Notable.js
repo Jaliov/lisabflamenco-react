@@ -75,7 +75,7 @@ const Notable = () => {
             <Col xs={10}>
               <h1>Past Events</h1>
               <Helmet>
-          <title>Notable Past Events</title>
+          <title>Notable Events</title>
           <meta name = "description" content = "Lisa Botalico, Notable Past Events" />
         </Helmet>
               <div>

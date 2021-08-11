@@ -6,8 +6,10 @@ import { Container } from 'react-bootstrap';
 const Press = () => {
   return (
     <Container>
+      <Helmet>
        <title>Reviews</title>
           <meta name = "description" content = "Press Coverage of Lisa Botalico" />
+          </Helmet>
       <Reviews />
     </Container>
   );

@@ -4,57 +4,9 @@ export default function BioText() {
     return (
         <div className = "bio">
             <p>
-                <em>
-                  Lisa Botalico
-                </em>{' '}
-                toured the USA as Artistic Director and Principal dancer of{' '}
-                <em>La Compañia Folklorica Latina</em> under the auspices of the
-                National Theatre of the Performing Arts, performing in: Town
-                Hall (NYC), Constitution Hall (DC), Society of the Four Arts
-                (Palm Beach), Chicago Theatre, and the Masonic Temple (L.A.).
-                She has shared the stage with many flamenco greats including
-                Maria Alba, Jose Molina, Manolo Rivera, Orlando Romero, Victorio
-                and Carmen Salao. She performed at Symphony Space in{' '}
-                <em>A Tribute to the Great Antonio</em> and with the Theatre
-                Opera Music Institute at Cami Hall. She was principal dancer
-                with Sol Y Sombra Spanish Dance Company, and Ballet de Puerto
-                Rico. Lisa has performed at Gracie Mansion, at the Lincoln
-                Center Craft Show, as guest artist with the Nassau Symphony in
-                Long Island and in tablaos in NYC.{' '}
-              </p>
-              <p>
-                <em>Lisa</em> debuted with the Alborada Spanish Dance Theatre in
-                2000 as a guest artist, joining the company as principal dancer
-                in 2001 and then Associate Artistic Director. She has
-                choreographed company dances including,{' '}
-                <em>Verdiales, Siguiryas </em> and{' '}
-                <em>El Ritmo de Las Piedras. </em>She directed and conceived{' '}
-                <em> El Sueño</em> (A Spanish Dance Ballet based on the story
-                of the Nutcracker). Her critically acclaimed solo performances
-                with the company include the George Street Playhouse, Crossroads
-                Theatre, Union County Arts Center, Community Theatre At Mayo
-                Center For The Performing Arts, Keane University, Passage
-                Theatre, the Ocean County Arts Center and on NJN{' '}
-                <em>Images/Imagines</em>, most notably the 2009 Emmy award
-                winning documentary
-                <em> The Spanish Guitar</em>. Lisa dances regularly in the tablao
-                at Spain Inn II in Clinton, NJ.{' '}
-              </p>
-              <p>
-                <em>Lisa</em> has been a dance instructor since 1989 and now
-                teaches throughout the Princeton, NJ area. In 1999 she founded
-                the children's Spanish dance program at The Arts Council of
-                Princeton. Lisa currently teaches classes for adults at the
-                Princeton Dance and Theatre Studio, the Arts Council of
-                Princeton, and
-                has taught for the recreation departments at Princeton and
-                Rutgers Universities. Lisa has given workshops and residencies
-                throughout New Jersey, including: Princeton Day School, Stuart
-                Country Day School, Princeton Regional Schools, and the{' '}
-                <em>Bridge to the Arts </em>
-                Summer Camp in Trenton. With Alborada, Lisa performed for Young
-                Audiences of New Jersey and was a guest teacher for the State
-                Theatre in New Brunswick.
+            <em>Lisa Botalico</em>{' '}
+                is currently Assistant Director/Principal Dancer/Choreographer of <em>Alborada Spanish Dance Theatre</em>. Lisa toured the United States as Artistic Director and Principal dancer of <em>La Compañía Folklorica Latina</em> for the National Theatre of the Performing Arts.  She was featured many times on NJN’s <em>Images/Imagenes</em>, including the Emmy Award winning documentary, <em>The Spanish Guitar</em>. New Jersey performances include: NJPAC, Morristown Community Theatre, Crossroads Theatre, George Street Playhouse and New Brunswick PAC. </p>
+                <p>A much sought after teacher/choreographer, Lisa founded the ongoing Children and Adult Flamenco Dance Program at the Arts Council of Princeton in 1999 and also teaches for Princeton Dance and Theatre Studio’s conservatory program. She has taught for the recreation departments of Rutgers and Princeton Universities and Union County College’s Continuing Education Program and as guest presenter for Rider University’s Dance Program. Lisa’s arts in education residences include: Princeton Regional Schools, Princeton Day School, Stuart Country Day School; Lawrenceville School and Ewing Public Schools. </p><p>Lisa’s photo was included in the retrospective, <em>100 Years of Flamenco in NYC</em> at the New York Public Library for the Performing Arts Lincoln Center and she was the <em>Arts Council of Princeton’s 2014 Artist in Residence</em>. Lisa has collaborated with the <em>Roxey Ballet</em> in their productions of <em>Carmen</em> and <em>Latin Creations</em>. In 2019 Lisa was nominated for a Perry Award for Best Choreography by the New Jersey Association of Community Theaters for her choreography in the North East American premier of <em>Zorro, the Musical</em>, music by the Gipsy Kings, produced by <em>PinnWorth Productions</em> at the Kelsey Theater. 
               </p>
         </div>
     )

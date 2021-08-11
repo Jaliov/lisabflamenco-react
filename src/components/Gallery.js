@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import PhotoDisplay from './PhotoDisplay';
 import { SRLWrapper } from 'simple-react-lightbox';
 import { Container } from 'react-bootstrap';
@@ -111,6 +112,10 @@ const lisaImages = [
 const Gallery = () => {
   return (
     <><h1>Gallery</h1>
+    <Helmet>
+          <title>Photo Gallery</title>
+          <meta name = "description" content = "Lisa Botalico Flamenco Photo Gallery" />
+        </Helmet>
     <Container>
       <SRLWrapper>
         <PhotoDisplay lisaImages={lisaImages} />

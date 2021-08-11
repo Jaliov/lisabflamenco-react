@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import { SRLWrapper } from 'simple-react-lightbox';
 import PhotoDisplay from './PhotoDisplay';
 import { Container } from 'react-bootstrap';
@@ -166,6 +167,10 @@ const Choreography = () => {
   return (
     <>
     <h1>Choreography/Collaborations</h1>
+    <Helmet>
+          <title>Choreography/Collaborations</title>
+          <meta name = "description" content = "Check out these amazing photos of Lisa Botalico, Collaborations with Other Great Dancers." />
+        </Helmet>
     <Container>
       <SRLWrapper>
         <PhotoDisplay lisaImages={lisaImages} />
