@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 import './App-min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Gallery from './components/Gallery';
@@ -17,6 +18,10 @@ const App = () => {
   return (
     <>
      <Router>
+       <Helmet>
+       <meta name="description" content="Discover Lisa Botalico, acclaimed Flamenco dancer, dance and music of Spain" />
+      <meta name = "keywords" content="Lisa Botalico, Flamenco, Flamenco Classes, Flamenco Instruction, Spanish Dance" />
+       </Helmet>
      <Navbar />
           <Switch>
           <Route exact path='/'><Home /> </Route >

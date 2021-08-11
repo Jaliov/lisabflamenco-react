@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import { Container, Row, Card, Col } from 'react-bootstrap';
 import LisaChildren from '../assets/lisakiddiesedit.jpg';
 import LisaStudents from '../assets/lisaWithStudents.jpg';
@@ -7,6 +8,10 @@ const Classes = () => {
   return (
     <Container>
       <h1>Classes</h1>
+      <Helmet>
+          <title>Lisa's Flamenco Classes</title>
+          <meta name = "description" content = "Lisa Botalico Flamenco Classes" />
+        </Helmet>
       <Row>
         <Col></Col>
         <Col xs={8}>
