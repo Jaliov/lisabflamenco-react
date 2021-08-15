@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import Homephoto from './Homephoto';
 import cover from '../assets/ShawlintheAirfade.png';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -13,6 +14,9 @@ const Home = () => {
         <h1 className = 'home'>
           <em>Lisa Botalico </em>
         </h1>
+        <Helmet>
+       <meta name="description" content="Discover Lisa Botalico, acclaimed Flamenco dancer, dance and music of Spain" />
+       </Helmet>
         <p className = 'larger text-light opening'>
           <em>
             ...danced and sang with her head  

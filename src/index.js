@@ -1,18 +1,31 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
+import { hydrate, render } from "react-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SimpleReactLightbox from 'simple-react-lightbox'
 
-ReactDOM.render(
+const APP = (
   <React.StrictMode>
-     <SimpleReactLightbox>
-    <App />
-    </SimpleReactLightbox>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  <SimpleReactLightbox>
+ <App />
+ </SimpleReactLightbox>
+</React.StrictMode>
+)
+
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(APP, rootElement);
+} else {
+  render(APP, rootElement);
+}
+
+
+// ReactDOM.render(
+ 
+//   document.getElementById('root')
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
