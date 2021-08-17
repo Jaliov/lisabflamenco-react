@@ -111,11 +111,12 @@ const lisaImages = [
 
 const Gallery = () => {
   return (
-    <><h1>Gallery</h1>
-    <Helmet>
+    <>
+     <Helmet>
           <title>Photo Gallery</title>
           <meta name = "description" content = "Lisa Botalico Flamenco Photo Gallery" />
         </Helmet>
+    <h1>Gallery</h1>
     <Container>
       <SRLWrapper>
         <PhotoDisplay lisaImages={lisaImages} />

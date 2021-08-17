@@ -7,12 +7,12 @@ import UsefulLinks from './UsefulLinks';
 const Events = () => {
   return (
     <div>
-      <Container>
-        <h1>Events/Links</h1>
-        <Helmet>
+       <Helmet>
         <title>Upcoming Events</title>
           <meta name = "description" content = "Don't miss out on Lisa Botalico's Upcoming Events!" />
         </Helmet>
+      <Container>
+        <h1>Events/Links</h1>
         <Row>
           <Col xs={8}>
             <Alert variant={'transparent text-light bg-transparent'} id='alert'>

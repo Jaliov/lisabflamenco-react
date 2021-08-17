@@ -6,12 +6,13 @@ import BioText from './BioText';
 
 const Bio = () => {
   return (
+    <div>
+    <Helmet>
+    <title>About</title>
+    <meta name = "description" content = "Lisa Botalico Biography, About Lisa Botalico" />
+  </Helmet>
       <Container>
         <h1>About</h1>
-        <Helmet>
-          <title>About</title>
-          <meta name = "description" content = "Lisa Botalico Biography, About Lisa Botalico" />
-        </Helmet>
         <Row>
           <Col sm={8} className='text-light'>
            <BioText />
@@ -25,6 +26,7 @@ const Bio = () => {
           </Col>
         </Row>
       </Container>
+      </div>
   );
 };
 export default Bio;

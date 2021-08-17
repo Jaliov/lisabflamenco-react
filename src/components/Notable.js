@@ -68,16 +68,16 @@ const lisaImages = [
 const Notable = () => {
   return (
     <div>
+        <Helmet>
+          <title>Notable Events</title>
+          <meta name = "description" content = "Lisa Botalico, Notable Past Events" />
+        </Helmet>
       <div>
         <Container>
           <Row>
             <Col></Col>
             <Col xs={10}>
               <h1>Past Events</h1>
-              <Helmet>
-          <title>Notable Events</title>
-          <meta name = "description" content = "Lisa Botalico, Notable Past Events" />
-        </Helmet>
               <div>
                 <Card className='bg-transparent'>
                   <Card.Body>

@@ -166,11 +166,12 @@ const lisaImages = [
 const Choreography = () => {
   return (
     <>
-    <h1>Choreography/Collaborations</h1>
-    <Helmet>
+      <Helmet>
           <title>Choreography/Collaborations</title>
           <meta name = "description" content = "Check out these amazing photos of Lisa Botalico, Collaborations with Other Great Dancers." />
         </Helmet>
+    <h1>Choreography/Collaborations</h1>
+  
     <Container>
       <SRLWrapper>
         <PhotoDisplay lisaImages={lisaImages} />

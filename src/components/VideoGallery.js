@@ -15,12 +15,12 @@ const vidUrl2 =
 const VideoGallery = () => {
   return (
     <>
-      <Container>
-        <h1>Videos!</h1>
-        <Helmet>
+     <Helmet>
         <title>Videos</title>
           <meta name = "description" content = "Check out these Awesome Videos of Lisa Botalico!" />
           </Helmet>
+      <Container>
+        <h1>Videos!</h1>
         <Row >
           <Col md = {5}>
             <Card

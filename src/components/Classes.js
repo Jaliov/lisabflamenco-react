@@ -6,12 +6,13 @@ import LisaStudents from '../assets/lisaWithStudents.jpg';
 
 const Classes = () => {
   return (
+    <>
+    <Helmet>
+    <title>Flamenco Classes</title>
+    <meta name = "description" content = "Learn to Dance Flamenco with Lisa Botalico!" />
+  </Helmet>
     <Container>
       <h1>Classes</h1>
-      <Helmet>
-          <title>Flamenco Classes</title>
-          <meta name = "description" content = "Learn to Dance Flamenco with Lisa Botalico!" />
-        </Helmet>
       <Row>
         <Col></Col>
         <Col xs={8}>
@@ -30,8 +31,6 @@ const Classes = () => {
                
                   Arts Council of Princeton
                   </Card.Link>
-                 
-               
                 <br />
                 <Card.Link
                   href='mailto:lisasolea@aol.com'
@@ -62,6 +61,7 @@ const Classes = () => {
       </Row>
       <br />
     </Container>
+    </>
   );
 };
 

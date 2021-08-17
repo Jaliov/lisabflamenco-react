@@ -17,11 +17,11 @@ import VideoGallery from './components/VideoGallery';
 const App = () => {
   return (
     <>
-     <Router>
-       <Helmet>
+     <Helmet>
        <meta name="description" content="Discover Lisa Botalico, acclaimed Flamenco dancer, dance and music of Spain" />
       <meta name = "keywords" content="Lisa Botalico, Flamenco, Flamenco Classes, Flamenco Instruction, Spanish Dance, Choreography" />
        </Helmet>
+     <Router>
      <Navbar />
           <Switch>
           <Route exact path='/'><Home /> </Route >
