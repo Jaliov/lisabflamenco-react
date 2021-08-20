@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
+import US1Article from '../assets/US1Article.pdf';
 const carouselItemStyle = { height: '300px', interval: '10000', width: '100%'};
 
 const Reviews = () => {
@@ -79,6 +80,22 @@ const Reviews = () => {
               </a>
               <br />
               Princeton Town Topics
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item style={carouselItemStyle}>
+          <Carousel.Caption>
+            <h3>US1</h3>
+            <p className='larger'>
+              <Link to ={US1Article} 
+                alt='US1 article'
+                target='blank'
+              >
+                {' '}
+                US1 Interview
+              </Link>
+              <br />
+              US1 interviews Lisa about flamenco and Paco Pena
             </p>
           </Carousel.Caption>
         </Carousel.Item>
