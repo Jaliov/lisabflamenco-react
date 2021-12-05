@@ -50,7 +50,7 @@ const Classes = () => {
           <Card.Body>
               <Card.Title className='text-light'>
                 {' '}
-                Group of students after the first in-person student showcase, June, 2021
+                Lisa with students after the first in-person student showcase, June, 2021
               </Card.Title>
             </Card.Body>
             <Card.Img variant='bottom' src={ LisaStudents } />
