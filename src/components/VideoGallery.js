@@ -14,7 +14,7 @@ const vidUrl1 = 'https://www.youtube.com/embed/Wwou3GZ4tZ8';
 const vidUrl2 =
   'https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview';
   const vidUrl3 =
-  'https://www.instagram.com/p/CUNg9ulA-fl/?utm_source=ig_web_button_share_sheet';
+  'https://www.instagram.com/p/CUNg9ulA-fl/?utm_source=ig_web_button_share_sheet/embed';
 
   
 const VideoGallery = () => {
