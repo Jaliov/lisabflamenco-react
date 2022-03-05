@@ -14,7 +14,7 @@ const vidUrl1 = 'https://www.youtube.com/embed/Wwou3GZ4tZ8';
 const vidUrl2 =
   'https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview';
   const vidUrl3 =
-  'https://www.instagram.com/p/CUNg9ulA-fl/?utm_source=ig_web_copy_link';
+  'https://www.instagram.com/p/CUNg9ulA-fl/?utm_source=ig_web_button_share_sheet';
 
   
 const VideoGallery = () => {
@@ -83,7 +83,7 @@ const VideoGallery = () => {
              <InstagramEmbed
   url={vidUrl3}
   clientAccessToken='123|456'
-  maxWidth={320}
+  width={cardStyle.width}
   hideCaption={false}
   containerTagName='div'
   protocol=''
