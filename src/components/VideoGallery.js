@@ -80,13 +80,15 @@ const VideoGallery = () => {
               key={Iframe.id}
               style={cardStyle}
             >
-          <ReactPlayer
+           <Iframe
                 url={vidUrl3}
+                alt='Lisa dancing noche'
+                title='Restaurant'
+                id='70'
                 width={cardStyle.width}
-                controls={true}
+                height={cardStyle.height}
                 className='border border-secondary'
-                origin='window.location.host'
-                alt='Lisa as Juana la'
+                allowFullScreen
               />
               <Card.Body>
                 <Card.Title>
