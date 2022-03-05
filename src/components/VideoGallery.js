@@ -76,7 +76,7 @@ const VideoGallery = () => {
           </Row>
           <Row>
           <Iframe
-                url={vidUrl3}
+                src={vidUrl3}
                 alt='Lisa teaching'
                 title='Nighttime Sevillanas'
                 id='70'
