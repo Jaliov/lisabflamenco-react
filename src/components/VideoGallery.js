@@ -80,16 +80,19 @@ const VideoGallery = () => {
               key={Iframe.id}
               style={cardStyle}
             >
-           <Iframe
-                url={vidUrl3}
-                alt='Lisa dancing noche'
-                title='Restaurant'
-                id='70'
-                width={cardStyle.width}
-                height={cardStyle.height}
-                className='border border-secondary'
-                allowFullScreen
-              />
+          <InstagramEmbed
+  url='https://www.instagram.com/p/CUNg9ulA-fl/'
+  clientAccessToken='123|456'
+  maxWidth={320}
+  hideCaption={false}
+  containerTagName='div'
+  protocol=''
+  injectScript
+  onLoading={() => {}}
+  onSuccess={() => {}}
+  onAfterRender={() => {}}
+  onFailure={() => {}}
+/>
               <Card.Body>
                 <Card.Title>
                   Lisa Alborada 
