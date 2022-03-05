@@ -12,6 +12,10 @@ const cardStyle = {
 const vidUrl1 = 'https://www.youtube.com/embed/Wwou3GZ4tZ8';
 const vidUrl2 =
   'https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview';
+  const vidUrl3 =
+  'https://www.instagram.com/p/CUNg9ulA-fl/?utm_source=ig_web_copy_link';
+
+  
 const VideoGallery = () => {
   return (
     <>
@@ -68,6 +72,26 @@ const VideoGallery = () => {
                 </Card.Title>
 
                 <Card.Text>Quarantine Project</Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              className='bg-dark text-light'
+              key={Iframe.id}
+              style={cardStyle}
+            >
+              <ReactPlayer
+                url={vidUrl3}
+                width={cardStyle.width}
+                controls={true}
+                className='border border-secondary'
+                origin='window.location.host'
+                alt='Lisa as Juana la'
+              />
+              <Card.Body>
+                <Card.Title>
+                  Lisa as Juana la Loca in Alborada's <em>Trail of Gold </em>
+                </Card.Title>
+                {/* <Card.Text>Lisa dancing Solea!</Card.Text> */}
               </Card.Body>
             </Card>
           </Col>

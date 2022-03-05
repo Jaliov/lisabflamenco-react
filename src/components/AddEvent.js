@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-const  AddEvent = () => {
+const AddEvent = () => {
       const addEvents = [
           {id: 45, date: 'May 25 - July', text: 'Roxey Ballet Latin Creations, Lisa, guest dancer/choreographer, Roxey Ballet YouTube channel', link: 'https://www.roxeyballet.org/'},
           {id: 46, date:'Sept 19, 4 pm', text: "Alborada Spanish Dance Theatre: Sherry Tasting event at Lola's Bistro, Metuchen", link: 'http://www.AlboradaDance.org/'},
