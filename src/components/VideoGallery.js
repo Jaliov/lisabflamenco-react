@@ -3,6 +3,7 @@ import {Helmet} from "react-helmet";
 import ReactPlayer from 'react-player';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Iframe from 'react-iframe';
+import InstagramEmbed from 'react-instagram-embed';
 const cardStyle = {
   width: '100%',
   height: '350px',
@@ -79,17 +80,22 @@ const VideoGallery = () => {
               key={Iframe.id}
               style={cardStyle}
             >
-              <ReactPlayer
-                url={vidUrl3}
-                width={cardStyle.width}
-                controls={true}
-                className='border border-secondary'
-                origin='window.location.host'
-                alt='Lisa as Juana la'
-              />
+             <InstagramEmbed
+  url={vidUrl3}
+  clientAccessToken='123|456'
+  maxWidth={320}
+  hideCaption={false}
+  containerTagName='div'
+  protocol=''
+  injectScript
+  onLoading={() => {}}
+  onSuccess={() => {}}
+  onAfterRender={() => {}}
+  onFailure={() => {}}
+/>
               <Card.Body>
                 <Card.Title>
-                  Lisa as Juana la Loca in Alborada's <em>Trail of Gold </em>
+                  Lisa Alborada 
                 </Card.Title>
                 {/* <Card.Text>Lisa dancing Solea!</Card.Text> */}
               </Card.Body>
