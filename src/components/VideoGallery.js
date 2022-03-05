@@ -80,19 +80,14 @@ const VideoGallery = () => {
               key={Iframe.id}
               style={cardStyle}
             >
-             <InstagramEmbed
-  url={vidUrl3}
-  clientAccessToken='123|456'
-  width={cardStyle.width}
-  hideCaption={false}
-  containerTagName='div'
-  protocol=''
-  injectScript
-  onLoading={() => {}}
-  onSuccess={() => {}}
-  onAfterRender={() => {}}
-  onFailure={() => {}}
-/>
+          <ReactPlayer
+                url={vidUrl3}
+                width={cardStyle.width}
+                controls={true}
+                className='border border-secondary'
+                origin='window.location.host'
+                alt='Lisa as Juana la'
+              />
               <Card.Body>
                 <Card.Title>
                   Lisa Alborada 
