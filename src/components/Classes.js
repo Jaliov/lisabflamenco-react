@@ -4,6 +4,7 @@ import { Container, Row, Card, Col } from 'react-bootstrap';
 import LisaChildren from '../assets/lisakiddiesedit.jpg';
 import LisaStudents from '../assets/lisaWithStudents.jpg';
 
+
 const Classes = () => {
   return (
     <>
@@ -37,7 +38,10 @@ const Classes = () => {
                 >
                   Email
                 </Card.Link>
-                </Card.Text>
+                <br />
+              See a short video of Lisa teaching on the <Card.Link
+              href='/videogallery'>Videos </Card.Link>page</Card.Text>
+             
             </Card.Body>
           </Card>
         </Col>

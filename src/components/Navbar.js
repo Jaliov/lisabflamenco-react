@@ -8,7 +8,7 @@ const NavBar = () => {
 <Navbar variant="dark" expand="lg" className = "navv">
     <Navbar.Brand href='/' className='text-danger' id="navbarBrand"><img
         alt="flamenco"
-        src="/favicon.ico"
+        src="favicon.ico"
         width="30"
         height="30"
         className="d-inline-block align-top"

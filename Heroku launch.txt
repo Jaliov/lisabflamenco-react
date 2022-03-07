@@ -5,3 +5,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+
+{/* <InstagramEmbed
+            url="https://instagr.am/p/Zw9o4/"
+            clientAccessToken="123|456"
+            maxWidth={350}
+            hideCaption={false}
+            containerTagName="div"
+            protocol=""
+            injectScript
+            onLoading={() => {}}
+            onSuccess={() => {}}
+            onAfterRender={() => {}}
+            onFailure={() => {}}
+          /> */}
