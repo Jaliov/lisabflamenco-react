@@ -17,7 +17,6 @@ const Home = () => {
        <header>
         <h1 className = 'home'>
           <em>Lisa Botalico </em>
-          <em>Test test</em>
         </h1>
         <p className = 'larger text-light opening'>
           <em>

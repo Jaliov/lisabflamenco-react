@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import ReactPlayer from "react-player";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Iframe from "react-iframe";
-import InstagramEmbed from "react-instagram-embed";
+// import InstagramEmbed from "react-instagram-embed";
 const cardStyle = {
   width: "100%",
   height: "350px",
@@ -13,8 +13,8 @@ const cardStyle = {
 const vidUrl1 = "https://www.youtube.com/embed/Wwou3GZ4tZ8";
 const vidUrl2 =
   "https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview";
-const vidUrl3 =
-  "https://www.instagram.com/p/CQ93Kurgqz2/?utm_source=ig_web_copy_link";
+// const vidUrl3 =
+//   "https://www.instagram.com/p/CQ93Kurgqz2/?utm_source=ig_web_copy_link";
 
 const VideoGallery = () => {
   return (
