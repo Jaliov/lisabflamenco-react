@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SimpleReactLightbox from 'simple-react-lightbox'
 
+var sslRedirect = require("heroku-ssl-redirect");
+const app = express();
+app.use(sslRedirect());
 ReactDOM.render(
   <React.StrictMode>
      <SimpleReactLightbox>
