@@ -2,8 +2,8 @@
   "name": "lisabflamenco-react",
   "version": "0.1.0",
   "engines": {
-    "node": " = 16.13.0",
-    "npm": "7.20.3"
+    "node": "16.x",
+    "npm": "8.1.0"
   },
   "private": false,
   "dependencies": {

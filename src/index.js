@@ -5,9 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SimpleReactLightbox from 'simple-react-lightbox'
 
-var sslRedirect = require("heroku-ssl-redirect");
-const app = express();
-app.use(sslRedirect());
+
 ReactDOM.render(
   <React.StrictMode>
      <SimpleReactLightbox>
@@ -16,6 +14,10 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+var sslRedirect = require("heroku-ssl-redirect");
+const app = express();
+app.use(sslRedirect());
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
