@@ -4,7 +4,7 @@
     RewriteCond %{HTTPS} off
     RewriteCond %{REQUEST_URI} ^.$
     RewriteCond %{HTTP_HOST} ^www\.lisabflamenco\.com [NC]
-    RewriteRule ^(.*)$ https://lisabflamenco.herokuapp.com/ [NC,L,R=301]
+    RewriteRule ^(.*)$ https://www.lisabflamenco.com/ [NC,L,R=301]
 
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
