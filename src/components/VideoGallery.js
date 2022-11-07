@@ -13,8 +13,8 @@ const cardStyle = {
 const vidUrl1 = "https://www.youtube.com/embed/Wwou3GZ4tZ8";
 const vidUrl2 =
   "https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview";
-// const vidUrl3 =
-//   "https://www.instagram.com/p/CQ93Kurgqz2/?utm_source=ig_web_copy_link";
+ const vidUrl3 =
+ src="https://www.youtube.com/embed/XwbXa1TTUw4";
 
 const VideoGallery = () => {
   return (
@@ -109,9 +109,31 @@ const VideoGallery = () => {
               </Card>
               </Col>
         </Row>
-        <p className="text-light larger">
-          <em>More soon!</em>
-        </p>
+        <Row>
+          <Col md={5}>
+            <Card
+              className="bg-dark text-light"
+              key={Iframe.id}
+              style={cardStyle}
+            >
+              <ReactPlayer
+                url={vidUrl3}
+                width={cardStyle.width}
+                controls={true}
+                className="border border-secondary"
+                origin="window.location.host"
+                alt="Lisa as Juana la"
+              />
+              <Card.Body>
+                <Card.Title>
+                Teachng at Princeton Dance and Theater
+                </Card.Title>
+                {/* <Card.Text>Lisa dancing Solea!</Card.Text> */}
+              </Card.Body>
+            </Card>
+          </Col>
+          </Row>
+   
       </Container>
     </>
   );
