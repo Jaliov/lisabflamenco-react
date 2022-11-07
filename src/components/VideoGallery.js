@@ -13,8 +13,7 @@ const cardStyle = {
 const vidUrl1 = "https://www.youtube.com/embed/Wwou3GZ4tZ8";
 const vidUrl2 =
   "https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview";
- const vidUrl3 =
- src="https://www.youtube.com/embed/XwbXa1TTUw4";
+const vidUrl3 = "https://www.youtube.com/embed/XwbXa1TTUw4";
 
 const VideoGallery = () => {
   return (
@@ -79,35 +78,46 @@ const VideoGallery = () => {
             </Card>
           </Col>
         </Row>
-      
+
         <Row>
-        <Col md={5}>
-        <Card
+          <Col md={5}>
+            <Card
               className="bg-dark text-light"
               key={Iframe.id}
               style={cardStyle}
             >
-       
-          <Iframe width={cardStyle.width} height={cardStyle.height} src="https://www.instagram.com/p/CUNg9ulA-fl/embed" frameborder="0" id="71" allowFullScreen></Iframe>
-          <Card.Body>
-          <Card.Text>Dancing at Lola's Bistro</Card.Text>
+              <Iframe
+                width={cardStyle.width}
+                height={cardStyle.height}
+                src="https://www.instagram.com/p/CUNg9ulA-fl/embed"
+                frameborder="0"
+                id="71"
+                allowFullScreen
+              ></Iframe>
+              <Card.Body>
+                <Card.Text>Dancing at Lola's Bistro</Card.Text>
               </Card.Body>
-              </Card>
-              </Col>
-              <Col md={2}></Col>
-        <Col md={5}>
-        <Card
+            </Card>
+          </Col>
+          <Col md={2}></Col>
+          <Col md={5}>
+            <Card
               className="bg-dark text-light"
               key={Iframe.id}
               style={cardStyle}
             >
-         
-          <Iframe width={cardStyle.width} height={cardStyle.height} src="https://www.instagram.com/p/CQ93Kurgqz2/embed?loop=3" frameborder="0" id="72"></Iframe>
-          <Card.Body>
-          <Card.Text>Teachng at Princeton Dance and Theater</Card.Text>
+              <Iframe
+                width={cardStyle.width}
+                height={cardStyle.height}
+                src="https://www.instagram.com/p/CQ93Kurgqz2/embed?loop=3"
+                frameborder="0"
+                id="72"
+              ></Iframe>
+              <Card.Body>
+                <Card.Text>Teachng at Princeton Dance and Theater</Card.Text>
               </Card.Body>
-              </Card>
-              </Col>
+            </Card>
+          </Col>
         </Row>
         <Row>
           <Col md={5}>
@@ -125,20 +135,15 @@ const VideoGallery = () => {
                 alt="Lisa as Juana la"
               />
               <Card.Body>
-                <Card.Title>
-                Teachng at Princeton Dance and Theater
-                </Card.Title>
+                <Card.Title>Teachng at Princeton Dance and Theater</Card.Title>
                 {/* <Card.Text>Lisa dancing Solea!</Card.Text> */}
               </Card.Body>
             </Card>
           </Col>
-          </Row>
-   
+        </Row>
       </Container>
     </>
   );
 };
-
- 
 
 export default VideoGallery;
