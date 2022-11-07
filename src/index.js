@@ -15,9 +15,9 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// var sslRedirect = require("heroku-ssl-redirect");
-// const app = express();
-// app.use(sslRedirect());
+var sslRedirect = require("heroku-ssl-redirect");
+const app = express();
+app.use(sslRedirect());
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
