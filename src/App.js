@@ -22,6 +22,7 @@ const App = () => {
       <meta name = "keywords" content="Lisa Botalico, Lisa Bottalico Flamenco, Lisa Botalico Flamenco, Lisa Flamenco, lisabflamenco, Flamenco Classes, Flamenco Instruction, Spanish Dance, Choreography" />
        </Helmet>
      <Router>
+    
      <Navbar />
           <Switch>
           <Route exact path='/'><Home /> </Route >
