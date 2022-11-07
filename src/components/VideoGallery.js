@@ -43,9 +43,9 @@ const VideoGallery = () => {
                 alt="Lisa as Juana la"
               />
               <Card.Body>
-                <Card.Title>
+                <Card.Text>
                   Lisa as Juana la Loca in Alborada's <em>Trail of Gold </em>
-                </Card.Title>
+                </Card.Text>
                 {/* <Card.Text>Lisa dancing Solea!</Card.Text> */}
               </Card.Body>
             </Card>
@@ -135,8 +135,7 @@ const VideoGallery = () => {
                 alt="Lisa as Juana la"
               />
               <Card.Body>
-                <Card.Title>Teachng at Princeton Dance and Theater</Card.Title>
-                {/* <Card.Text>Lisa dancing Solea!</Card.Text> */}
+                <Card.Text>Teaching at Princeton Dance and Theater</Card.Text>
               </Card.Body>
             </Card>
           </Col>
