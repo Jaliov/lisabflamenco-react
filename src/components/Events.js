@@ -64,13 +64,9 @@ const Events = () => {
                 ></img>
               </a>
               <br />
-              <a
-                href='http://www.simplehitcounter.com'
-                target='blank'
-                style={{ textDecoration: 'none' }}
-              >
-                web counter
-              </a>
+              <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=9&id=148080&s=288' border='0' alt='Free Website Hit Counter'></img></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div>
+               
+         
             </div>
           </Col>
           <Col></Col>
