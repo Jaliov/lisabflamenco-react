@@ -5,25 +5,19 @@ const AddEvent = () => {
   const addEvents = [
     {
       id: 46,
-      date: "September 15, 7 PM",
-      text: "Inspiraciones: Stafford Theater, Manahawkin",
-      link: "http://www.AlboradaDance.org/",
+      date: "Sunday, May 21, 2 PM",
+      text: "Morven Moves: Choreography Showcase at Morven Museum, Princeton, NJ",
+      link: "",
     },
     {
       id: 47,
-      date: "Sunday, Sept 18, 4:30 PM",
-      text: "Alborada's Summerfest (Dinner and Performances): Lola's Latin Bistro, Metuchen",
+      date: "Sunday, June 4 from 2:30-6 PM",
+      text: "Alborada's 10th Annual Feria de Sevilla, Park Press Park, Woodbridge",
       link: "http://www.AlboradaDance.org/",
     },
     {
       id: 48,
-      date: "Sunday Oct 9, 2:30 PM",
-      text: "Heartbeats: Spain and the Afro-Caribbean Connection, Sunday, Oct 11, 2:30 PM, Avenel Performing Arts Center, NJ",
-      link: "",
-    },
-    {
-      id: 49,
-      date: "Sunday Oct 16, 4 PM & 5:45 PM",
+      date: "Sunday, June 15, 4 PM",
       text: "Tablao Performances at Spain Inn 2 Restaurant, Asbury NJ",
       link: "",
     },
