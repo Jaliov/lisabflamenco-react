@@ -53,21 +53,11 @@ const Events = () => {
             </Card>
             <br />
             {/* Start of SimpleHitCounter Code */}
-            <div>
-              <a href='http://www.simplehitcounter.com' target='blank'>
-                <img
-                  src='http://simplehitcounter.com/hit.php?uid=1491703&f=16777215&b=16711680'
-                  border='0'
-                  height='18'
-                  width='83'
-                  alt='web counter'
-                ></img>
-              </a>
-              <br />
-              <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=9&id=148080&s=288' border='0' alt='Free Website Hit Counter'></img></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div>
+           
+              <div align='left'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=9&id=148080&s=288' border='0' alt='Free Website Hit Counter'></img></a><br /><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter">Free website hit counter</a></small></div>
                
          
-            </div>
+       
           </Col>
           <Col></Col>
           {/* End of SimpleHitCounter Code */}

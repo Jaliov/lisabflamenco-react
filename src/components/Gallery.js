@@ -107,6 +107,13 @@ const lisaImages = [
     title:
       "With famed cantaor Luis Vargas",
    },
+   {
+    id: 17,
+    link: 'images\Inspirasiones.jpg',
+    thumbnail: 'images\InspirasionesSmll.gif',
+    title:
+      "'Inspiraciones': Stafford Theater, Manahawkin, 2021",
+   },
 ];
 
 const Gallery = () => {
