@@ -32,11 +32,6 @@ const lisaImages = [
     title: "Latin Hustle, 1980's",
   },
   {
-    id: 5,
-    link: 'images/LisaDnaLin.jpg',
-    thumbnail: 'images/LisaDnaLin.jpg',
-  },
-  {
     id: 6,
     link: 'images/Manolo_Tanguillo2smll.jpg',
     thumbnail: 'images/Manolo_Tanguillo2smll.jpg',
@@ -107,10 +102,10 @@ const lisaImages = [
     title:
       "With famed cantaor Luis Vargas",
    },
-   {
+   {  
     id: 17,
-    link: 'images\Inspirasiones.jpg',
-    thumbnail: 'images\InspirasionesSmll.gif',
+    link: 'images/Inspiraciones.jpg',
+    thumbnail: 'images/InspiracionesSmll.gif',
     title:
       "'Inspiraciones': Stafford Theater, Manahawkin, 2021",
    },
