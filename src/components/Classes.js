@@ -39,7 +39,7 @@ const Classes = () => {
                   Email
                 </Card.Link>
                 <br />
-              See a short video of Lisa teaching on the <Card.Link
+              See videos of Lisa teaching on the <Card.Link
               href='/videogallery'>Videos </Card.Link>page</Card.Text>
              
             </Card.Body>

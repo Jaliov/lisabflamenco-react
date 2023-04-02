@@ -94,7 +94,7 @@ const Notable = () => {
                         </a>
                         , critically acclaimed Flamenco dancer and ACP
                         instructor
-                        <strong> Lisa Botalio </strong>
+                        <strong> Lisa Botalico </strong>
                         proved to be one of our most popular residencies.
                         Throughout the fall season, Lisa, in collaboration with
                         visual artist Libby Ramage, led a free community dance
@@ -102,10 +102,7 @@ const Notable = () => {
                         final performance, all of which explored the universal
                         themes of passion, oppression and hope through original
                         Flamenco dance choreography, music, and visual art
-                        imagery. Lisa’s{' '}
-                        <a href='http://artscouncilofprinceton.org/2014/10/finding-light-through-fire/'>
-                          blog wrap-up
-                        </a>{' '}
+                        imagery. Lisa’s
                         after her residency currently holds the ACP record for
                         most comments on a post, a testament to her impact.
                       </em>
