@@ -7,19 +7,19 @@ const AddEvent = () => {
       id: 46,
       date: "Sunday, May 21, 2 PM",
       text: "Morven Moves: Choreography Showcase at Morven Museum, Princeton, NJ",
-      link: "",
+      link: "https://www.facebook.com/byron.barn/",
     },
     {
       id: 47,
-      date: "Sunday, June 4 from 2:30-6 PM",
-      text: "Alborada's 10th Annual Feria de Sevilla, Park Press Park, Woodbridge",
-      link: "http://www.AlboradaDance.org/",
-    },
-    {
-      id: 48,
       date: "Sunday, June 15, 4 PM",
       text: "Tablao Performances at Spain Inn 2 Restaurant, Asbury NJ",
       link: "",
+    },
+    {
+      id: 48,
+      date: "Sunday, June 25 from 2:30-6 PM",
+      text: "Alborada's 10th Annual Feria de Sevilla, Park Press Park, Woodbridge",
+      link: "http://www.AlboradaDance.org/",
     },
   ];
   return addEvents ? (

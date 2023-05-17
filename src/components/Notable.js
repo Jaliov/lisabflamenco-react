@@ -77,7 +77,7 @@ const Notable = () => {
           <Row>
             <Col></Col>
             <Col xs={10}>
-              <h1>Past Events</h1>
+              <h1>Notable Past Events</h1>
               <div>
                 <Card className='bg-transparent'>
                   <Card.Body>
