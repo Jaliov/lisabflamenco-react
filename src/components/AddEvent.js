@@ -3,13 +3,7 @@ import { Card } from "react-bootstrap";
 
 const AddEvent = () => {
   const addEvents = [
-    {
-      id: 46,
-      date: "Sunday, May 21, 2 PM",
-      text: "Morven Moves: Choreography Showcase at Morven Museum, Princeton, NJ",
-      link: "https://www.facebook.com/byron.barn/",
-    },
-    {
+      {
       id: 47,
       date: "Sunday, June 11, 4 PM",
       text: "Tablao Performances at Spain Inn 2 Restaurant, Asbury NJ",
