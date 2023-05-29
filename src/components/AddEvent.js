@@ -11,9 +11,9 @@ const AddEvent = () => {
     },
     {
       id: 47,
-      date: "Sunday, June 15, 4 PM",
+      date: "Sunday, June 11, 4 PM",
       text: "Tablao Performances at Spain Inn 2 Restaurant, Asbury NJ",
-      link: "",
+      link: "https://www.spaininn2.com/",
     },
     {
       id: 48,
