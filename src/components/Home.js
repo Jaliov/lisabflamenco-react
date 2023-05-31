@@ -3,6 +3,9 @@ import {Helmet} from "react-helmet";
 import Homephoto from './Homephoto';
 import cover from '../assets/ShawlintheAirfade.png';
 import { Container, Row, Col } from 'react-bootstrap';
+// import Button from 'react-bootstrap/Button';
+// import Modal from 'react-bootstrap/Modal';
+import Modal from './Modal';
 
 const Home = () => {
   return (
@@ -11,6 +14,7 @@ const Home = () => {
     <meta name="description" content="Discover Lisa Botalico, acclaimed Flamenco dancer, dance and music of Spain" />
     </Helmet>
       <Container>
+        
          <Row>
         <Col  md ={4}></Col>
        <Col md ={4}>
@@ -26,6 +30,7 @@ const Home = () => {
           <small>(Star Ledger)</small>
         </p>
         </header>
+        <div><Modal/></div>
         <Homephoto cover={cover} />
         </Col>
         <Col  md ={4}></Col>
