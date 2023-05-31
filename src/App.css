@@ -124,3 +124,6 @@ img {
 @media screen and (max-width: 956px) {
   .home {margin-top: 3rem;}
 }
+Modal {
+  background-color: none;
+}

@@ -3,6 +3,8 @@ import {Helmet} from "react-helmet";
 import Homephoto from './Homephoto';
 import cover from '../assets/ShawlintheAirfade.png';
 import { Container, Row, Col } from 'react-bootstrap';
+
+
 // import Button from 'react-bootstrap/Button';
 // import Modal from 'react-bootstrap/Modal';
 import Modal from './Modal';
@@ -32,6 +34,7 @@ const Home = () => {
         </header>
         <div><Modal/></div>
         <Homephoto cover={cover} />
+       
         </Col>
         <Col  md ={4}></Col>
         </Row>
