@@ -3,6 +3,12 @@ import { Card } from "react-bootstrap";
 
 const AddEvent = () => {
   const addEvents = [
+    {
+      id: 46,
+      date: "Friday, June 9, 7 PM",
+      text: "Juerga Flamenca at Byron Barn, Plainsboro NJ",
+      link: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbyron.barn%2Fposts%2Fpfbid0FZTrkHxoS1D5FqbW66enLZjMw6M53XBHiCRonZgQm1Ek9aAuWBwFBy3QzMhStxxBl&show_text=true&width=500",
+    },
       {
       id: 47,
       date: "Sunday, June 11, 4 PM",
