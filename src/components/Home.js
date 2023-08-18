@@ -32,7 +32,7 @@ const Home = () => {
           <small>(Star Ledger)</small>
         </p>
         </header>
-        <Modal/>
+       
         <Homephoto cover={cover} />
        
         </Col>
