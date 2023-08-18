@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 // import Button from 'react-bootstrap/Button';
 // import Modal from 'react-bootstrap/Modal';
-import Modal from './Modal';
+//import Modal from './Modal';
 
 const Home = () => {
   return (
