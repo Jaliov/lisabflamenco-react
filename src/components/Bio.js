@@ -1,32 +1,35 @@
-import React from 'react';
-import {Helmet} from "react-helmet";
-import cubanLunge from '../assets/cubanlungefade.png';
-import { Container, Row, Col } from 'react-bootstrap';
-import BioText from './BioText';
+import React from "react";
+import { Helmet } from "react-helmet";
+import cubanLunge from "../assets/cubanlungefade.png";
+import { Container, Row, Col } from "react-bootstrap";
+import BioText from "./BioText";
 
 const Bio = () => {
   return (
     <div>
-    <Helmet>
-    <title>About</title>
-    <meta name = "description" content = "Lisa Botalico Biography, About Lisa Botalico" />
-  </Helmet>
+      <Helmet>
+        <title>About</title>
+        <meta
+          name="description"
+          content="Lisa Botalico Biography, About Lisa Botalico"
+        />
+      </Helmet>
       <Container>
-        <h1>About</h1>
+        <h1 style={{ color: "#ffff66" }}>About</h1>
         <Row>
-          <Col sm={8} className='text-light'>
-           <BioText />
+          <Col sm={8} className="text-light">
+            <BioText />
           </Col>
-          <Col xs={4} style={{ backgroundColor: 'rgb(216, 79, 79, 0.3)' }}>
+          <Col xs={4} style={{ backgroundColor: "rgb(216, 79, 79, 0.3)" }}>
             <img
               src={cubanLunge}
-              style={{ width: '400', height: '600' }}
-              alt='Lisa Cuban'
+              style={{ width: "400", height: "600" }}
+              alt="Lisa Cuban"
             />
           </Col>
         </Row>
       </Container>
-      </div>
+    </div>
   );
 };
 export default Bio;

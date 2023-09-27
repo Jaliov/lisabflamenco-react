@@ -113,6 +113,12 @@ const lisaImages = [
     thumbnail: "images/Lisa_Botalico_castenets2023.gif",
     title: "'Juerga Flamenco': Byron Barn, Plainsboro, 2023",
   },
+  {
+    id: 52,
+    link: "images/choreography/Lisamarie4fade.png",
+    thumbnail: "images/choreography/Lisamarie4fade.png",
+    title: "Collaboration!",
+  },
 ];
 
 const Gallery = () => {
@@ -125,7 +131,7 @@ const Gallery = () => {
           content="Lisa Botalico Flamenco Photo Gallery"
         />
       </Helmet>
-      <h1>Gallery</h1>
+      <h1 style={{ color: "#ffff66" }}>Gallery</h1>
       <Container>
         <SRLWrapper>
           <PhotoDisplay lisaImages={lisaImages} />

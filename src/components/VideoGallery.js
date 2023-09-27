@@ -26,7 +26,7 @@ const VideoGallery = () => {
         />
       </Helmet>
       <Container>
-        <h1>Videos!</h1>
+        <h1 style={{ color: "#ffff66" }}>Videos!</h1>
         <Row>
           <Col md={5}>
             <Card

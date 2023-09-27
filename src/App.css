@@ -1,6 +1,6 @@
 body {
   background-image: url(./IMG_0473.jpg);
-  background-color:882021;
+  background-color: 882021;
   border-width: 100%;
   margin: 0;
 }
@@ -24,28 +24,33 @@ body {
 }
 
 @font-face {
-  font-family: 'matura-mt-script-capitals-cufonfonts';
+  font-family: "matura-mt-script-capitals-cufonfonts";
   src: url(./AnyConv.com__MATURASC_1.woff);
   font-display: auto;
 }
 
 h1 {
-  color: #ffff66;
   text-align: center;
-  font-family: 'matura-mt-script-capitals-cufonfonts';
+  font-family: "matura-mt-script-capitals-cufonfonts";
   font-style: italic;
   margin-top: 30px;
   padding-bottom: 20px;
 }
 
+.heading {
+  color: #ffff66;
+}
+
 .home {
-  margin-top:0px;
-  padding-bottom:0px; 
-  text-align:left; 
+  margin-top: 0px;
+  padding-bottom: 0px;
+  text-align: left;
 }
 
 .opening {
-  margin-top:-10px; line-height:98%; text-align:right;
+  margin-top: -10px;
+  line-height: 98%;
+  text-align: right;
 }
 
 h1 em {
@@ -66,7 +71,7 @@ h5 {
 }
 
 Nav .container {
-  display: flex; 
+  display: flex;
   justify-content: flex-end;
   margin-right: 0;
 }
@@ -117,12 +122,14 @@ img {
 }
 
 .bio em {
-  font-weight:bold;
+  font-weight: bold;
   font-size: 120%;
-} 
+}
 
 @media screen and (max-width: 956px) {
-  .home {margin-top: 3rem;}
+  .home {
+    margin-top: 3rem;
+  }
 }
 Modal {
   background-color: none;
