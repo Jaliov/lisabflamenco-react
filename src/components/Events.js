@@ -15,7 +15,7 @@ const Events = () => {
         />
       </Helmet>
       <Container>
-        <h1 style={{ color: "#ffff66" }}>Events/Links</h1>
+        <h1>Events/Links</h1>
         <Row>
           <Col xs={8}>
             <Alert variant={"transparent text-light bg-transparent"} id="alert">

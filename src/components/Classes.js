@@ -15,7 +15,7 @@ const Classes = () => {
         />
       </Helmet>
       <Container>
-        <h1 style={{ color: "#ffff66" }}>Classes</h1>
+        <h1>Classes</h1>
         <Row>
           <Col></Col>
           <Col xs={8}>

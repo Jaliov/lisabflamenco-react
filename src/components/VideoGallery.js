@@ -14,6 +14,7 @@ const vidUrl1 = "https://www.youtube.com/embed/Wwou3GZ4tZ8";
 const vidUrl2 =
   "https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview";
 const vidUrl3 = "https://www.youtube.com/embed/XwbXa1TTUw4";
+const vidUr14 = "https://youtu.be/jiOMTIdLHSM?si=O0dZpkOsD8MxKUPq?start=3188";
 
 const VideoGallery = () => {
   return (
@@ -26,7 +27,7 @@ const VideoGallery = () => {
         />
       </Helmet>
       <Container>
-        <h1 style={{ color: "#ffff66" }}>Videos!</h1>
+        <h1>Videos!</h1>
         <Row>
           <Col md={5}>
             <Card
@@ -46,11 +47,10 @@ const VideoGallery = () => {
                 <Card.Text>
                   Lisa as Juana la Loca in Alborada's <em>Trail of Gold </em>
                 </Card.Text>
-                {/* <Card.Text>Lisa dancing Solea!</Card.Text> */}
               </Card.Body>
             </Card>
           </Col>
-          <Col md={2}></Col>
+          <Col md={2} />
           <Col md={5}>
             <Card
               className="bg-dark text-light"
@@ -99,7 +99,7 @@ const VideoGallery = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={2}></Col>
+          <Col md={2} />
           <Col md={5}>
             <Card
               className="bg-dark text-light"
@@ -136,6 +136,29 @@ const VideoGallery = () => {
               />
               <Card.Body>
                 <Card.Text>Teaching at Princeton Dance and Theater</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={2} />
+          <Col md={5}>
+            <Card
+              className="bg-dark text-light"
+              key={Iframe.id}
+              style={cardStyle}
+            >
+              <ReactPlayer
+                url={vidUr14}
+                width={cardStyle.width}
+                controls={true}
+                className="border border-secondary"
+                origin="window.location.host"
+                alt="Lisa dancing Sevillanas"
+              />
+              <Card.Body>
+                <Card.Text>
+                  Lisa dances <em>Sevillanas</em> on PBS NJ with Alborada
+                </Card.Text>
+                {/* <Card.Text>Lisa dancing Solea!</Card.Text> */}
               </Card.Body>
             </Card>
           </Col>

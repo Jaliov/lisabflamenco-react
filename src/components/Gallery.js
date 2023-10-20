@@ -131,7 +131,7 @@ const Gallery = () => {
           content="Lisa Botalico Flamenco Photo Gallery"
         />
       </Helmet>
-      <h1 style={{ color: "#ffff66" }}>Gallery</h1>
+      <h1>Gallery</h1>
       <Container>
         <SRLWrapper>
           <PhotoDisplay lisaImages={lisaImages} />

@@ -7,9 +7,7 @@ const carouselItemStyle = { height: "300px", interval: "10000", width: "100%" };
 const Reviews = () => {
   return (
     <>
-      <h1 className="home text-center" style={{ color: "#ffff66" }}>
-        Press
-      </h1>
+      <h1 className="home text-center">Press</h1>
       <Carousel className="press">
         <Carousel.Item style={carouselItemStyle}>
           <Carousel.Caption>

@@ -15,7 +15,7 @@ const Bio = () => {
         />
       </Helmet>
       <Container>
-        <h1 style={{ color: "#ffff66" }}>About</h1>
+        <h1>About</h1>
         <Row>
           <Col sm={8} className="text-light">
             <BioText />
