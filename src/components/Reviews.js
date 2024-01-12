@@ -11,6 +11,71 @@ const Reviews = () => {
       <Carousel className="press">
         <Carousel.Item style={carouselItemStyle}>
           <Carousel.Caption>
+            <h3>
+              Princeton Town Topics, 2024 <small>(link)</small>
+            </h3>
+            <p className="larger">
+              <a
+                href="https://www.towntopics.com/wordpress/2024/01/03/three-kings-dance-celebration-features-lisa-botalicos-students/#more-73487"
+                alt="towntopics"
+                target="blank"
+              >
+                {" "}
+                Three Kings Dance Celebration Features Lisa Botalico’s Students
+              </a>
+              <br />
+              Princeton Town Topics
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item style={carouselItemStyle}>
+          <Carousel.Caption>
+            <h3>US1</h3>
+            <p className="larger">
+              <Link to={US1Article} alt="US1 article" target="blank">
+                {" "}
+                US1 Interview
+              </Link>
+              <br />
+              US1 interviews Lisa about flamenco and Paco Pena
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item style={carouselItemStyle}>
+          <Carousel.Caption>
+            <h3>
+              Princeton Town Topics, 2015 <small>(link)</small>
+            </h3>
+            <p className="larger">
+              <a
+                href="http://www.towntopics.com/wordpress/2015/10/14/ole-flamenco-flourishes-in-princeton-as-lisa-botalico-leads-eager-spanish-dancers/"
+                alt="towntopics"
+                target="blank"
+              >
+                {" "}
+                “Ole!” Flamenco Flourishes, in Princeton As Lisa Botalico Leads
+                Eager Spanish Dancers
+              </a>
+              <br />
+              Princeton Town Topics
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item style={carouselItemStyle}>
+          <Carousel.Caption>
+            <h3>US1</h3>
+            <p className="larger">
+              <Link to={US1Article} alt="US1 article" target="blank">
+                {" "}
+                US1 Interview
+              </Link>
+              <br />
+              US1 interviews Lisa about flamenco and Paco Pena
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item style={carouselItemStyle}>
+          <Carousel.Caption>
             <h3>New York Times</h3>
             <p className="larger">
               "Another notable solo was Lisa Botalico's <em>Solea</em> which,

@@ -1,16 +1,12 @@
-import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import PhotoLayout from './PhotoLayout';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Row, Col } from "react-bootstrap";
+import PhotoLayout from "./PhotoLayout";
+import { Link } from "react-router-dom";
 
-const PhotoDisplay = ({
-  lisaImages,
-  nyImages,
-  videoImages,
-}) => {
+const PhotoDisplay = ({ lisaImages, nyImages, videoImages }) => {
   return (
     <>
-      <Row className='text-center'>
+      <Row className="text-center">
         <Col>
           {lisaImages
             ? lisaImages.map((image) => (
@@ -40,7 +36,7 @@ const PhotoDisplay = ({
                   src={image.url}
                   style={PhotoLayout.videolayout}
                   alt={image.altTag}
-                  className='border border-secondary'
+                  className="border border-secondary"
                 />
               ))
             : null}
