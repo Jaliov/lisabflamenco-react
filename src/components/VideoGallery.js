@@ -11,7 +11,7 @@ const cardStyle = {
   marginBottom: "10%",
 };
 const vidUrl1 = "https://www.youtube.com/embed/Wwou3GZ4tZ8";
-const vidUr2 = "https://www.youtube.com/watch?v=ATX9Rd2WBUo";
+const vidUrl5 = "https://www.youtube.com/watch?v=ATX9Rd2WBUo";
 const vidUrl2 =
   "https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview";
 const vidUrl3 = "https://www.youtube.com/embed/XwbXa1TTUw4";
@@ -172,12 +172,12 @@ const VideoGallery = () => {
               style={cardStyle}
             >
               <ReactPlayer
-                url={vidUrl2}
+                url={vidUrl5}
                 width={cardStyle.width}
                 controls={true}
                 className="border border-secondary"
                 origin="window.location.host"
-                alt="Lisa as Juana la"
+                alt="Three Kings Day"
               />
               <Card.Body>
                 <Card.Text>Three Kings Day Performance</Card.Text>

@@ -87,7 +87,10 @@ const Classes = () => {
                   this cultural holiday. (Photo by Charles R. Plohn)
                 </Card.Title>
               </Card.Body>
-              <Card.Img variant="bottom" src={ThreeKings24} />
+              <Card.Img
+                variant="bottom"
+                src="https://www.towntopics.com/wordpress/wp-content/uploads/2024/01/page-1-1-10-24-web-1.jpg"
+              />
             </Card>
           </Col>
           <Col></Col>
