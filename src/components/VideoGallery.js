@@ -11,6 +11,7 @@ const cardStyle = {
   marginBottom: "10%",
 };
 const vidUrl1 = "https://www.youtube.com/embed/Wwou3GZ4tZ8";
+const vidUr2 = "https://www.youtube.com/watch?v=ATX9Rd2WBUo";
 const vidUrl2 =
   "https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview";
 const vidUrl3 = "https://www.youtube.com/embed/XwbXa1TTUw4";
@@ -159,6 +160,27 @@ const VideoGallery = () => {
                   Lisa dances <em>Sevillanas</em> on PBS NJ with Alborada
                 </Card.Text>
                 {/* <Card.Text>Lisa dancing Solea!</Card.Text> */}
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={5}>
+            <Card
+              className="bg-dark text-light video-animate"
+              key={Iframe.id}
+              style={cardStyle}
+            >
+              <ReactPlayer
+                url={vidUrl2}
+                width={cardStyle.width}
+                controls={true}
+                className="border border-secondary"
+                origin="window.location.host"
+                alt="Lisa as Juana la"
+              />
+              <Card.Body>
+                <Card.Text>Three Kings Day Performance</Card.Text>
               </Card.Body>
             </Card>
           </Col>
