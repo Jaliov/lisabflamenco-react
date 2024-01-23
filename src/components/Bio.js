@@ -15,13 +15,18 @@ const Bio = () => {
         />
       </Helmet>
       <Container>
-        <h1>About</h1>
+        <h1 className="bio">About</h1>
         <Row>
           <Col sm={8} className="text-light">
             <BioText />
           </Col>
-          <Col xs={4} style={{ backgroundColor: "rgb(216, 79, 79, 0.3)" }}>
+          <Col
+            xs={4}
+            style={{ backgroundColor: "rgb(216, 79, 79, 0.3)" }}
+            className="fade-in-image"
+          >
             <img
+              className="fade-in-image"
               src={cubanLunge}
               style={{ width: "400", height: "600" }}
               alt="Lisa Cuban"

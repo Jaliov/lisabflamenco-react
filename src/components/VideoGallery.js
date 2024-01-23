@@ -31,7 +31,7 @@ const VideoGallery = () => {
         <Row>
           <Col md={5}>
             <Card
-              className="bg-dark text-light"
+              className="bg-dark text-light video-animate"
               key={Iframe.id}
               style={cardStyle}
             >

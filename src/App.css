@@ -131,6 +131,13 @@ img {
 .bio em {
   font-weight: bold;
   font-size: 120%;
+  animation-name: moveFromTop;
+  animation-duration: 5s;
+}
+
+.bio {
+  animation-name: moveFromTop;
+  animation-duration: 5s;
 }
 
 @media screen and (max-width: 956px) {
@@ -175,8 +182,24 @@ Modal {
   }
 }
 
+@keyframes moveFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  80% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
 .fade-in-image {
-  animation: fadeIn 6s;
+  animation: fadeIn 8s;
 }
 @keyframes fadeIn {
   0% {
@@ -185,4 +208,10 @@ Modal {
   100% {
     opacity: 1;
   }
+}
+/*try rottat effect also*/
+
+.text-light .video-animate {
+  animation-name: moveInLeft;
+  animation-duration: 5s;
 }

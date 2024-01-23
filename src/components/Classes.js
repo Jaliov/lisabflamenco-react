@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { Container, Row, Card, Col } from "react-bootstrap";
 import LisaChildren from "../assets/lisakiddiesedit.jpg";
 import LisaStudents from "../assets/lisaWithStudents.jpg";
-
+import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
 const Classes = () => {
   return (
     <>
@@ -54,17 +54,45 @@ const Classes = () => {
           <Col xs={8}>
             <Card bg="transparent">
               <Card.Body>
-                <Card.Title className="text-light">
+                <Card.Title className="text-light larger">
                   {" "}
                   Lisa with students after the first in-person student showcase,
                   post-lockdown, June, 2021
                 </Card.Title>
               </Card.Body>
-              <Card.Img variant="bottom" src={LisaStudents} />
+              <Card.Img
+                variant="bottom"
+                src={LisaStudents}
+                style={{ marginBottom: "20px" }}
+              />
             </Card>
           </Col>
           <Col></Col>
         </Row>
+        <Row>
+          <Col></Col>
+          <Col xs={8}>
+            <Card bg="transparent">
+              <Card.Body>
+                <Card.Title className="text-light larger">
+                  <em className="alertyellow larger">
+                    Fiesta del Día de Los Reyes Magos
+                  </em>
+                  , or Three Kings Day, is celebrated throughout the world to
+                  mark the culmination of the 12 days of Christmas. On Saturday,
+                  a dance performance by{" "}
+                  <span className="alertyellow">students</span> in the Arts
+                  Council of Princeton’s Flamenco program, led by Lisa Botalico,
+                  center, featured multiple dances as attendees learned about
+                  this cultural holiday. (Photo by Charles R. Plohn)
+                </Card.Title>
+              </Card.Body>
+              <Card.Img variant="bottom" src={ThreeKings24} />
+            </Card>
+          </Col>
+          <Col></Col>
+        </Row>
+
         <br />
       </Container>
     </>
