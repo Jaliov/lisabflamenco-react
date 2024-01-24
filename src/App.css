@@ -62,6 +62,8 @@ h1 em {
   font-size: 125%;
   color: #ffff66;
   text-align: left;
+  animation-name: moveInLeft;
+  animation-duration: 5s;
 }
 
 h5 {
@@ -153,7 +155,7 @@ Modal {
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-100px) rotate(180deg);
   }
 
   80% {
@@ -209,7 +211,7 @@ Modal {
     opacity: 1;
   }
 }
-/*try rottat effect also*/ 
+/*try rottat effect also*/
 
 .text-light .video-animate {
   animation-name: moveInLeft;

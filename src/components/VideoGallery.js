@@ -28,7 +28,9 @@ const VideoGallery = () => {
         />
       </Helmet>
       <Container>
-        <h1>Videos!</h1>
+        <h1 class="home" style={{ textAlign: "center" }}>
+          Videos!
+        </h1>
         <Row>
           <Col md={5}>
             <Card
@@ -180,7 +182,9 @@ const VideoGallery = () => {
                 alt="Three Kings Day"
               />
               <Card.Body>
-                <Card.Text>Three Kings Day Performance</Card.Text>
+                <Card.Text>
+                  Lisa & students, Arts Council of Princeton
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>

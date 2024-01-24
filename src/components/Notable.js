@@ -77,7 +77,12 @@ const Notable = () => {
           <Row>
             <Col></Col>
             <Col xs={10}>
-              <h1 style={{ color: "#ffff66" }}>Notable Past Events</h1>
+              <h1
+                style={{ color: "#ffff66", textAlign: "center" }}
+                class="home"
+              >
+                Notable Past Events
+              </h1>
               <div>
                 <Card className="bg-transparent">
                   <Card.Body>
