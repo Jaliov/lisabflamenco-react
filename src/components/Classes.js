@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { Container, Row, Card, Col } from "react-bootstrap";
 import LisaChildren from "../assets/lisakiddiesedit.jpg";
 import LisaStudents from "../assets/lisaWithStudents.jpg";
-import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
+//import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
 const Classes = () => {
   return (
     <>
@@ -20,7 +20,11 @@ const Classes = () => {
           <Col></Col>
           <Col xs={8}>
             <Card className="bg-transparent">
-              <Card.Img variant="top" src={LisaChildren} />
+              <Card.Img
+                variant="top"
+                src={LisaChildren}
+                className="fade-in-image"
+              />
               <Card.Body bg="transparent">
                 <Card.Title className="text-light larger">
                   {" "}

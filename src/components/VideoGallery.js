@@ -9,6 +9,8 @@ const cardStyle = {
   height: "350px",
   boxShadow: "5px 3px 3px rgb(217, 83, 79, 0.5)",
   marginBottom: "10%",
+  animationName: "moveInLeft",
+  animationDuration: "5s",
 };
 const vidUrl1 = "https://www.youtube.com/embed/Wwou3GZ4tZ8";
 const vidUrl5 = "https://www.youtube.com/watch?v=ATX9Rd2WBUo";
@@ -28,7 +30,7 @@ const VideoGallery = () => {
         />
       </Helmet>
       <Container>
-        <h1 class="home" style={{ textAlign: "center" }}>
+        <h1 className="bio" style={{ textAlign: "center" }}>
           Videos!
         </h1>
         <Row>
