@@ -18,13 +18,13 @@ const Home = () => {
         />
       </Helmet>
       <Container>
+        <h1 className="home">
+          <em>Lisa Botalico </em>
+        </h1>
         <Row>
           <Col md={4}></Col>
           <Col md={4}>
-            <header>
-              <h1 className="home">
-                <em>Lisa Botalico </em>
-              </h1>
+            <div>
               <p className="larger text-light opening">
                 <em>
                   ...danced and sang with her head thrown back, her energy
@@ -32,7 +32,7 @@ const Home = () => {
                 </em>
                 <small>(Star Ledger)</small>
               </p>
-            </header>
+            </div>
             <div class="fade-in-image">
               <Homephoto cover={cover} />
             </div>
