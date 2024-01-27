@@ -3,7 +3,7 @@ import React from "react";
 export default function BioText() {
   return (
     <div className="bio">
-      <p>
+      <p class="lineStyle">
         <em>Lisa Botalico</em> is currently Assistant Director/Principal
         Dancer/Choreographer of <em>Alborada Spanish Dance Theatre</em>. Lisa
         toured the United States as Artistic Director and Principal dancer of{" "}
@@ -14,18 +14,19 @@ export default function BioText() {
         Morristown Community Theatre, Crossroads Theatre, George Street
         Playhouse and New Brunswick PAC.{" "}
       </p>
-      <p>
+      <p class="lineStyle">
         A much sought after teacher/choreographer, Lisa founded the ongoing
-        Children and Adult Flamenco Dance Program at the Arts Council of
-        Princeton in 1999 and also teaches for Princeton Dance and Theatre
-        Studio’s conservatory program. She has taught for the recreation
-        departments of Rutgers and Princeton Universities and Union County
-        College’s Continuing Education Program and as guest presenter for Rider
-        University’s Dance Program. Lisa’s arts in education residences include:
-        Princeton Regional Schools, Princeton Day School, Stuart Country Day
-        School; Lawrenceville School and Ewing Public Schools.{" "}
+        Children and Adult Flamenco Dance Program at the{" "}
+        <em>Arts Council of Princeton</em> in 1999 and also teaches for
+        Princeton Dance and Theatre Studio’s conservatory program. She has
+        taught for the recreation departments of Rutgers and Princeton
+        Universities and Union County College’s Continuing Education Program and
+        as guest presenter for Rider University’s Dance Program. Lisa’s arts in
+        education residences include: Princeton Regional Schools, Princeton Day
+        School, Stuart Country Day School; Lawrenceville School and Ewing Public
+        Schools.{" "}
       </p>
-      <p>
+      <p class="lineStyle">
         Lisa’s photo was included in the retrospective,{" "}
         <em>100 Years of Flamenco in NYC</em> at the New York Public Library for
         the Performing Arts Lincoln Center and she was the{" "}

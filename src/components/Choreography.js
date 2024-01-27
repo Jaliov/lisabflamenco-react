@@ -173,7 +173,9 @@ const Choreography = () => {
           content="Check out these amazing photos of Lisa Botalico, Collaborations with Other Great Dancers."
         />
       </Helmet>
-      <h1 style={{ color: "#ffff66" }}>Choreography/Collaborations</h1>
+      <h1 style={{ color: "#ffff66" }} class="bio">
+        Choreography/Collaborations
+      </h1>
 
       <Container>
         <SRLWrapper>

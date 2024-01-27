@@ -15,7 +15,7 @@ const Events = () => {
         />
       </Helmet>
       <Container>
-        <h1 class="home" style={{ textAlign: "center" }}>
+        <h1 class="bio" style={{ textAlign: "center" }}>
           Events/Links
         </h1>
         <Row>

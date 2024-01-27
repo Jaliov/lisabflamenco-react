@@ -77,10 +77,7 @@ const Notable = () => {
           <Row>
             <Col></Col>
             <Col xs={10}>
-              <h1
-                style={{ color: "#ffff66", textAlign: "center" }}
-                class="home"
-              >
+              <h1 style={{ color: "#ffff66", textAlign: "center" }} class="bio">
                 Notable Past Events
               </h1>
               <div>

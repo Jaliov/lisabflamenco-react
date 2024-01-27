@@ -15,7 +15,7 @@ const Bio = () => {
         />
       </Helmet>
       <Container>
-        <h1 className="bio">About</h1>
+        <h1 className="home">About</h1>
         <Row>
           <Col sm={8} className="text-light">
             <BioText />

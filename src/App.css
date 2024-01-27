@@ -47,7 +47,7 @@ h1 {
 .home {
   margin-top: 0px;
   padding-bottom: 0px;
-  text-align: left;
+  text-align: center;
   animation-name: moveInLeft;
   animation-duration: 5s;
 }
@@ -59,7 +59,7 @@ h1 {
 }
 
 h1 em {
-  font-size: 125%;
+  font-size: 120%;
   color: #ffff66;
   text-align: left;
   animation-name: moveInLeft;
@@ -114,7 +114,9 @@ a:visited {
 }
 
 a:hover {
-  background: rgba(241, 102, 98, 0.3);
+  background: rgba(241, 102, 98, 0.2);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 a:active {
@@ -130,11 +132,14 @@ img {
   color: red;
 }
 
+img.rotateImg {
+  animation-name: moveInLeft;
+  animation-duration: 5s;
+}
+
 .bio em {
   font-weight: bold;
   font-size: 120%;
-  animation-name: moveFromTop;
-  animation-duration: 5s;
 }
 
 .bio {
@@ -217,4 +222,8 @@ Modal {
   animation-name: moveInLeft;
   animation-duration: 5s;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+p.lineStyle {
+  line-height: 1.5;
 }
