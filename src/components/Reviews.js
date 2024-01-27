@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import US1Article from "../assets/US1Article.pdf";
-const carouselItemStyle = { height: "300px", interval: "10000", width: "100%" };
+const carouselItemStyle = { height: "300px", interval: "20000", width: "100%" };
 
 const Reviews = () => {
   return (

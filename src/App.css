@@ -81,6 +81,8 @@ Nav .container {
   display: flex;
   justify-content: flex-end;
   margin-right: 0;
+  animation: moveInButton 0.75s ease-out 0.75s;
+  animation-fill-mode: backwards;
 }
 
 #navbarBrand {
@@ -205,6 +207,18 @@ Modal {
   }
 }
 
+@keyframes moveInButton {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
 .fade-in-image {
   animation: fadeIn 8s;
 }
@@ -226,4 +240,9 @@ Modal {
 
 p.lineStyle {
   line-height: 1.5;
+}
+
+.background-animation {
+  animation: moveInButton 1s ease-out 0.75s;
+  animation-fill-mode: backwards;
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import "./App-min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Gallery from "./components/Gallery";
 import Notable from "./components/Notable";
