@@ -2,13 +2,13 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import US1Article from "../assets/US1Article.pdf";
-const carouselItemStyle = { height: "300px", interval: "20000", width: "100%" };
+const carouselItemStyle = { height: "300px", interval: "30000", width: "100%" };
 
 const Reviews = () => {
   return (
     <>
       <h1 className="home text-center">Press</h1>
-      <Carousel className="press">
+      <Carousel className="press fade-in-image">
         <Carousel.Item style={carouselItemStyle}>
           <Carousel.Caption>
             <h3>

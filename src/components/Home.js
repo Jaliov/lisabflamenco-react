@@ -33,7 +33,7 @@ const Home = () => {
                 <small>(Star Ledger)</small>
               </p>
             </div>
-            <div class="fade-in-image">
+            <div className="fade-in-image">
               <Homephoto cover={cover} />
             </div>
           </Col>

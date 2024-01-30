@@ -102,6 +102,11 @@ Nav .container {
   animation-name: moveInRight;
   animation-duration: 5s;
 }
+.larger_mod {
+  font-size: 120%;
+  animation-name: moveInRight_mod;
+  animation-duration: 10s;
+}
 a {
   -webkit-transition: color 3s;
   transition: color 3s;
@@ -167,6 +172,18 @@ Modal {
 
   80% {
     transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight_mod {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
   }
 
   100% {
