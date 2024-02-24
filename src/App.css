@@ -59,7 +59,8 @@ h1 {
 }
 
 h1 em {
-  font-size: 120%;
+  font-size: 3.2rem;
+  padding-bottom: 0.1rem;
   color: #ffff66;
   text-align: left;
   animation-name: moveInLeft;
@@ -98,7 +99,7 @@ Nav .container {
 }
 
 .larger {
-  font-size: 120%;
+  font-size: 1.2rem;
   animation-name: moveInRight;
   animation-duration: 5s;
 }
@@ -112,22 +113,40 @@ a {
   transition: color 3s;
 }
 
-a:link {
-  color: rgb(240, 173, 78);
-}
-
+a:link,
 a:visited {
   color: rgb(240, 173, 78);
+  transition: all 0.2;
+  position: relative;
 }
 
 a:hover {
   background: rgba(241, 102, 98, 0.2);
-  transform: translateY(-3px);
+  transform: translateY(-0.3rem);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+a:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+a::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
 a:active {
-  color: #ffff66;
+  transform: translate(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 #alert {

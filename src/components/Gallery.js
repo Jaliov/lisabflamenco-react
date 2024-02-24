@@ -114,10 +114,10 @@ const lisaImages = [
     title: "'Juerga Flamenco': Byron Barn, Plainsboro, 2023",
   },
   {
-    id: 52,
-    link: "images/choreography/Lisamarie4fade.png",
-    thumbnail: "images/choreography/Lisamarie4fade.png",
-    title: "Collaboration!",
+    id: 19,
+    link: "images/Lisa_red Shawl_ACP_1.jpg",
+    thumbnail: "images/Lisa_red Shawl_ACP_1.gif",
+    title: "At The Arts Council of Princeton, 2024",
   },
 ];
 
