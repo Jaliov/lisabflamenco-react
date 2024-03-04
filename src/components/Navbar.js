@@ -18,13 +18,9 @@ const NavBar = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto container ">
-            <Nav.Link href="/" className="btn">
-              Home
-            </Nav.Link>
-            <Nav.Link href="/bio" className="btn">
-              About
-            </Nav.Link>
+          <Nav className="mr-auto container" style={{ marginLeft: "1rem" }}>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/bio">About</Nav.Link>
             <Nav.Link href="/gallery">Gallery</Nav.Link>
             <Nav.Link href="/choreography">
               Choreography / Collaborations
