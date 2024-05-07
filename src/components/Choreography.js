@@ -156,11 +156,17 @@ const lisaImages = [
     thumbnail: "images/choreography/Ramya_Lisa_The HinduArticle.gif",
     title: "Article in The Hindu, India",
   },
+  // {
+  //   id: 52,
+  //   link: "images/choreography/Lisamarie4fade.png",
+  //   thumbnail: "images/choreography/Lisamarie4fade.png",
+  //   title: "Collaboration!",
+  // },
   {
-    id: 52,
-    link: "images/choreography/Lisamarie4fade.png",
-    thumbnail: "images/choreography/Lisamarie4fade.png",
-    title: "Collaboration!",
+    id: 53,
+    link: "images/choreography/Robeson_Rock Dance_flail.jpg",
+    thumbnail: "images/choreography/Robeson_Rock Dance_flail.gif",
+    title: "'Rock Dance' at ACP's PAUL ROBESON 126TH BIRTHDAY CELEBRATION",
   },
 ];
 const Choreography = () => {
