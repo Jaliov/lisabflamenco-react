@@ -178,9 +178,10 @@ img.rotateImg {
     margin-top: 3rem;
   }
 }
-Modal {
-  background-color: none;
-  display: none;
+.modal-body {
+  background-image: url(./IMG_0473.jpg);
+  width: 107%;
+  animation-name: moveInLeft;
 }
 
 @keyframes moveInLeft {

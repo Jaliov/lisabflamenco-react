@@ -4,9 +4,8 @@ import Homephoto from "./Homephoto";
 import cover from "../assets/ShawlintheAirfade.png";
 import { Container, Row, Col } from "react-bootstrap";
 
-// import Button from 'react-bootstrap/Button';
-// import Modal from 'react-bootstrap/Modal';
-//import Modal from './Modal';
+//import Modal from "react-bootstrap/Modal";
+import Modal from "./Modal";
 
 const Home = () => {
   return (
@@ -17,6 +16,8 @@ const Home = () => {
           content="Discover Lisa Botalico, acclaimed Flamenco dancer, dance and music of Spain"
         />
       </Helmet>
+      <></>
+
       <Container>
         <h1 className="home">
           <em>Lisa Botalico </em>
@@ -34,6 +35,9 @@ const Home = () => {
               </p>
             </div>
             <div className="fade-in-image">
+              <div>
+                <Modal />
+              </div>
               <Homephoto cover={cover} />
             </div>
           </Col>
