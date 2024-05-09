@@ -39,15 +39,15 @@ const lisaImages = [
   },
   {
     id: 25,
-    link: "images/choreography/CarmenMedia_018.JPG",
-    thumbnail: "images/choreography/CarmenMedia_018.gif",
+    link: "images/choreography/Carmen_red_shawl.jpg",
+    thumbnail: "images/choreography/Roxey_Carmen_red_shawl.gif",
     title: 'Roxey Ballet production of "Carmen"',
   },
   {
     id: 26,
-    link: "images/choreography/CarmenMedia_020.JPG",
-    thumbnail: "images/choreography/CarmenMedia_020.gif",
-    title: "Roxey Ballet production of 'Carmen'",
+    link: "images/choreography/CarmenMedia_018.JPG",
+    thumbnail: "images/choreography/CarmenMedia_018.gif",
+    title: 'Roxey Ballet production of "Carmen"',
   },
   {
     id: 27,
