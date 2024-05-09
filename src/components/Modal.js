@@ -23,7 +23,7 @@ function Example() {
     <>
       <Modal show={show} setShow={handleOpen} onHide={handleClose}>
         <Modal.Body>
-          <img src="images/anniversaryFlyer.jpg"></img>{" "}
+          <img src="images/AnniversaryFlyer_4.jpg"></img>{" "}
           {/* <Button onClick={handleClose}>Close</Button> */}
         </Modal.Body>
       </Modal>

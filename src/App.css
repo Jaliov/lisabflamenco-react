@@ -179,7 +179,7 @@ img.rotateImg {
   }
 }
 .modal-body {
-  background-image: url(./IMG_0473.jpg);
+  background-image: url(./IMG_0473darker.jpg);
   width: 107%;
   animation-name: moveInLeft;
 }
