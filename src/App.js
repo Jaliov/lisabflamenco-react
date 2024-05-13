@@ -12,7 +12,7 @@ import Bio from "./components/Bio";
 import Classes from "./components/Classes";
 import Events from "./components/Events";
 import VideoGallery from "./components/VideoGallery";
-import "./App.css";
+import "./App.min.css";
 
 const App = () => {
   return (
