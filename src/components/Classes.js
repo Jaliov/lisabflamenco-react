@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet";
 import { Container, Row, Card, Col } from "react-bootstrap";
 import LisaChildren from "../assets/lisakiddiesedit.jpg";
 import LisaStudents from "../assets/lisaWithStudents.jpg";
+import Modal from "./Modalinstru";
+
 //import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
 const Classes = () => {
   return (
@@ -15,6 +17,9 @@ const Classes = () => {
         />
       </Helmet>
       <Container>
+        <div>
+          <Modal />
+        </div>
         <h1 className="bio">Classes</h1>
         <Row>
           <Col></Col>

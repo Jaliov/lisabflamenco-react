@@ -11,14 +11,22 @@ const AddEvent = () => {
         '"...This program is a multi-media celebration of the legacy of Paul Robeson, Princeton’s “native son” and scholar, all American athlete, artist, and activist. This celebration of his legacy is free and open to all ages, presented in partnership with the Witherspoon Jackson Historical and Cultural Society (WJHCS)."',
       link: "https://artscouncilofprinceton.org/event/robeson-126/",
     },
-    /*{
+    {
       id: 47,
-      date: "Friday, March 15, 8 pm; Sunday, March 17, 3 pm 2024",
-      text: "Boheme Opera Carmen",
+      date: "Thursday, June 6, 7 pm",
+      text: "Spanish Classical Dance Song and Music",
       nonlink:
-        "Choreography by Lisa Botalico performed by Lisa with dancers from the Alborada Spanish Dance Theatre",
-      link: "https://www.bohemeopera.org/carmen",
-    },*/
+        "Performance celebrating Lisa Botalico's 25th anniversary at The Arts Council of Princeton, featuring works by Spanish composers Manuel deFalla, Ganados as well as Bach, Beethoven and more! Guest artists: Joel Rudin, viola, Christina Xie, piano, Debbie Lingel, singer",
+      link: "https://artscouncilofprinceton.org/",
+    },
+    {
+      id: 48,
+      date: "Friday, June 7, 7 pm",
+      text: "Flamenco Dance Song and Music",
+      nonlink:
+        "Performance celebrating Lisa Botalico's 25th anniversary at The Arts Council of Princeton, with Ivan Max, flamenco guitar and Yuka Koyama, flamenco vocalist",
+      link: "https://artscouncilofprinceton.org/",
+    },
   ];
   return addEvents ? (
     addEvents.map((event) => (
@@ -30,7 +38,7 @@ const AddEvent = () => {
               {event.date}:{" "}
             </span>
             <Card.Link href={event.link} target="blank">
-              {event.text}{" "}
+              {event.text} <br></br>
             </Card.Link>
 
             {event.nonlink}

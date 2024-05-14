@@ -73,6 +73,13 @@ h5 {
   color: white;
 }
 
+h4 {
+  color: #ffff66;
+  text-align: center;
+  animation-name: moveInLeft;
+  animation-duration: 5s;
+}
+
 .navv {
   background-color: rgb(217, 83, 79, 0.4);
   margin-bottom: 40px;
@@ -180,7 +187,7 @@ img.rotateImg {
 }
 .modal-body {
   background-image: url(./IMG_0473darker.jpg);
-  width: 107%;
+  width: 104%;
   animation-name: moveInLeft;
 }
 
