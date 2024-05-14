@@ -84,12 +84,13 @@ const Classes = () => {
             <Card bg="transparent">
               <Card.Body>
                 <Card.Title className="text-light larger">
+                  Below:
                   <em className="alertyellow larger">
                     Fiesta del Día de Los Reyes Magos
                   </em>
                   , or Three Kings Day, is celebrated throughout the world to
                   mark the culmination of the 12 days of Christmas. On Saturday,
-                  a dance performance by{" "}
+                  Jan 6, 2024, a dance performance by{" "}
                   <span className="alertyellow">students</span> in the Arts
                   Council of Princeton’s Flamenco program, led by Lisa Botalico,
                   center, featured multiple dances as attendees learned about

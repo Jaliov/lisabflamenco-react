@@ -290,3 +290,7 @@ p.lineStyle {
   animation: moveInButton 1s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
+#anniversary {
+  object-fit: contain;
+  width: 100%;
+}

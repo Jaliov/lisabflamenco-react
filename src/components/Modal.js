@@ -19,7 +19,7 @@ function Example() {
     <>
       <Modal show={show} onHide={handleClose}>
         <Modal.Body>
-          <img src="images/AnniversaryFlyer_4.jpg"></img>{" "}
+          <img src="images/AnniversaryFlyer_4.jpg" id="anniversary"></img>{" "}
           <Button onClick={handleClose} variant="outline-danger" size="sm">
             x
           </Button>
