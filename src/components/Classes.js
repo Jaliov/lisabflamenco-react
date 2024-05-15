@@ -84,7 +84,7 @@ const Classes = () => {
             <Card bg="transparent">
               <Card.Body>
                 <Card.Title className="text-light larger">
-                  Below:
+                  Below:{" "}
                   <em className="alertyellow larger">
                     Fiesta del Día de Los Reyes Magos
                   </em>
@@ -94,7 +94,8 @@ const Classes = () => {
                   <span className="alertyellow">students</span> in the Arts
                   Council of Princeton’s Flamenco program, led by Lisa Botalico,
                   center, featured multiple dances as attendees learned about
-                  this cultural holiday. (Photo by Charles R. Plohn)
+                  this cultural holiday.{" "}
+                  <small>(Photo by Charles R. Plohn)</small>
                 </Card.Title>
               </Card.Body>
               <Card.Img

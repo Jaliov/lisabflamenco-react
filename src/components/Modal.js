@@ -17,11 +17,11 @@ function Example() {
   // };
   return (
     <>
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} centered>
         <Modal.Body>
           <img src="images/AnniversaryFlyer_4.jpg" id="anniversary"></img>{" "}
           <Button onClick={handleClose} variant="outline-danger" size="sm">
-            x
+            <i class="gg-close"></i>
           </Button>
         </Modal.Body>
       </Modal>

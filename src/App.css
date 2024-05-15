@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/close.css");
+
+.gg-close {
+  /*box-sizing: border-box;
+  position: relative;
+  display: block;*/
+  transform: scale(var(--ggs, 0.5));
+}
+
 body {
   background-image: url(./IMG_0473.jpg);
   background-color: 882021;
@@ -187,8 +196,7 @@ img.rotateImg {
 }
 .modal-body {
   background-image: url(./IMG_0473darker.jpg);
-  width: 104%;
-  animation-name: moveInLeft;
+  /*width: 100%;*/
 }
 
 @keyframes moveInLeft {
