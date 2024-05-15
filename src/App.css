@@ -17,7 +17,7 @@ body {
   background-image: url(./IMG_0473.jpg);
   background-color: 882021;
   border-width: 100%;
-  margin: 0;
+  margin: 0px;
 }
 
 .press {
@@ -91,15 +91,18 @@ h4 {
 
 .navv {
   background-color: rgb(217, 83, 79, 0.4);
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   width: 100% !important;
   margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 
 Nav .container {
   display: flex;
   justify-content: flex-end;
   margin-right: 0;
+  padding-right: 0;
   animation: moveInButton 0.75s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
@@ -204,7 +207,7 @@ img.rotateImg {
 
 @media screen and (max-width: 956px) {
   .home {
-    margin-top: 3rem;
+    margin-top: 10px;
   }
 }
 .modal-body {
