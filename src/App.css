@@ -310,6 +310,6 @@ p.lineStyle {
   animation-fill-mode: backwards;
 }
 #anniversary {
-  object-fit: contain;
+  object-fit: fill;
   width: 100%;
 }
