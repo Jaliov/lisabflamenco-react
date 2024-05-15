@@ -16,7 +16,6 @@ const Home = () => {
           content="Discover Lisa Botalico, acclaimed Flamenco dancer, dance and music of Spain"
         />
       </Helmet>
-      <></>
 
       <Container>
         <h1 className="home">

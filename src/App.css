@@ -92,6 +92,8 @@ h4 {
 .navv {
   background-color: rgb(217, 83, 79, 0.4);
   margin-bottom: 40px;
+  width: 100% !important;
+  margin-right: 0px;
 }
 
 Nav .container {
@@ -100,6 +102,17 @@ Nav .container {
   margin-right: 0;
   animation: moveInButton 0.75s ease-out 0.75s;
   animation-fill-mode: backwards;
+}
+
+.navv::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.navv {
+  overflow-y: scroll; /* Add the ability to scroll */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 #navbarBrand {
@@ -196,9 +209,7 @@ img.rotateImg {
 }
 .modal-body {
   background-image: url(./IMG_0473darker.jpg);
-  /*width: 100%;*/
 }
-
 @keyframes moveInLeft {
   0% {
     opacity: 0;
