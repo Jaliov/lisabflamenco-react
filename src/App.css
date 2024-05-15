@@ -229,6 +229,12 @@ img.rotateImg {
   }
 }
 
+@media screen and (max-width: 480px) {
+  #anniversary {
+    background-image: "AnniversaryFlyer_4_smll.jpg";
+  }
+}
+
 @keyframes moveInRight_mod {
   0% {
     opacity: 0;
