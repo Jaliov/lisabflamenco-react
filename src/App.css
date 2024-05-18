@@ -210,9 +210,9 @@ img.rotateImg {
     margin-top: 10px;
   }
 }
-.modal-body {
+/*.modal-body {
   background-image: url(./IMG_0473darker.jpg);
-}
+}*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -229,11 +229,37 @@ img.rotateImg {
   }
 }
 
-@media screen and (max-width: 480px) {
-  #anniversary {
-    background-image: "AnniversaryFlyer_4_smll.jpg";
-  }
+.modal-body {
+  background-image: url(./IMG_0473darker.jpg);
 }
+
+/*.modal-body {
+  overflow: hidden !important;
+  background-color: red;
+
+  object-fit: fill;
+  width: 486px;
+  height: 646px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 0px !important;
+  margin: 0;
+  padding: 0;
+}*/
+
+.modal-open {
+  overflow: auto;
+  padding-right: 0 !important;
+}
+
+/*@media screen and (max-width: 480px) {
+  .modal-body {
+    background-image: url("../public/images/AnniversaryFlyer_4_smll.jpg");
+    object-fit: fill;
+    width: 200px;
+    height: 267px;
+  }
+}*/
 
 @keyframes moveInRight_mod {
   0% {
@@ -317,8 +343,4 @@ p.lineStyle {
 .background-animation {
   animation: moveInButton 1s ease-out 0.75s;
   animation-fill-mode: backwards;
-}
-#anniversary {
-  object-fit: fill;
-  width: 100%;
 }

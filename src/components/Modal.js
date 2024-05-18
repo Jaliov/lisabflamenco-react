@@ -8,22 +8,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Example() {
   const [show, setShow] = useState(true);
   const handleClose = () => setShow(false);
-  //const handleShow = () => setShow(false);
-  // const handleOpen = () => {
-  //   const timer = setTimeout(() => {
-  //     setShow(true);
-  //   }, 8000);
-  //   return () => clearTimeout(timer);
-  // };
+
   return (
     <>
       <Modal show={show} onHide={handleClose} centered>
-        <Modal.Body>
-          <img src="images/AnniversaryFlyer_4.jpg" id="anniversary"></img>{" "}
+        <img src="images/AnniversaryFlyer_4.jpg" id="anniversary"></img>{" "}
+        <Modal.Body></Modal.Body>
+        {/* <div class="modal-footer" data-bs-theme="dark">
+          {" "}
           <Button onClick={handleClose} variant="outline-danger" size="sm">
             <i class="gg-close"></i>
           </Button>
-        </Modal.Body>
+        </div> */}
       </Modal>
     </>
   );
