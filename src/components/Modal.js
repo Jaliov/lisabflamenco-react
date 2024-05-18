@@ -13,13 +13,11 @@ function Example() {
     <>
       <Modal show={show} onHide={handleClose} centered>
         <img src="images/AnniversaryFlyer_4.jpg" id="anniversary"></img>{" "}
-        <Modal.Body></Modal.Body>
-        {/* <div class="modal-footer" data-bs-theme="dark">
-          {" "}
-          <Button onClick={handleClose} variant="outline-danger" size="sm">
+        <Modal.Body>
+          {/* <Button onClick={handleClose} variant="outline-danger" size="sm">
             <i class="gg-close"></i>
-          </Button>
-        </div> */}
+          </Button> */}
+        </Modal.Body>
       </Modal>
     </>
   );
