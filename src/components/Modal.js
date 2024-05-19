@@ -14,9 +14,12 @@ function Example() {
       <Modal show={show} onHide={handleClose} centered id="anniversary">
         <img src="images/AnniversaryFlyer_4.jpg" id="anniversary"></img>{" "}
         <Modal.Body>
-          {/* <Button onClick={handleClose} variant="outline-danger" size="sm">
-            <i class="gg-close"></i>
-          </Button> */}
+          <i
+            class="gg-close-r"
+            variant="danger"
+            style={{ color: "red" }}
+            onClick={handleClose}
+          ></i>
         </Modal.Body>
       </Modal>
     </>
