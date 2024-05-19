@@ -211,6 +211,11 @@ img.rotateImg {
     margin-top: 10px;
   }
 }
+
+#anniversary {
+  animation-name: moveFromTop;
+  animation-duration: 8s;
+}
 /*.modal-body {
   background-image: url(./IMG_0473darker.jpg);
 }*/
@@ -232,7 +237,6 @@ img.rotateImg {
 
 .modal-body {
   background-image: url(./IMG_0473darker.jpg);
-  max-width: 100%;
 }
 
 /*.modal-body {

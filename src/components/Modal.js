@@ -11,7 +11,7 @@ function Example() {
 
   return (
     <>
-      <Modal show={show} onHide={handleClose} centered>
+      <Modal show={show} onHide={handleClose} centered id="anniversary">
         <img src="images/AnniversaryFlyer_4.jpg" id="anniversary"></img>{" "}
         <Modal.Body>
           {/* <Button onClick={handleClose} variant="outline-danger" size="sm">
