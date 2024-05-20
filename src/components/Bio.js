@@ -14,8 +14,8 @@ const Bio = () => {
           content="Lisa Botalico Biography, About Lisa Botalico"
         />
       </Helmet>
+      <h1 className="home">About</h1>
       <Container>
-        <h1 className="home">About</h1>
         <Row>
           <Col sm={8} className="text-light">
             <BioText />

@@ -22,25 +22,27 @@ const Home = () => {
 
       <Container>
         <Row>
-          <Col md={4}></Col>
-          <Col md={4}>
-            <div>
-              <p className="larger text-light opening">
-                <em>
-                  ...danced and sang with her head thrown back, her energy
-                  seemingly unquenchable. <br />
-                </em>
-                <small>(Star Ledger)</small>
-              </p>
-            </div>
-            <div className="fade-in-image">
+          {/* <Col md={4}></Col> */}
+          <div className="centered">
+            <Col md={6}>
               <div>
-                <Modal />
+                <p className="larger text-light opening">
+                  <em>
+                    ...danced and sang with her head thrown back, her energy
+                    seemingly unquenchable. <br />
+                  </em>
+                  <small>(Star Ledger)</small>
+                </p>
               </div>
-              <Homephoto cover={cover} />
-            </div>
-          </Col>
-          <Col md={4}></Col>
+              <div className="fade-in-image">
+                <div>
+                  <Modal />
+                </div>
+                <Homephoto cover={cover} />
+              </div>
+            </Col>
+          </div>
+          {/* <Col md={4}></Col> */}
         </Row>
       </Container>
     </>
