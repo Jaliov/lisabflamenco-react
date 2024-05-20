@@ -16,11 +16,11 @@ const Home = () => {
           content="Discover Lisa Botalico, acclaimed Flamenco dancer, dance and music of Spain"
         />
       </Helmet>
+      <h1 className="home">
+        <em>Lisa Botalico </em>
+      </h1>
 
       <Container>
-        <h1 className="home">
-          <em>Lisa Botalico </em>
-        </h1>
         <Row>
           <Col md={4}></Col>
           <Col md={4}>
