@@ -120,6 +120,7 @@ h4 {
   margin-left: 0px;
   margin-top: 0px;
   position: relative;
+  display: block;
 }
 
 Nav .container {
@@ -238,11 +239,9 @@ img.rotateImg {
 #anniversary {
   animation-name: moveFromTop;
   animation-duration: 8s;
-  background-color: #bb4e4e;
-}
-/*.modal-body {
   background-image: url(./IMG_0473darker.jpg);
-}*/
+}
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;

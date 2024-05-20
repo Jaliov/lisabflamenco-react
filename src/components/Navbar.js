@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
 
 const NavBar = () => {
   return (
     <>
       <Navbar variant="dark" expand="lg" className="navv">
-        <Navbar.Brand href="/" className="text-danger" id="navbarBrand">
+        {/* <Navbar.Brand href="/" className="text-danger" id="navbarBrand">
           <img
             alt="flamenco"
             src="favicon.ico"
@@ -14,8 +15,7 @@ const NavBar = () => {
             height="30"
             className="d-inline-block align-top"
           />{" "}
-          Lisa Botalico Flamenco!
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto container" style={{ marginLeft: "1rem" }}>
