@@ -238,6 +238,7 @@ img.rotateImg {
 #anniversary {
   animation-name: moveFromTop;
   animation-duration: 8s;
+  background-color: #bb4e4e;
 }
 /*.modal-body {
   background-image: url(./IMG_0473darker.jpg);
