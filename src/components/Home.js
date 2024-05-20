@@ -24,7 +24,7 @@ const Home = () => {
         <Row>
           {/* <Col md={4}></Col> */}
           <div className="centered">
-            <Col md={6}>
+            <Col md={5}>
               <div>
                 <p className="larger text-light opening">
                   <em>
