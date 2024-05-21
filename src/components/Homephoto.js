@@ -6,9 +6,9 @@ const Homephoto = ({ photo, cover }) => {
       src={cover}
       alt="cover"
       width="400px"
-      height="590vh"
+      height="600px"
       className="rounded mx-auto d-block"
-      style={{ backgroundSize: "auto" }}
+      style={{ backgroundSize: "400px" }}
     ></img>
   );
   return photo;
