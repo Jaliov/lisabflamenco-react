@@ -20,10 +20,10 @@ const Home = () => {
         <em>Lisa Botalico </em>
       </h1>
 
-      <Container>
+      <Container className="container-fluid">
         <Row>
           {/* <Col md={4}></Col> */}
-          <div className="centered container-fluid">
+          <div className="centered">
             <Col md={5}>
               <div>
                 <p className="larger text-light opening">
