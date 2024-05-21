@@ -28,7 +28,7 @@ const App = () => {
         />
       </Helmet>
       <Router>
-        <Navbar />
+        <Navbar style={{ margin: "0" }} />
         <Switch>
           <Route exact path="/">
             <Home />{" "}
