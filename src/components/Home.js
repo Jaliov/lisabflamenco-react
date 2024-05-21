@@ -23,7 +23,7 @@ const Home = () => {
       <Container>
         <Row>
           {/* <Col md={4}></Col> */}
-          <div className="centered">
+          <div className="centered container-fluid">
             <Col md={5}>
               <div>
                 <p className="larger text-light opening">
