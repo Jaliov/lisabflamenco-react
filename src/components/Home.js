@@ -36,12 +36,12 @@ const Home = () => {
                   <small>(Star Ledger)</small>
                 </p>
               </div>
-              <div className="fade-in-image">
+              <div className="fade-in-image centered">
                 <div>
                   <Modal />
                 </div>
-                <Homephoto cover={cover} />
               </div>
+              <Homephoto cover={cover} />
             </Col>
           </div>
           {/* <Col md={4}></Col> */}

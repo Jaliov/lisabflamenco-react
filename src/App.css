@@ -298,9 +298,12 @@ img.rotateImg {
     color: #bb4e4e;
     margin-top: 0px;
   }
-
   .navv {
     margin-bottom: 0;
+  }
+  .larger {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 
