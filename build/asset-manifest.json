@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad54bbf0.css",
+    "main.css": "/static/css/main.ecaae6c3.css",
     "main.js": "/static/js/main.ebfb5742.js",
     "static/js/787.aab77859.chunk.js": "/static/js/787.aab77859.chunk.js",
     "static/media/US1Article.pdf": "/static/media/US1Article.ba14e5a89a9cf3d4faf0.pdf",
@@ -13,12 +13,12 @@
     "static/media/IMG_0473darker.jpg": "/static/media/IMG_0473darker.d90ad1c5cad23e3bc021.jpg",
     "static/media/AnyConv.com__MATURASC_1.woff": "/static/media/AnyConv.com__MATURASC_1.3cfa2993b4da12a8d619.woff",
     "index.html": "/index.html",
-    "main.ad54bbf0.css.map": "/static/css/main.ad54bbf0.css.map",
+    "main.ecaae6c3.css.map": "/static/css/main.ecaae6c3.css.map",
     "main.ebfb5742.js.map": "/static/js/main.ebfb5742.js.map",
     "787.aab77859.chunk.js.map": "/static/js/787.aab77859.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad54bbf0.css",
+    "static/css/main.ecaae6c3.css",
     "static/js/main.ebfb5742.js"
   ]
 }

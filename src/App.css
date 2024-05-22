@@ -308,6 +308,13 @@ img.rotateImg {
   #noscroll::-webkit-scrollbar {
     display: none;
   }
+  #anniversary {
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50%;
+  }
 }
 
 @keyframes moveInRight_mod {
