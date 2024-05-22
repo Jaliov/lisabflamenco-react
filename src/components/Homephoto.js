@@ -8,7 +8,8 @@ const Homephoto = ({ photo, cover }) => {
       width="400px"
       height="600px"
       className="rounded mx-auto d-block"
-      style={{ backgroundSize: "400px" }}
+      style={{ backgroundSize: "400px, 600px" }}
+      centered
     ></img>
   );
   return photo;

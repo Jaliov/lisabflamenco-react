@@ -28,7 +28,7 @@ const App = () => {
         />
       </Helmet>
       <Router>
-        <Navbar style={{ margin: "0" }} />
+        <Navbar />
         <Switch>
           <Route exact path="/">
             <Home />{" "}
@@ -61,6 +61,7 @@ const App = () => {
             <Events />
           </Route>
         </Switch>
+        {/* </Navbar> */}
       </Router>
     </>
   );

@@ -24,26 +24,24 @@ const Home = () => {
 
       <Container className="container-fluid" id="noscroll">
         <Row>
-          {/* <div className="centered"> */}
-          <Col></Col>
-          <Col>
-            <div>
-              <p className="larger text-light opening">
-                <em>
-                  ...danced and sang with her head thrown back, her energy
-                  seemingly unquenchable. <br />
-                </em>
-                <small>(Star Ledger)</small>
-              </p>
-            </div>
-            <div className="fade-in-image centered">
+          <div className="centered">
+            <Col md={4}>
               <div>
-                <Modal />
+                <p className="larger text-light opening">
+                  <em>
+                    ...danced and sang with her head thrown back, her energy
+                    seemingly unquenchable. <br />
+                  </em>
+                  <small>(Star Ledger)</small>
+                </p>
               </div>
-            </div>
-            <Homephoto cover={cover} />
-          </Col>
-          <Col></Col>
+              <div className="fade-in-image centered">
+                <Modal />
+
+                <Homephoto cover={cover} />
+              </div>
+            </Col>
+          </div>
         </Row>
       </Container>
     </>
