@@ -24,27 +24,26 @@ const Home = () => {
           </h1>
         </div>
         <Row>
-          {/* <Col md={4}></Col> */}
-          <div className="centered">
-            <Col md={5}>
+          {/* <div className="centered"> */}
+          <Col></Col>
+          <Col>
+            <div>
+              <p className="larger text-light opening">
+                <em>
+                  ...danced and sang with her head thrown back, her energy
+                  seemingly unquenchable. <br />
+                </em>
+                <small>(Star Ledger)</small>
+              </p>
+            </div>
+            <div className="fade-in-image centered">
               <div>
-                <p className="larger text-light opening">
-                  <em>
-                    ...danced and sang with her head thrown back, her energy
-                    seemingly unquenchable. <br />
-                  </em>
-                  <small>(Star Ledger)</small>
-                </p>
+                <Modal />
               </div>
-              <div className="fade-in-image centered">
-                <div>
-                  <Modal />
-                </div>
-              </div>
-              <Homephoto cover={cover} />
-            </Col>
-          </div>
-          {/* <Col md={4}></Col> */}
+            </div>
+            <Homephoto cover={cover} />
+          </Col>
+          <Col></Col>
         </Row>
       </Container>
     </>
