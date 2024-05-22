@@ -85,8 +85,8 @@ h1 {
 }
 
 .home {
-  /*margin-top: 0px;
-  padding-bottom: 0px;
+  margin-top: 0px;
+  /*padding-bottom: 0px;
   text-align: center;*/
   animation-name: moveInLeft;
   animation-duration: 5s;
@@ -241,11 +241,11 @@ img.rotateImg {
   margin-top: 0px;
 }
 
-@media screen and (max-width: 956px) {
+/*@media screen and (max-width: 956px) {
   .home {
     margin-top: 10px;
   }
-}
+}*/
 
 #anniversary {
   animation-name: moveFromTop;
