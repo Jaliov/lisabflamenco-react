@@ -85,9 +85,9 @@ h1 {
 }
 
 .home {
-  margin-top: 0px;
+  /*margin-top: 0px;
   padding-bottom: 0px;
-  text-align: center;
+  text-align: center;*/
   animation-name: moveInLeft;
   animation-duration: 5s;
 }
@@ -304,6 +304,9 @@ img.rotateImg {
   .larger {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+  #noscroll::-webkit-scrollbar {
+    display: none;
   }
 }
 

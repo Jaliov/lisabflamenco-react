@@ -17,7 +17,7 @@ const Home = () => {
         />
       </Helmet>
 
-      <Container className="container-fluid">
+      <Container className="container-fluid" id="noscroll">
         <div className="home">
           <h1>
             <em>Lisa Botalico </em>
