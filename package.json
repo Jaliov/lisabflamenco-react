@@ -13,7 +13,6 @@
     "bootstrap": "^5.0.0",
     "heroku-ssl-redirect": "^0.1.1",
     "node-pre-gyp": "^0.17.0",
-    "nodemon": "^3.1.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
@@ -34,7 +33,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
@@ -62,6 +61,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "nodemon": "^3.1.1",
     "process": "^0.11.10",
     "react-hot-loader": "^4.13.1"
   }

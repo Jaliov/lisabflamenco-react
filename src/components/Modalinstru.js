@@ -17,7 +17,7 @@ function Example() {
   // };
   return (
     <>
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} id="modal">
         <Modal.Body>
           <h4>
             Celebrating 25 years of Teaching at<br></br> The Arts Council of

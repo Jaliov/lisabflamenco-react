@@ -9,7 +9,7 @@ const lisaImages = [
     id: 1,
     link: "images/Classic Yellow Lisa.jpg",
     thumbnail: "images/Lisa classic yellow fan.gif",
-    title: "",
+    title: "Classic Image of Lisa",
   },
 
   {

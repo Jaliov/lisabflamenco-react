@@ -258,6 +258,10 @@ img.rotateImg {
   animation-name: moveFromTop;
   animation-duration: 8s;
 }
+
+#modal {
+  box-shadow: 5px 10px #7f1414;
+}
 /*.modal-body {
   background-image: url(./IMG_0473darker.jpg);
 }*/
