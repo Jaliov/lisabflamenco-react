@@ -20,7 +20,7 @@ const Home = () => {
         <Container className="container-fluid" id="noscroll">
           <Row>
             <Col></Col>
-            <Col md={5}>
+            <Col md={4}>
               <div>
                 <h1>
                   <em>Lisa Botalico </em>

@@ -19,6 +19,10 @@
   justify-content: center;
 }
 
+.hamburger {
+  margin-left: 3rem;
+}
+
 .gg-close-r {
   box-sizing: border-box;
   position: relative;
@@ -136,8 +140,8 @@ h4 {
 }
 
 Nav .container {
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end; */
   margin-right: 0;
   padding-right: 0;
   animation: moveInButton 0.75s ease-out 0.75s;
@@ -300,7 +304,6 @@ img.rotateImg {
     margin-top: 0px;
   }
   .navv {
-    margin-bottom: 0;
     margin-right: 0;
   }
   .larger {

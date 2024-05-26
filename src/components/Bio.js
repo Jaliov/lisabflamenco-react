@@ -14,26 +14,24 @@ const Bio = () => {
           content="Lisa Botalico Biography, About Lisa Botalico"
         />
       </Helmet>
-      <h1 className="home">About</h1>
-      <Container>
-        <Row>
-          <Col sm={8} className="text-light">
-            <BioText />
-          </Col>
-          <Col
-            xs={4}
-            style={{ backgroundColor: "rgb(216, 79, 79, 0.3)" }}
-            className="fade-in-image"
-          >
-            <img
-              className="fade-in-image"
-              src={cubanLunge}
-              style={{ width: "400", height: "600" }}
-              alt="Lisa Cuban"
-            />
-          </Col>
-        </Row>
-      </Container>
+      <div>
+        <Container className="container-fluid">
+          <Row>
+            <Col md={8} className="text-light">
+              <h1 className="home">About</h1>
+              <BioText />
+            </Col>
+            <Col md={4} style={{ backgroundColor: "rgb(216, 79, 79, 0.3)" }}>
+              <img
+                className="fade-in-image"
+                src={cubanLunge}
+                style={{ width: "400", height: "600" }}
+                alt="Lisa Cuban"
+              />
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 };
