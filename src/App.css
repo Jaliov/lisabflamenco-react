@@ -244,6 +244,8 @@ img.rotateImg {
 .bio {
   animation-name: moveFromTop;
   animation-duration: 5s;
+  padding-right: 0;
+  margin-right: 0;
 }
 
 /*@media screen and (max-width: 956px) {

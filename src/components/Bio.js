@@ -21,11 +21,11 @@ const Bio = () => {
               <h1 className="home">About</h1>
               <BioText />
             </Col>
-            <Col md={4} style={{ backgroundColor: "rgb(216, 79, 79, 0.3)" }}>
+            <Col md={4}>
               <img
-                className="fade-in-image"
+                className="fade-in-image w-200 h-400"
                 src={cubanLunge}
-                style={{ width: "400", height: "600" }}
+                style={{ paddingLeft: "0" }}
                 alt="Lisa Cuban"
               />
             </Col>
