@@ -4,7 +4,6 @@ import { Container, Row, Card, Col } from "react-bootstrap";
 import LisaChildren from "../assets/lisakiddiesedit.jpg";
 import LisaStudents from "../assets/lisaWithStudents.jpg";
 import Modal from "./Modalinstru";
-
 //import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
 const Classes = () => {
   return (
@@ -69,11 +68,11 @@ const Classes = () => {
                   post-lockdown, June, 2021
                 </Card.Title>
               </Card.Body>
-              <Card.Img
-                variant="bottom"
-                src={LisaStudents}
+
+              <Card.Img>
+                variant="bottom" src={LisaStudents}
                 style={{ marginBottom: "20px" }}
-              />
+              </Card.Img>
             </Card>
           </Col>
           <Col></Col>
