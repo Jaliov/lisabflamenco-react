@@ -4,6 +4,7 @@ import { Container, Row, Card, Col } from "react-bootstrap";
 import LisaChildren from "../assets/lisakiddiesedit.jpg";
 import LisaStudents from "../assets/lisaWithStudents.jpg";
 import Modal from "./Modalinstru";
+
 //import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
 const Classes = () => {
   return (
@@ -23,13 +24,13 @@ const Classes = () => {
         <Row>
           <Col></Col>
           <Col xs={8}>
-            <Card className="bg-transparent">
+            <Card className="bg-transparent classMedia">
               <Card.Img
                 variant="top"
                 src={LisaChildren}
                 className="fade-in-image"
               />
-              <Card.Body bg="transparent">
+              <Card.Body className="bg-transparent">
                 <Card.Title className="text-light larger">
                   {" "}
                   Lisa teaches classes for adults and children of all ages and
@@ -60,7 +61,7 @@ const Classes = () => {
         <Row>
           <Col></Col>
           <Col xs={8}>
-            <Card bg="transparent">
+            <Card bg="transparent classMedia">
               <Card.Body>
                 <Card.Title className="text-light larger">
                   {" "}
@@ -68,11 +69,13 @@ const Classes = () => {
                   post-lockdown, June, 2021
                 </Card.Title>
               </Card.Body>
-
-              <Card.Img>
-                variant="bottom" src={LisaStudents}
-                style={{ marginBottom: "20px" }}
-              </Card.Img>
+              <Card.Img
+                id="lisaStudents"
+                variant="bottom"
+                a
+                src={LisaStudents}
+                style={{ marginBottom: "20px", marginTop: "-10px" }}
+              />
             </Card>
           </Col>
           <Col></Col>
@@ -80,7 +83,7 @@ const Classes = () => {
         <Row>
           <Col></Col>
           <Col xs={8}>
-            <Card bg="transparent">
+            <Card bg="transparent classMedia">
               <Card.Body>
                 <Card.Title className="text-light larger">
                   Below:{" "}
