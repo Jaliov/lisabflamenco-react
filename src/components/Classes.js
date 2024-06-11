@@ -3,8 +3,21 @@ import { Helmet } from "react-helmet";
 import { Container, Row, Card, Col } from "react-bootstrap";
 import LisaChildren from "../assets/lisakiddiesedit.jpg";
 import LisaStudents from "../assets/lisaWithStudents.jpg";
+import Iframe from "react-iframe";
 import Modal from "./Modalinstru";
+import PhotoDisplay from "./PhotoDisplay";
+import { SRLWrapper } from "simple-react-lightbox";
+import SimpleReactLightbox from "simple-react-lightbox";
 
+const classImg = [
+  {
+    id: 101,
+    link: "images/lisaWithStudents.jpg",
+    thumbnail: "images/lisaWithStudents.gif",
+    title:
+      "Lisa with students after the first in-person student showcase, post-lockdown, June, 2021",
+  },
+];
 //import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
 const Classes = () => {
   return (
@@ -21,6 +34,7 @@ const Classes = () => {
           <Modal />
         </div>
         <h1 className="bio">Classes</h1>
+
         <Row>
           <Col></Col>
           <Col xs={8}>
@@ -68,14 +82,13 @@ const Classes = () => {
                   Lisa with students after the first in-person student showcase,
                   post-lockdown, June, 2021
                 </Card.Title>
-              </Card.Body>
-              <Card.Img
-                id="lisaStudents"
-                variant="bottom"
-                a
-                src={LisaStudents}
-                style={{ marginBottom: "20px", marginTop: "-10px" }}
-              />
+                <Card.Img src={LisaStudents}></Card.Img>
+                <SimpleReactLightbox>
+                  <SRLWrapper>
+                    <PhotoDisplay classImg={classImg} />
+                  </SRLWrapper>
+                </SimpleReactLightbox>
+              </Card.Body>{" "}
             </Card>
           </Col>
           <Col></Col>
@@ -90,9 +103,9 @@ const Classes = () => {
                   <em className="alertyellow larger">
                     Fiesta del Día de Los Reyes Magos
                   </em>
-                  , or Three Kings Day, is celebrated throughout the world to
-                  mark the culmination of the 12 days of Christmas. On Saturday,
-                  Jan 6, 2024, a dance performance by{" "}
+                  or Three Kings Day, is celebrated throughout the world to mark
+                  the culmination of the 12 days of Christmas. On Saturday, Jan
+                  6, 2024, a dance performance by{" "}
                   <span className="alertyellow">students</span> in the Arts
                   Council of Princeton’s Flamenco program, led by Lisa Botalico,
                   center, featured multiple dances as attendees learned about

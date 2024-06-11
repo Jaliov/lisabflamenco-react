@@ -4,7 +4,6 @@ import Homephoto from "./Homephoto";
 import cover from "../assets/ShawlintheAirfade.png";
 import { Container, Row, Col } from "react-bootstrap";
 //import Modal from "react-bootstrap/Modal";
-import Modal from "./Modal";
 
 const Home = () => {
   return (
@@ -37,8 +36,6 @@ const Home = () => {
                 </p>
               </div>
               <div className="fade-in-image centered">
-                <Modal />
-
                 <Homephoto cover={cover} id="cover" />
               </div>
             </Col>

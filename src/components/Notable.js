@@ -4,6 +4,7 @@ import { Container, Row, Card, Col } from "react-bootstrap";
 import PhotoDisplay from "./PhotoDisplay";
 import { SRLWrapper } from "simple-react-lightbox";
 import SimpleReactLightbox from "simple-react-lightbox";
+import Modal from "./Modal";
 
 const nyImages = [
   {
@@ -74,6 +75,7 @@ const Notable = () => {
       </Helmet>
       <div>
         <Container>
+          <Modal />
           <Row>
             <Col></Col>
             <Col xs={10}>
