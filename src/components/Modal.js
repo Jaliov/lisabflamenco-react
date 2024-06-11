@@ -9,7 +9,11 @@ function Example() {
   return (
     <>
       <Modal show={show} onHide={handleClose} centered id="anniversary">
-        <img src="images/AnniversaryFlyer_4.jpg" alt="Anniversary Flyer"></img>{" "}
+        <Modal.Title>2024</Modal.Title>
+        <img
+          src="images/AnniversaryFlyer_4.jpg"
+          alt="Anniversary Flyer"
+        ></img>{" "}
         <Modal.Body>
           <i
             class="gg-close-r"

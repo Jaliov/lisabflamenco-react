@@ -286,8 +286,13 @@ img.rotateImg {
   }
 }
 
-.modal-body {
+.modal-body,
+.modal-title {
   background-image: url(./IMG_0473darker.jpg);
+}
+.modal-title {
+  color: white;
+  text-align: center;
 }
 
 /*.modal-body {
