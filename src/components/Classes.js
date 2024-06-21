@@ -3,21 +3,9 @@ import { Helmet } from "react-helmet";
 import { Container, Row, Card, Col } from "react-bootstrap";
 import LisaChildren from "../assets/lisakiddiesedit.jpg";
 import LisaStudents from "../assets/lisaWithStudents.jpg";
-import Iframe from "react-iframe";
+//import Iframe from "react-iframe";
 import Modal from "./Modalinstru";
-import PhotoDisplay from "./PhotoDisplay";
-import { SRLWrapper } from "simple-react-lightbox";
-import SimpleReactLightbox from "simple-react-lightbox";
 
-const classImg = [
-  {
-    id: 101,
-    link: "images/lisaWithStudents.jpg",
-    thumbnail: "images/lisaWithStudents.gif",
-    title:
-      "Lisa with students after the first in-person student showcase, post-lockdown, June, 2021",
-  },
-];
 //import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
 const Classes = () => {
   return (
@@ -83,11 +71,6 @@ const Classes = () => {
                   post-lockdown, June, 2021
                 </Card.Title>
                 <Card.Img src={LisaStudents}></Card.Img>
-                <SimpleReactLightbox>
-                  <SRLWrapper>
-                    <PhotoDisplay classImg={classImg} />
-                  </SRLWrapper>
-                </SimpleReactLightbox>
               </Card.Body>{" "}
             </Card>
           </Col>
