@@ -21,13 +21,13 @@ const Home = () => {
             <Col></Col>
             <Col md={4}>
               <div>
-                <h1>
+                <h1 className="home">
                   <em>Lisa Botalico </em>
                 </h1>
               </div>
 
               <div>
-                <p className="larger text-light opening">
+                <p className="larger text-light opening" id="spin">
                   <em>
                     ...danced and sang with her head thrown back, her energy
                     seemingly unquenchable. <br />

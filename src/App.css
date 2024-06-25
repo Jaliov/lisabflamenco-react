@@ -99,10 +99,10 @@ h1 {
 }
 
 .home {
-  margin-top: 0px;
+  margin-top: 1rem;
   /*padding-bottom: 0px;
   text-align: center;*/
-  animation-name: moveInLeft;
+  animation-name: moveInRight;
   animation-duration: 5s;
 }
 
@@ -238,6 +238,11 @@ a:active {
 
 img {
   color: red;
+}
+
+#spin {
+  animation-name: moveInLeft;
+  animation-duration: 5s;
 }
 
 img.rotateImg {
@@ -400,7 +405,7 @@ img.rotateImg {
 }
 
 .fade-in-image {
-  animation: fadeIn 8s;
+  animation: fadeIn 10s;
 }
 @keyframes fadeIn {
   0% {
@@ -414,8 +419,9 @@ img.rotateImg {
 
 .text-light .video-animate {
   animation-name: moveInLeft;
-  animation-duration: 5s;
+  animation-duration: 10s;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 10s;
 }
 
 p.lineStyle {
