@@ -319,12 +319,16 @@ img.rotateImg {
   padding: 0;
 }*/
 
+.events {
+  width: 75%;
+}
+
 .modal-open {
   overflow: auto;
   padding-right: 0 !important;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   h1 em {
     margin-top: 0px;
   }
@@ -345,6 +349,13 @@ img.rotateImg {
   }
   .container-fluid {
     margin-right: 0;
+  }
+  .events {
+    width: 75%;
+  }
+  #alert {
+    margin-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
