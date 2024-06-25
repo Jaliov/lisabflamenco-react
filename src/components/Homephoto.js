@@ -9,7 +9,7 @@ const Homephoto = ({ photo, cover }) => {
       height="600px"
       className="rounded mx-auto d-block"
       style={{ backgroundSize: "400px, 600px" }}
-      centered
+      centered="true"
     ></img>
   );
   return photo;

@@ -10,7 +10,12 @@ function Example() {
 
   return (
     <>
-      <Modal show={show} onHide={handleClose} id="modal">
+      <Modal
+        show={show}
+        onHide={handleClose}
+        id="modal"
+        style={{ borderRadius: "0.3" }}
+      >
         <Modal.Body>
           <h4>
             Celebrating 25 years of Teaching at<br></br> The Arts Council of
