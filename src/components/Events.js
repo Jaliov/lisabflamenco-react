@@ -23,18 +23,18 @@ const Events = () => {
             For Information about Performances & Classes:{" "}
             <Alert.Link href="mailto:lisasolea@aol.com"> email</Alert.Link>
           </Alert>
-          l
+
           <Card className="bg-transparent text-light">
             <Card.Body>
-              <Card.Title className="text-light  events">
+              <Card.Title className="text-light home">
                 Upcoming Events{" "}
               </Card.Title>
               <AddEvent />
             </Card.Body>
           </Card>
-          <Card className="bg-transparent text-light">
+          <Card className="bg-transparent text-light home">
             <Card.Body>
-              <Card.Title>Important Links</Card.Title>
+              <Card.Title className="home">Important Links</Card.Title>
 
               <UsefulLinks />
               {/* <p>
@@ -59,7 +59,7 @@ const Events = () => {
           </Card>
           <br />
           {/* Start of SimpleHitCounter Code */}
-          <div align="left">
+          <div align="left" className="home">
             <a href="https://www.free-website-hit-counter.com">
               <img
                 src="https://www.free-website-hit-counter.com/c.php?d=9&id=148080&s=288"

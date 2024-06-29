@@ -24,11 +24,11 @@ const NavBar = () => {
             <Nav.Link href="/choreography">
               Choreography / Collaborations
             </Nav.Link>
-            <Nav.Link href="/notable">Past Events</Nav.Link>
+            <Nav.Link href="/notable">Notable Events</Nav.Link>
             <Nav.Link href="/videogallery">Videos</Nav.Link>
             <Nav.Link href="/press">Press</Nav.Link>
             <Nav.Link href="/classes">Classes</Nav.Link>
-            <Nav.Link href="/events">Upcoming</Nav.Link>
+            <Nav.Link href="/events">Events</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Homephoto from "./Homephoto";
 import cover from "../assets/ShawlintheAirfade.png";
 import { Container, Row, Col } from "react-bootstrap";
@@ -8,12 +8,16 @@ import { Container, Row, Col } from "react-bootstrap";
 const Home = () => {
   return (
     <div>
-      <Helmet>
-        <meta
-          name="description"
-          content="Discover Lisa Botalico, acclaimed Flamenco dancer, dance and music of Spain"
-        />
-      </Helmet>
+      <HelmetProvider>
+        <div>
+          <Helmet>
+            <meta
+              name="description"
+              content="Discover Lisa Botalico, acclaimed Flamenco dancer, dance and music of Spain"
+            />
+          </Helmet>
+        </div>
+      </HelmetProvider>
 
       <div>
         <Container className="container-fluid" id="noscroll">

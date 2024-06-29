@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: bord;
+  box-sizing: border-box;
 }
 
 #cover {
@@ -63,6 +63,14 @@ body {
   background-color: 882021;
   border-width: 100%;
   margin: 0px;
+  padding: 0;
+  transition: 0.5s;
+  filter: brightness(0.3);
+}
+
+body:hover {
+  filter: brightness(1);
+  transform: translateZ(300px);
 }
 
 .press {
@@ -236,10 +244,6 @@ a:active {
   margin-bottom: -10px;
 }
 
-img {
-  color: red;
-}
-
 #spin {
   animation-name: moveInLeft;
   animation-duration: 5s;
@@ -250,12 +254,28 @@ img.rotateImg {
   animation-duration: 5s;
 }
 
+img {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  color: red;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+img.item {
+  transition: 0.5s;
+  filter: brightness(0.8);
+}
+img.item:hover {
+  filter: brightness(1);
+  transform: translateZ(300px);
+}
+
 .bio em {
   font-weight: bold;
   font-size: 120%;
 }
 
-.bio {
+.bio .events {
   animation-name: moveFromTop;
   animation-duration: 5s;
   padding-right: 0;

@@ -16,7 +16,7 @@ const PhotoDisplay = ({ lisaImages, nyImages, videoImages, classImg }) => {
                     width={150}
                     height={175}
                     alt={image.title}
-                    class="rotateImg"
+                    class="rotateImg item"
                   />
                 </Link>
               ))
@@ -37,10 +37,10 @@ const PhotoDisplay = ({ lisaImages, nyImages, videoImages, classImg }) => {
                 <Link to={image.link} key={image.id}>
                   <img
                     src={image.thumbnail}
-                    width={200}
+                    width={150}
                     height={100}
                     alt={image.title}
-                    class="rotateImg"
+                    class="rotateImg item"
                   />
                 </Link>
               ))
