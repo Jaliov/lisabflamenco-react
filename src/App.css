@@ -65,7 +65,7 @@ body {
   margin: 0px;
   padding: 0;
   transition: 0.5s;
-  filter: brightness(0.3);
+  filter: brightness(1);
 }
 
 body:hover {
@@ -263,7 +263,7 @@ img {
 }
 img.item {
   transition: 0.5s;
-  filter: brightness(0.8);
+  filter: brightness(1);
 }
 img.item:hover {
   filter: brightness(1);
