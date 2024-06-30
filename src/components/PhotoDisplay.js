@@ -16,7 +16,7 @@ const PhotoDisplay = ({ lisaImages, nyImages, videoImages, classImg }) => {
                     width={150}
                     height={175}
                     alt={image.title}
-                    class="rotateImg item"
+                    className="rotateImg item"
                   />
                 </Link>
               ))
@@ -28,7 +28,7 @@ const PhotoDisplay = ({ lisaImages, nyImages, videoImages, classImg }) => {
                     width={600}
                     height={400}
                     alt={image.title}
-                    class="rotateImg"
+                    className="rotateImg item"
                   />
                 </Link>
               ))
@@ -40,7 +40,7 @@ const PhotoDisplay = ({ lisaImages, nyImages, videoImages, classImg }) => {
                     width={150}
                     height={100}
                     alt={image.title}
-                    class="rotateImg item"
+                    className="rotateImg item"
                   />
                 </Link>
               ))

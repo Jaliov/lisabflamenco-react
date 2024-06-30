@@ -131,10 +131,10 @@ const Gallery = () => {
           content="Lisa Botalico Flamenco Photo Gallery"
         />
       </Helmet>
-      <h1 class="bio">Gallery</h1>
+      <h1 className="bio">Gallery</h1>
       <Container>
         <SRLWrapper>
-          <PhotoDisplay lisaImages={lisaImages} class="bio" />
+          <PhotoDisplay lisaImages={lisaImages} className="bio" />
         </SRLWrapper>
       </Container>
     </>

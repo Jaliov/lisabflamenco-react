@@ -18,17 +18,33 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto container hamburger">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/bio">About</Nav.Link>
-            <Nav.Link href="/gallery">Gallery</Nav.Link>
-            <Nav.Link href="/choreography">
+            <Nav.Link href="/" className="btnTransform">
+              Home
+            </Nav.Link>
+            <Nav.Link href="/bio" className="btnTransform">
+              About
+            </Nav.Link>
+            <Nav.Link href="/gallery" className="btnTransform">
+              Gallery
+            </Nav.Link>
+            <Nav.Link href="/choreography" className="btnTransform">
               Choreography / Collaborations
             </Nav.Link>
-            <Nav.Link href="/notable">Notable Events</Nav.Link>
-            <Nav.Link href="/videogallery">Videos</Nav.Link>
-            <Nav.Link href="/press">Press</Nav.Link>
-            <Nav.Link href="/classes">Classes</Nav.Link>
-            <Nav.Link href="/events">Events</Nav.Link>
+            <Nav.Link href="/notable" className="btnTransform">
+              Notable Events
+            </Nav.Link>
+            <Nav.Link href="/videogallery" className="btnTransform">
+              Videos
+            </Nav.Link>
+            <Nav.Link href="/press" className="btnTransform">
+              Press
+            </Nav.Link>
+            <Nav.Link href="/classes" className="btnTransform">
+              Classes
+            </Nav.Link>
+            <Nav.Link href="/events" className="btnTransform">
+              Events
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
