@@ -37,7 +37,11 @@ const AddEvent = () => {
               {" "}
               {event.date}:{" "}
             </span>
-            <Card.Link href={event.link} target="blank">
+            <Card.Link
+              href={event.link}
+              target="blank"
+              style={{ color: "white" }}
+            >
               {event.text} <br></br>
             </Card.Link>
 

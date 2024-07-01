@@ -36,7 +36,7 @@ const Events = () => {
             <Card.Body>
               <Card.Title className="home">Important Links</Card.Title>
 
-              <UsefulLinks />
+              <UsefulLinks></UsefulLinks>
               {/* <p>
                   <em style={{ color: '#FFFFCC' }}>
                     Lisa teaches students at Rutgers University, Feb, 2015.

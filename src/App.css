@@ -103,6 +103,7 @@ h1 {
   font-style: italic;
   margin-top: 30px;
   padding-bottom: 0px;
+  margin-bottom: 0.75rem;
   color: #ffff66;
 }
 
@@ -112,6 +113,7 @@ h1 {
   text-align: center;*/
   animation-name: moveInRight;
   animation-duration: 5s;
+  color: white;
 }
 
 .opening {
@@ -125,6 +127,7 @@ h1 {
 h1 em {
   font-size: 3.2rem;
   padding-bottom: 0.1rem;
+
   color: #ffff66;
   text-align: left;
   animation-name: moveInLeft;
@@ -269,31 +272,6 @@ img.item:hover {
   filter: brightness(1);
   transform: translateZ(200px);
 }
-/*
-img.item + * {
-  filter: brightness(0.6);
-  transform-style: preserve-3d;
-  transform: translateZ(150px) rotateY(40deg);
-}
-
-img.item:hover + * + * {
-  filter: brightness(0.4);
-  transform: translateZ(70px) rotateY(20deg);
-}
-
-img.item:hover + * + * + * {
-  filter: brightness(0.2);
-  transform: translateZ(30px) rotateY(10deg);
-}
-img.item:has(+ *:hover) {
-  filter: brightness(0.6);
-  transform: translateZ(150px) rotateY(-40deg);
-}
-
-img.item:has(+ * + *:hover) {
-  filter: brightness(0.6);
-  transform: translateZ(70px) rotateY(-20deg);
-}*/
 
 .bio em {
   font-weight: bold;
@@ -350,20 +328,6 @@ img.item:has(+ * + *:hover) {
   text-align: center;
 }
 
-/*.modal-body {
-  overflow: hidden !important;
-  background-color: red;
-
-  object-fit: fill;
-  width: 486px;
-  height: 646px;
-  display: flex;
-  flex-wrap: wrap;
-  padding-right: 0px !important;
-  margin: 0;
-  padding: 0;
-}*/
-
 .events {
   width: 75%;
 }
@@ -402,6 +366,10 @@ img.item:has(+ * + *:hover) {
     margin-left: 1rem;
     padding-right: 1rem;
   }
+  /* .classMedia {
+    width: 25dvh;
+    height: auto;
+  } */
 }
 
 @keyframes moveInRight_mod {
