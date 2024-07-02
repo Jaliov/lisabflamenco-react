@@ -14,7 +14,7 @@ export default function UsefulLinks() {
         <Card.Link
           href="http://www.towntopics.com/wordpress/2015/10/14/ole-flamenco-flourishes-in-princeton-as-lisa-botalico-leads-eager-spanish-dancers"
           target="blank"
-          className="text-white"
+          className="text-light"
         >
           <em>
             “Ole!” Flamenco Flourishes in Princeton As Lisa Botalico Leads Eager

@@ -19,6 +19,7 @@ const Reviews = () => {
                 href="https://www.towntopics.com/wordpress/2024/01/03/three-kings-dance-celebration-features-lisa-botalicos-students/#more-73487"
                 alt="towntopics"
                 target="blank"
+                className="press"
               >
                 {" "}
                 Three Kings Dance Celebration Features Lisa Botalico’s Students
@@ -32,7 +33,12 @@ const Reviews = () => {
           <Carousel.Caption>
             <h3>US1</h3>
             <p className="larger">
-              <Link to={US1Article} alt="US1 article" target="blank">
+              <Link
+                to={US1Article}
+                alt="US1 article"
+                target="blank"
+                className="press"
+              >
                 {" "}
                 US1 Interview
               </Link>
@@ -51,6 +57,7 @@ const Reviews = () => {
                 href="http://www.towntopics.com/wordpress/2015/10/14/ole-flamenco-flourishes-in-princeton-as-lisa-botalico-leads-eager-spanish-dancers/"
                 alt="towntopics"
                 target="blank"
+                className="press"
               >
                 {" "}
                 “Ole!” Flamenco Flourishes, in Princeton As Lisa Botalico Leads
@@ -65,7 +72,12 @@ const Reviews = () => {
           <Carousel.Caption>
             <h3>US1</h3>
             <p className="larger">
-              <Link to={US1Article} alt="US1 article" target="blank">
+              <Link
+                to={US1Article}
+                alt="US1 article"
+                target="blank"
+                className="press"
+              >
                 {" "}
                 US1 Interview
               </Link>
@@ -142,6 +154,7 @@ const Reviews = () => {
                 href="http://www.towntopics.com/wordpress/2015/10/14/ole-flamenco-flourishes-in-princeton-as-lisa-botalico-leads-eager-spanish-dancers/"
                 alt="towntopics"
                 target="blank"
+                className="press"
               >
                 {" "}
                 “Ole!” Flamenco Flourishes, in Princeton As Lisa Botalico Leads
@@ -156,7 +169,12 @@ const Reviews = () => {
           <Carousel.Caption>
             <h3>US1</h3>
             <p className="larger">
-              <Link to={US1Article} alt="US1 article" target="blank">
+              <Link
+                to={US1Article}
+                alt="US1 article"
+                target="blank"
+                className="press"
+              >
                 {" "}
                 US1 Interview
               </Link>

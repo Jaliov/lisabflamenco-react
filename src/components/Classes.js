@@ -44,16 +44,25 @@ const Classes = () => {
                   Contact:
                   <br />
                   <Card.Link
+                    className="text-light"
                     href="http://www.artscouncilofprinceton.org/"
                     target="blank"
                   >
                     Arts Council of Princeton
                   </Card.Link>
                   <br />
-                  <Card.Link href="mailto:lisasolea@aol.com">Email</Card.Link>
+                  <Card.Link
+                    href="mailto:lisasolea@aol.com"
+                    className="text-light"
+                  >
+                    Email
+                  </Card.Link>
                   <br />
                   See videos of Lisa teaching on the{" "}
-                  <Card.Link href="/videogallery">Videos </Card.Link>page
+                  <Card.Link href="/videogallery" className="text-light">
+                    Videos{" "}
+                  </Card.Link>
+                  page
                 </Card.Text>
               </Card.Body>
             </Card>

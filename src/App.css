@@ -204,6 +204,15 @@ a {
   transition: color 3s;
 }
 
+a:hover {
+  color: #ffff66;
+}
+.press {
+  color: whitesmoke;
+}
+.press:hover {
+  color: #ffff66;
+}
 .btnTransform:link,
 .btnTransform:visited {
   color: rgb(240, 173, 78);

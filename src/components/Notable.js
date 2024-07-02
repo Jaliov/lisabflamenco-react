@@ -93,7 +93,10 @@ const Notable = () => {
                     <Card.Text className="text-light larger">
                       <em>
                         Our{" "}
-                        <a href="http://artscouncilofprinceton.org/artists/anne-reeves-air/current-artist-in-residence/">
+                        <a
+                          href="http://artscouncilofprinceton.org/artists/anne-reeves-air/current-artist-in-residence/"
+                          className="press"
+                        >
                           fall Artist-in-Residence
                         </a>
                         , critically acclaimed Flamenco dancer and ACP
