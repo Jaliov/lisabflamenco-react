@@ -6,7 +6,7 @@ import bckgrnd from "../assets/blackwhitepolkaadotglow.png";
 import { Container, Row, Col } from "react-bootstrap";
 // import SimpleReactLightbox from "simple-react-lightbox";
 import Homephoto from "./Homephoto";
-import { lisaGalleryImages } from "./lisaImages";
+// import { lisaGalleryImages } from "./lisaImages";
 import Litebox from "../LIghtbox2.js";
 
 const Gallery = () => {
@@ -28,7 +28,7 @@ const Gallery = () => {
                 <h1 className="home">
                   <em>Gallery </em>
                 </h1>
-                <Litebox slides={lisaGalleryImages} />
+                <Litebox />
               </div>
 
               <div></div>
