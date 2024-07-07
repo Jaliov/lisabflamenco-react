@@ -1,6 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import Classes from "./components/Classes";
+
+import VideoGallery from "./components/VideoGallery";
+import "./App.min.css";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import Gallery from "./components/Gallery";
 import Notable from "./components/Notable";
@@ -9,10 +14,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Press from "./components/Press";
 import Bio from "./components/Bio";
-import Classes from "./components/Classes";
 import Events from "./components/Events";
-import VideoGallery from "./components/VideoGallery";
-import "./App.min.css";
+// import Lightbox from "yet-another-react-lightbox";
 
 const App = () => {
   return (

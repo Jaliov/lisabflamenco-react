@@ -1,125 +1,13 @@
-import React from "react";
+import * as React from "react";
 import { Helmet } from "react-helmet";
-import PhotoDisplay from "./PhotoDisplay";
-import { SRLWrapper } from "simple-react-lightbox";
-import { Container } from "react-bootstrap";
-
-const lisaImages = [
-  {
-    id: 1,
-    link: "images/Classic Yellow Lisa.jpg",
-    thumbnail: "images/Lisa classic yellow fan.gif",
-    title: "Classic Image of Lisa",
-  },
-
-  {
-    id: 2,
-    link: "images/Lisapicin_NYTimesDec2010.jpg",
-    thumbnail: "images/Lisapicin_NYTimesDec2010smll.gif",
-    title: "Dancing 'Garrotin' photo: NY Times",
-  },
-  {
-    id: 3,
-    link: "images/LisaClavilitos.jpg",
-    thumbnail: "images/LisaClavilitos.gif",
-    title: "Singing 'Clavelitos'",
-    text: "Great singng",
-  },
-  {
-    id: 4,
-    link: "images/Lisa_BilliMartitango.jpg",
-    thumbnail: "images/Lisa_BilliMartitango.jpg",
-    title: "Latin Hustle, 1980's",
-  },
-  {
-    id: 6,
-    link: "images/Manolo_Tanguillo2smll.jpg",
-    thumbnail: "images/Manolo_Tanguillo2smll.jpg",
-    title:
-      "'Tanguillo' with the great Manonlo Rivera at Cami Hall, NYC (VHS screen capture)",
-  },
-  {
-    id: 7,
-    link: "images/LisaYellowcape.jpg",
-    thumbnail: "images/LisaYellowcapesmll copy.gif",
-    title: "'El Relicario Pasadoble' for Morris Arts",
-  },
-  {
-    id: 8,
-    link: "images/LisaZapcostmeEdit.jpg",
-    thumbnail: "images/LisaZapcostmesmll copy.gif",
-    title: "Zapateado!",
-  },
-  {
-    id: 9,
-    link: "images/D7K_8201_edited-2.jpg",
-    thumbnail: "images/D7K_8201_edited-2.jpg",
-    title: "Alborada Feria",
-  },
-
-  {
-    id: 10,
-    link: "images/Feria_GreenCostume_Irina.jpg",
-    thumbnail: "images/Feria_GreenCostume_Irina.jpg",
-    title: "Alborada Feria",
-  },
-  {
-    id: 11,
-    link: "images/Lisa_Elena_FlamencoMoro.jpg",
-    thumbnail: "images/Lisa_Elena_FlamencoMorosmll.gif",
-    title: "Flamenco Moro",
-  },
-  {
-    id: 12,
-    link: "images/Lisa_Orlando2.jpg",
-    thumbnail: "images/Lisa_Orlando2smll.gif",
-    title: "with Orlando Romero",
-  },
-  {
-    id: 13,
-    link: "images/Lisa_LincolnCntrCrafts2.jpg",
-    thumbnail: "images/LnclnCntrold copy.gif",
-    title: "Lincoln Center Outdoors (1980's)",
-  },
-
-  {
-    id: 14,
-    link: "images/Lisa_OrlandoRomero.jpg",
-    thumbnail: "images/Lisa_OrlandoRomerosmll.gif",
-    title: "Dancing 'Guajira' with Orlando Romero",
-  },
-  {
-    id: 15,
-    link: "images/BARBIES135.jpg",
-    thumbnail: "images/BARBIES135.jpg",
-    title:
-      "Dancing 'Guajiras' solo in a white suit and hat: Lisa's tribute to the late Orlando Romero",
-  },
-  {
-    id: 16,
-    link: "images/Lisa_LuisVargas.jpg",
-    thumbnail: "images/Lisa_LuisVargas copy.gif",
-    title: "With famed cantaor Luis Vargas",
-  },
-  {
-    id: 17,
-    link: "images/Inspiraciones.jpg",
-    thumbnail: "images/InspiracionesSmll.gif",
-    title: "'Inspiraciones': Stafford Theater, Manahawkin, 2021",
-  },
-  {
-    id: 18,
-    link: "images/Lisa_Botalico_castenets2023.jpg",
-    thumbnail: "images/Lisa_Botalico_castenets2023.gif",
-    title: "'Juerga Flamenco': Byron Barn, Plainsboro, 2023",
-  },
-  {
-    id: 19,
-    link: "images/Lisa_red Shawl_ACP_1.jpg",
-    thumbnail: "images/Lisa_red Shawl_ACP_1.gif",
-    title: "At The Arts Council of Princeton, 2024",
-  },
-];
+// import PhotoDisplay from "./PhotoDisplay";
+// import { SRLWrapper } from "simple-react-lightbox";
+import bckgrnd from "../assets/blackwhitepolkaadotglow.png";
+import { Container, Row, Col } from "react-bootstrap";
+// import SimpleReactLightbox from "simple-react-lightbox";
+import Homephoto from "./Homephoto";
+import { lisaGalleryImages } from "./lisaImages";
+import Litebox from "../LIghtbox2.js";
 
 const Gallery = () => {
   return (
@@ -131,12 +19,27 @@ const Gallery = () => {
           content="Lisa Botalico Flamenco Photo Gallery"
         />
       </Helmet>
-      <h1 className="bio">Gallery</h1>
-      <Container>
-        <SRLWrapper>
-          <PhotoDisplay lisaImages={lisaImages} className="bio" />
-        </SRLWrapper>
-      </Container>
+      <div>
+        <Container className="container-fluid" id="noscroll">
+          <Row>
+            <Col></Col>
+            <Col md={4}>
+              <div>
+                <h1 className="home">
+                  <em>Gallery </em>
+                </h1>
+                <Litebox slides={lisaGalleryImages} />
+              </div>
+
+              <div></div>
+              <div className="fade-in-image centered">
+                <Homephoto cover={bckgrnd} />
+              </div>
+            </Col>
+            <Col></Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };

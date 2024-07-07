@@ -14,6 +14,7 @@ const Events = () => {
           content="Don't miss out on Lisa Botalico's Upcoming Events!"
         />
       </Helmet>
+
       <Container className="container-fluid">
         <h1 class="bio" style={{ textAlign: "center" }}>
           Events/Links

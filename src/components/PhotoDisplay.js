@@ -3,7 +3,13 @@ import { Row, Col } from "react-bootstrap";
 import PhotoLayout from "./PhotoLayout";
 import { Link } from "react-router-dom";
 
-const PhotoDisplay = ({ lisaImages, nyImages, videoImages, classImg }) => {
+const PhotoDisplay = ({
+  lisaImages,
+  lisaImages2,
+  nyImages,
+  videoImages,
+  classImg,
+}) => {
   return (
     <>
       <Row className="text-center">
@@ -16,7 +22,17 @@ const PhotoDisplay = ({ lisaImages, nyImages, videoImages, classImg }) => {
                     width={150}
                     height={175}
                     alt={image.title}
-                    className="rotateImg item"
+                  />
+                </Link>
+              ))
+            : lisaImages2
+            ? lisaImages2.map((image) => (
+                <Link to={image.link} key={image.id}>
+                  <img
+                    src={image.thumbnail}
+                    width={150}
+                    height={175}
+                    alt={image.title}
                   />
                 </Link>
               ))

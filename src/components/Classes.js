@@ -79,7 +79,10 @@ const Classes = () => {
                   Lisa with students after the first in-person student showcase,
                   post-lockdown, June, 2021
                 </Card.Title>
-                <Card.Img src={LisaStudents}></Card.Img>
+                <Card.Img
+                  src={LisaStudents}
+                  className="studentPhotos"
+                ></Card.Img>
               </Card.Body>{" "}
             </Card>
           </Col>

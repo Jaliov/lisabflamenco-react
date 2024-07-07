@@ -24,6 +24,18 @@
   justify-content: center;
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.carousel-item > img {
+  width: 100%;
+}
+
 .hamburger {
   margin-left: 3rem;
 }
@@ -292,6 +304,7 @@ img.item:hover {
   animation-duration: 5s;
   padding-right: 0;
   margin-right: 0;
+  overflow: hidden;
 }
 
 /*@media screen and (max-width: 956px) {
@@ -375,10 +388,11 @@ img.item:hover {
     margin-left: 1rem;
     padding-right: 1rem;
   }
-  /* .classMedia {
-    width: 25dvh;
+  .studentPhotos {
     height: auto;
-  } */
+    width: 200%;
+    margin-left: -10%;
+  }
 }
 
 @keyframes moveInRight_mod {
