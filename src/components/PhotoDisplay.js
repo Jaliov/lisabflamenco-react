@@ -12,7 +12,7 @@ const PhotoDisplay = ({
 }) => {
   return (
     <>
-      <Row className="text-center">
+      <Row>
         <Col>
           {lisaImages
             ? lisaImages.map((image) => (

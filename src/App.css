@@ -24,12 +24,10 @@
   justify-content: center;
 }
 
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+.center {
+  margin: auto;
+  position: relative;
+  width: 50%;
 }
 
 .carousel-item > img {
@@ -154,7 +152,7 @@ h5 {
 
 h4 {
   color: #ffff66;
-  text-align: center;
+
   animation-name: moveInLeft;
   animation-duration: 5s;
 }

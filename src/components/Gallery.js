@@ -8,6 +8,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Homephoto from "./Homephoto";
 // import { lisaGalleryImages } from "./lisaImages";
 import Litebox from "../LIghtbox2.js";
+import PhotoAlbum from "react-photo-album";
 
 const Gallery = () => {
   return (

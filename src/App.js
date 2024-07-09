@@ -15,6 +15,9 @@ import Home from "./components/Home";
 import Press from "./components/Press";
 import Bio from "./components/Bio";
 import Events from "./components/Events";
+import Test from "./components/Test";
+
+import Lightbox3 from "./components/Lightbox3";
 // import Lightbox from "yet-another-react-lightbox";
 
 const App = () => {
@@ -62,6 +65,12 @@ const App = () => {
           </Route>
           <Route path="/events">
             <Events />
+          </Route>
+          <Route path="/test">
+            <Test />
+          </Route>
+          <Route path="/Lightbox3">
+            <Lightbox3 />
           </Route>
         </Switch>
         {/* </Navbar> */}
