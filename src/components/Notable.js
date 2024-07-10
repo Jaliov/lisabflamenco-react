@@ -1,70 +1,52 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Container, Row, Card, Col } from "react-bootstrap";
-import PhotoDisplay from "./PhotoDisplay";
-import { SRLWrapper } from "simple-react-lightbox";
-import SimpleReactLightbox from "simple-react-lightbox";
+// import PhotoDisplay from "./PhotoDisplay";
+// import { SRLWrapper } from "simple-react-lightbox";
+// import SimpleReactLightbox from "simple-react-lightbox";
 import Modal from "./Modal";
 import Litebox from "./Lightbox3";
-
-// const nyImages = [
-//   {
-//     id: 100,
-//     link: "images/LisaNY1.JPG",
-//     thumbnail: "images/LisaNY1.JPG",
-//     title: "Lisa with legendary dancers Manolo Rivera and Luisa Triana",
-//   },
-//   {
-//     id: 101,
-//     link: "images/LisaNY5.JPG",
-//     thumbnail: "images/LisaNY5.JPG",
-//     title:
-//       "Slide of Lisa performance Lincoln  Outdoors in 1986(!), with cantaor Dominico Caro and guitarist Arturo Martinez",
-//   },
-//   {
-//     id: 102,
-//     link: "images/LisaNY3.JPG",
-//     thumbnail: "images/LisaNY3.JPG",
-//     title: "With cantaor Dominico Caro",
-//   },
-// ];
+import { useState } from "react";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import Captions from "yet-another-react-lightbox/plugins/captions";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import "yet-another-react-lightbox/plugins/captions.css";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 const lisaImages = [
   {
     id: 46,
-    link: "images/choreography/NJPAC026.jpg",
+    src: "images/choreography/NJPAC026.jpg",
     thumbnail: "images/choreography/NJPAC026.jpg",
-    title: "At NJPAC!",
+    title: "NJPAC",
   },
   {
-    id: 45,
-    link: "images/choreography/LisaBotalicoNJPAC.jpg",
-    thumbnail: "images/choreography/LisaBotalicoNJPAC.jpg",
-    title: "At NJPAC!",
+    src: "images/choreography/LisaBotalicoNJPAC.jpg",
+
+    title: "NJPAC",
   },
   {
-    id: 47,
-    link: "images/choreography/NJPAC086.jpg",
-    thumbnail: "images/choreography/LisaBotalicoNJPAC.jpg",
-    title: "At NJPAC!",
+    src: "images/choreography/NJPAC086.jpg",
+
+    title: "NJPAC",
   },
   {
-    id: 48,
-    link: "images/choreography/NJPAC093.jpg",
-    thumbnail: "images/choreography/NJPAC093.jpg",
-    title: "At NJPAC!",
+    src: "images/choreography/NJPAC093.jpg",
+
+    title: "NJPAC",
   },
   {
-    id: 49,
-    link: "images/choreography/NJPAC094.jpg",
-    thumbnail: "images/choreography/NJPAC094.jpg",
-    title: "At NJPAC!",
+    src: "images/choreography/NJPAC094.jpg",
+
+    title: "NJPAC",
   },
   {
-    id: 50,
-    link: "images/choreography/NJPAC002.jpg",
-    thumbnail: "images/choreography/NJPAC002.jpg",
-    title: "At NJPAC!",
+    src: "images/choreography/NJPAC002.jpg",
+
+    title: "NJPAC",
   },
 ];
 const Notable = () => {
@@ -145,9 +127,9 @@ const Notable = () => {
                     Astor Gallery <br />
                     Mar 12 - Aug 3, 2013
                     <br />
-                    <Litebox />
                   </Card.Text>
                 </Card.Body>
+                <Litebox />
               </Card>
             </Col>
             <Col></Col>
@@ -160,17 +142,62 @@ const Notable = () => {
                   <em>Jersey Moves!</em> Festival of Dance at the New Jersey
                   Performing Arts Center (NJPAC)
                 </Card.Title>
-                <Card.Text className="text-light ">March 24, 2012</Card.Text>
-                <SimpleReactLightbox>
+                <Card.Text className="text-light ">
+                  March 24, 2012
+                  <span>
+                    {" "}
+                    <Litebox2 />
+                  </span>
+                </Card.Text>
+
+                {/* <SimpleReactLightbox>
                   <SRLWrapper>
                     <PhotoDisplay lisaImages={lisaImages} className="" />
                   </SRLWrapper>
-                </SimpleReactLightbox>
+                </SimpleReactLightbox> */}
               </Card.Body>
             </Card>
           </Row>
         </Container>
       </div>
+    </>
+  );
+};
+const Litebox2 = () => {
+  const [open, setOpen] = useState(false);
+  return (
+    <>
+      <button
+        className="btnTransform nav-link liteboxContnt"
+        type="button"
+        onClick={() => setOpen(true)}
+        style={{
+          background: "transparent",
+          color: "#ffff66",
+          margin: "auto",
+          width: "50%",
+        }}
+        class="btnTransform nav-link liteboxContnt"
+      >
+        <em>Jersey Moves!</em> (NJPAC) Photos
+      </button>
+      <Lightbox
+        styles={{
+          root: {
+            "--yarl__color_backdrop": "rgba(0, 0, 0, .9)",
+          },
+          container: { height: "100vh" },
+        }}
+        plugins={[Captions, Thumbnails, Fullscreen, Zoom]}
+        captions={{
+          showToggle: true,
+          descriptionTextAlign: "center",
+          descriptionMaxLines: 4,
+        }}
+        open={open}
+        close={() => setOpen(false)}
+        slides={lisaImages}
+      />
     </>
   );
 };
