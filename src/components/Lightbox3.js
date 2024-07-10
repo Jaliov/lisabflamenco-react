@@ -29,6 +29,11 @@ export const Litebox = () => {
         class="btnTransform nav-link liteboxContnt"
       ></button>
       <Lightbox
+        styles={{
+          root: {
+            "--yarl__color_backdrop": "rgba(0, 0, 0, .6)",
+          },
+        }}
         style={{ height: "auto" }}
         plugins={[Captions, Fullscreen, Zoom, Inline]}
         captions={{
@@ -44,7 +49,7 @@ export const Litebox = () => {
           {
             id: 100,
             src: "images/LisaNY1.JPG",
-            title: "Mar 12 - Aug 3, 2013",
+
             description:
               "Lisa with legendary dancers Manolo Rivera and Luisa Triana",
           },
