@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { useRef } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Captions from "yet-another-react-lightbox/plugins/captions";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+// import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/captions.css";
@@ -12,22 +11,8 @@ import Inline from "yet-another-react-lightbox/plugins/inline";
 
 export const Litebox = () => {
   const [open, setOpen] = useState(false);
-
-  const fullscreenRef = useRef(null);
   return (
     <>
-      <button
-        className="home"
-        type="button"
-        onClick={() => setOpen(true)}
-        style={{
-          background: "transparent",
-          color: "#ffff66",
-          margin: "auto",
-          width: "50%",
-        }}
-        class="btnTransform nav-link liteboxContnt"
-      ></button>
       <Lightbox
         styles={{
           root: {

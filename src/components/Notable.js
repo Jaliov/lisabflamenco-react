@@ -4,7 +4,7 @@ import { Container, Row, Card, Col } from "react-bootstrap";
 // import PhotoDisplay from "./PhotoDisplay";
 // import { SRLWrapper } from "simple-react-lightbox";
 // import SimpleReactLightbox from "simple-react-lightbox";
-import Modal from "./Modal";
+// import Modal from "./Modal";
 import Litebox from "./Lightbox3";
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
@@ -58,7 +58,7 @@ const Notable = () => {
       </Helmet>
 
       <div>
-        <Modal />
+        {/* <Modal /> */}
         <Container>
           <Row>
             <h1 style={{ color: "#ffff66", textAlign: "center" }} class="bio">
@@ -138,17 +138,10 @@ const Notable = () => {
           <Row>
             <Card className="bg-transparent">
               <Card.Body>
-                <Card.Title className="text-warning ">
-                  <em>Jersey Moves!</em> Festival of Dance at the New Jersey
-                  Performing Arts Center (NJPAC)
+                <Card.Title>
+                  <Litebox2 />
                 </Card.Title>
-                <Card.Text className="text-light ">
-                  March 24, 2012
-                  <span>
-                    {" "}
-                    <Litebox2 />
-                  </span>
-                </Card.Text>
+                <Card.Text></Card.Text>
 
                 {/* <SimpleReactLightbox>
                   <SRLWrapper>
@@ -157,6 +150,7 @@ const Notable = () => {
                 </SimpleReactLightbox> */}
               </Card.Body>
             </Card>
+            <br />
           </Row>
         </Container>
       </div>
@@ -174,12 +168,15 @@ const Litebox2 = () => {
         style={{
           background: "transparent",
           color: "#ffff66",
-          margin: "auto",
-          width: "50%",
         }}
         class="btnTransform nav-link liteboxContnt"
       >
-        <em>Jersey Moves!</em> (NJPAC) Photos
+        <h5 className="text-warning " style={{ textDecoration: "underline" }}>
+          <em>Jersey Moves!</em> Festival of Dance at the New Jersey (NJPAC)
+          <small className="text-light" style={{ textDecoration: "none" }}>
+            <span> March 24, 2012</span>
+          </small>
+        </h5>
       </button>
       <Lightbox
         styles={{
