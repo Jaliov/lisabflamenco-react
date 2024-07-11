@@ -8,7 +8,12 @@ function Example() {
 
   return (
     <>
-      <Modal show={show} onHide={handleClose} centered id="anniversary">
+      <Modal
+        show={show}
+        onHide={handleClose}
+        id="anniversary"
+        dialogClassName="modal-90w"
+      >
         <Modal.Title>2024</Modal.Title>
         <img
           src="images/AnniversaryFlyer_4.jpg"

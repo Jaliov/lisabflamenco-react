@@ -4,7 +4,7 @@ import { Container, Row, Card, Col } from "react-bootstrap";
 // import PhotoDisplay from "./PhotoDisplay";
 // import { SRLWrapper } from "simple-react-lightbox";
 // import SimpleReactLightbox from "simple-react-lightbox";
-// import Modal from "./Modal";
+import Modal from "./Modal";
 import Litebox from "./Lightbox3";
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
@@ -59,7 +59,15 @@ const Notable = () => {
 
       <div>
         {/* <Modal /> */}
-        <Container>
+        <Container class="scroll">
+          <Modal
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+          >
+            {" "}
+            <Modal.Header closeButton />
+          </Modal>
           <Row>
             <h1 style={{ color: "#ffff66", textAlign: "center" }} class="bio">
               Notable Past Events
@@ -171,9 +179,13 @@ const Litebox2 = () => {
         }}
         class="btnTransform nav-link liteboxContnt"
       >
-        <h5 className="text-warning " style={{ textDecoration: "underline" }}>
-          <em>Jersey Moves!</em> Festival of Dance at the New Jersey (NJPAC)
-          <small className="text-light" style={{ textDecoration: "none" }}>
+        <h5
+          className="text-warning "
+          style={{ textDecoration: "underline", paddingBottom: "5rem" }}
+        >
+          <em>Jersey Moves!</em> Festival of Dance at the New Jersey Performing
+          Arts Center(NJPAC) <br />
+          <small class="text-light">
             <span> March 24, 2012</span>
           </small>
         </h5>

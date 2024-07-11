@@ -197,6 +197,13 @@ Nav .container {
   color: #ffff66;
 }
 
+.scroll {
+  .scroll {
+    min-height: 100%;
+    overflow: scroll;
+  }
+}
+
 .larger {
   font-size: 1.2rem;
   animation-name: moveInRight;
@@ -388,6 +395,9 @@ img.item:hover {
     height: auto;
     width: 200%;
     margin-left: -10%;
+  }
+  .anniversary {
+    margin-top: -20%;
   }
 }
 
