@@ -181,11 +181,21 @@ const Litebox2 = () => {
       >
         <h5
           className="text-warning "
-          style={{ textDecoration: "underline", paddingBottom: "5rem" }}
+          style={{
+            textDecoration: "underline",
+            textDecorationColor: "red",
+            paddingBottom: "5rem",
+          }}
         >
           <em>Jersey Moves!</em> Festival of Dance at the New Jersey Performing
           Arts Center(NJPAC) <br />
-          <small class="text-light">
+          <small
+            class="text-light"
+            style={{
+              textDecoration: "underline",
+              textDecorationColor: "white",
+            }}
+          >
             <span> March 24, 2012</span>
           </small>
         </h5>
