@@ -59,15 +59,8 @@ const Notable = () => {
 
       <div>
         {/* <Modal /> */}
-        <Container class="scroll">
-          <Modal
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered
-          >
-            {" "}
-            <Modal.Header closeButton />
-          </Modal>
+        <Container className="container-fluid">
+          <Modal className="btg-dark"> </Modal>
           <Row>
             <h1 style={{ color: "#ffff66", textAlign: "center" }} class="bio">
               Notable Past Events
@@ -121,6 +114,7 @@ const Notable = () => {
             <Col xs={12}>
               <Card className="bg-transparent">
                 <Card.Body>
+                  <Modal> </Modal>
                   <Card.Title>
                     {" "}
                     <h4 className="text-warning">

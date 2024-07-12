@@ -3,7 +3,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Homephoto from "./Homephoto";
 import cover from "../assets/ShawlintheAirfade.png";
 import { Container, Row, Col } from "react-bootstrap";
-//import Modal from "react-bootstrap/Modal";
 
 const Home = () => {
   return (

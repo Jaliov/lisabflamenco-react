@@ -319,6 +319,7 @@ img.item:hover {
 #anniversary {
   animation-name: moveFromTop;
   animation-duration: 8s;
+  background-image: url(./IMG_0473darker.jpg);
 }
 
 #modal {
@@ -346,7 +347,10 @@ img.item:hover {
 
 .modal-body,
 .modal-title {
-  background-image: url(./IMG_0473darker.jpg);
+  position: relative;
+
+  height: fit-content;
+  margin: auto;
 }
 .modal-title {
   color: white;
@@ -377,9 +381,10 @@ img.item:hover {
     display: none;
   }
   #anniversary {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
   .container-fluid {
     margin-right: 0;
@@ -395,9 +400,6 @@ img.item:hover {
     height: auto;
     width: 200%;
     margin-left: -10%;
-  }
-  .anniversary {
-    margin-top: -20%;
   }
 }
 

@@ -4,8 +4,6 @@ import { Container, Row, Card, Col } from "react-bootstrap";
 import LisaChildren from "../assets/lisakiddiesedit.jpg";
 import LisaStudents from "../assets/lisaWithStudents.jpg";
 //import Iframe from "react-iframe";
-import Modal from "./Modalinstru";
-import Litebox from "./Lightbox3";
 
 //import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
 const Classes = () => {
@@ -19,16 +17,15 @@ const Classes = () => {
         />
       </Helmet>
       <Container>
-        <div>
-          <Modal />
-        </div>
-        <h1 className="bio">Classes</h1>
+        <div></div>
+        <h1 className="bio" style={{ color: "#ffff66", textAlign: "center" }}>
+          Classes
+        </h1>
 
         <Row>
           <Col></Col>
 
           <Col xs={8}>
-            <Litebox />
             <Card className="bg-transparent classMedia">
               <Card.Img
                 variant="top"

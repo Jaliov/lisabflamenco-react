@@ -8,12 +8,7 @@ function Example() {
 
   return (
     <>
-      <Modal
-        show={show}
-        onHide={handleClose}
-        id="anniversary"
-        dialogClassName="modal-90w"
-      >
+      <Modal show={show} onHide={handleClose} id="anniversary">
         <Modal.Title>2024</Modal.Title>
         <img
           src="images/AnniversaryFlyer_4.jpg"
@@ -22,7 +17,7 @@ function Example() {
         <Modal.Body>
           <i
             class="gg-close-r"
-            style={{ color: "white" }}
+            style={{ color: "black" }}
             onClick={handleClose}
           ></i>
         </Modal.Body>
