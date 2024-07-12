@@ -3,20 +3,12 @@ import React from "react";
 // import PhotoDisplay from "./PhotoDisplay";
 import { Container, Row, Col } from "react-bootstrap";
 import Litebox from "../Lightbox.js";
-import PhotoAlbum from "react-photo-album";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Homephoto from "./Homephoto";
 import bckgrnd from "../assets/Lisamarie4fade.png";
-import { useState } from "react";
-import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import Captions from "yet-another-react-lightbox/plugins/captions";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
-import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/captions.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
-import { lisaImages } from "./lisaImages";
 
 const Choreography = () => {
   return (
@@ -45,7 +37,7 @@ const Choreography = () => {
                     Collaborations{" "}
                   </em>
                 </h1>
-                <Litebox>slides={lisaImages}</Litebox>
+                <Litebox></Litebox>
               </div>
 
               <div></div>

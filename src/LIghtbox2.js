@@ -26,11 +26,14 @@ export const Litebox = () => {
         }}
         class="btnTransform nav-link liteboxContnt"
       >
-        <h4 className="text-light" style={{ textDecoration: "underline" }}>
-          Photos!
-        </h4>
+        <h5 style={{ textDecoration: "underline" }}>Photos Past & Present!</h5>
       </button>
       <Lightbox
+        styles={{
+          root: {
+            "--yarl__color_backdrop": "rgba(0, 0, 0, .8)",
+          },
+        }}
         plugins={[Captions, Thumbnails, Fullscreen, Zoom]}
         captions={{
           showToggle: true,

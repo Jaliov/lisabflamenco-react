@@ -16,7 +16,7 @@ export const Litebox = () => {
       <Lightbox
         styles={{
           root: {
-            "--yarl__color_backdrop": "rgba(0, 0, 0, .6)",
+            "--yarl__color_backdrop": "rgba(0, 0, 0, .8)",
           },
         }}
         style={{ height: "auto" }}

@@ -16,7 +16,6 @@ import Press from "./components/Press";
 import Bio from "./components/Bio";
 import Events from "./components/Events";
 
-import Lightbox3 from "./components/Lightbox3";
 // import Lightbox from "yet-another-react-lightbox";
 
 const App = () => {
@@ -64,10 +63,6 @@ const App = () => {
           </Route>
           <Route path="/events">
             <Events />
-          </Route>
-
-          <Route path="/Lightbox3">
-            <Lightbox3 />
           </Route>
         </Switch>
         {/* </Navbar> */}

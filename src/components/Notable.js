@@ -5,9 +5,9 @@ import { Container, Row, Card, Col } from "react-bootstrap";
 // import { SRLWrapper } from "simple-react-lightbox";
 // import SimpleReactLightbox from "simple-react-lightbox";
 import Modal from "./Modal";
-import Litebox from "./Lightbox3";
-import { useState } from "react";
+import Litebox from "../Lightbox3";
 import Lightbox from "yet-another-react-lightbox";
+import { useState } from "react";
 import "yet-another-react-lightbox/styles.css";
 import Captions from "yet-another-react-lightbox/plugins/captions";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
@@ -16,11 +16,9 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/captions.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-const lisaImages = [
+const lisaImages2 = [
   {
-    id: 46,
     src: "images/choreography/NJPAC026.jpg",
-    thumbnail: "images/choreography/NJPAC026.jpg",
     title: "NJPAC",
   },
   {
@@ -197,7 +195,7 @@ const Litebox2 = () => {
       <Lightbox
         styles={{
           root: {
-            "--yarl__color_backdrop": "rgba(0, 0, 0, .9)",
+            "--yarl__color_backdrop": "rgba(0, 0, 0, .8)",
           },
           container: { height: "100vh" },
         }}
@@ -209,7 +207,7 @@ const Litebox2 = () => {
         }}
         open={open}
         close={() => setOpen(false)}
-        slides={lisaImages}
+        slides={lisaImages2}
       />
     </>
   );
