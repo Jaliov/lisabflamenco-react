@@ -28,19 +28,17 @@ const Choreography = () => {
         <Container className="container-fluid" id="noscroll">
           <Row>
             <Col></Col>
-            <Col md={4}>
+            <Col xs={8}>
               <div>
-                <h1 className="home">
-                  <em>
-                    Choreography/
-                    <br />
-                    Collaborations{" "}
-                  </em>
-                </h1>
-                <Litebox></Litebox>
+                <h2 className="home" style={{ color: "#ffff66" }}>
+                  <em>Choreography, Collaborations </em>
+                </h2>
               </div>
 
-              <div></div>
+              <div>
+                {" "}
+                <Litebox></Litebox>
+              </div>
               <div className="fade-in-image centered">
                 <Homephoto cover={bckgrnd} />
               </div>

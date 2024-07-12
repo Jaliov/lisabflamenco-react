@@ -26,7 +26,7 @@ export const Litebox = () => {
         }}
         // class="btnTransform nav-link liteboxContnt"
       >
-        <h5 style={{ textDecoration: "underline" }}>Photos!</h5>
+        <h6 style={{ textDecoration: "underline" }}>Photos!</h6>
       </button>
       <Lightbox
         styles={{

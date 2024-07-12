@@ -170,6 +170,7 @@ export const lisaGalleryImages = [
   {
     id: 8,
     src: "images/LisaZapcostmeEdit.jpg",
+    description: "Zapateado!",
   },
   {
     id: 9,
@@ -180,7 +181,7 @@ export const lisaGalleryImages = [
   {
     id: 10,
     src: "images/Feria_GreenCostume_Irina.jpg",
-    thumbnail: "images/Feria_GreenCostume_Irina.jpg",
+
     description: "Alborada Feria",
   },
   {
@@ -229,27 +230,5 @@ export const lisaGalleryImages = [
     id: 19,
     src: "images/Lisa_red Shawl_ACP_1.jpg",
     description: "At The Arts Council of Princeton, 2024",
-  },
-];
-
-const nyImages = [
-  {
-    id: 100,
-    link: "images/LisaNY1.JPG",
-    thumbnail: "images/LisaNY1smll copy.gif",
-    description: "Lisa with legendary dancers Manolo Rivera and Luisa Triana",
-  },
-  {
-    id: 101,
-    link: "images/LisaNY5.JPG",
-    thumbnail: "images/LisaNY5smll copy.gif",
-    title:
-      "Slide of Lisa performance Lincoln Center Outdoors in 1986(!), with cantaor Dominico Caro and guitarist Arturo Martinez",
-  },
-  {
-    id: 102,
-    link: "images/LisaNY3.JPG",
-    thumbnail: "images/LisaNY3.gif",
-    title: "With cantaor Dominico Caro",
   },
 ];
