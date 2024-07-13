@@ -17,22 +17,20 @@ const Classes = () => {
         />
       </Helmet>
       <Container className="container-fluid">
-        <div></div>
         <h1 className="bio" style={{ color: "#ffff66", textAlign: "center" }}>
           Classes
         </h1>
 
         <Row>
-          <Col></Col>
-
-          <Col xs={8}>
+          <Col md={1} />
+          <Col md={10}>
             <Card className="bg-transparent classMedia">
               <Card.Img
                 variant="top"
                 src={LisaChildren}
-                className="fade-in-image"
+                className="fade-in-image studentPhotos"
               />
-              <Card.Body className="bg-transparent">
+              <Card.Body>
                 <Card.Title className="text-light larger">
                   {" "}
                   Lisa teaches classes for adults and children of all ages and
@@ -67,11 +65,10 @@ const Classes = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col></Col>
         </Row>
         <Row>
-          <Col></Col>
-          <Col xs={10}>
+          <Col md={1} />
+          <Col md={10}>
             <Card bg="transparent classMedia">
               <Card.Body>
                 <Card.Title className="text-light larger">
@@ -86,11 +83,10 @@ const Classes = () => {
               </Card.Body>{" "}
             </Card>
           </Col>
-          <Col></Col>
         </Row>
         <Row>
-          {/* <Col xs={1}></Col> */}
-          <Col>
+          <Col md={1} />
+          <Col md={10}>
             <Card bg="transparent classMedia">
               <Card.Body>
                 <Card.Title className="text-light larger">
