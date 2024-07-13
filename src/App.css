@@ -210,6 +210,11 @@ Nav .container {
   animation-name: moveInRight;
   animation-duration: 5s;
 }
+.smaller {
+  font-size: 1rem;
+  animation-name: moveInRight;
+  animation-duration: 5s;
+}
 .larger_mod {
   font-size: 120%;
   animation-name: moveInRight_mod;
@@ -388,9 +393,6 @@ img.item:hover {
     right: 0;
     bottom: 0;
   }
-  .container-fluid {
-    margin-right: 0;
-  }
   .events {
     width: 75%;
   }
@@ -399,15 +401,11 @@ img.item:hover {
     padding-right: 1rem;
   }
   .container-fluid img {
-    max-width: 100%;
+    max-width: 100dvw;
   }
   .studentPhotos {
-    width: 50px;
+    width: 100vw;
   }
-}
-
-.studentPhotos {
-  width: 100%;
 }
 
 @keyframes moveInRight_mod {

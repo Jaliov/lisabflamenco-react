@@ -29,6 +29,7 @@ const Classes = () => {
                 variant="top"
                 src={LisaChildren}
                 className="fade-in-image studentPhotos"
+                alt="Lisa teaching youngsters"
               />
               <Card.Body>
                 <Card.Title className="text-light larger">
@@ -76,11 +77,12 @@ const Classes = () => {
                   Lisa with students after the first in-person student showcase,
                   post-lockdown, June, 2021
                 </Card.Title>
-                <Card.Img
-                  src={LisaStudents}
-                  className="studentPhotos"
-                ></Card.Img>
               </Card.Body>{" "}
+              <Card.Img
+                src={LisaStudents}
+                className="studentPhotos"
+                alt="student showcase 2021"
+              ></Card.Img>
             </Card>
           </Col>
         </Row>
@@ -93,20 +95,23 @@ const Classes = () => {
                   Below:{" "}
                   <em className="alertyellow larger">
                     Fiesta del Día de Los Reyes Magos
-                  </em>
+                  </em>{" "}
                   or Three Kings Day, is celebrated throughout the world to mark
                   the culmination of the 12 days of Christmas. On Saturday, Jan
                   6, 2024, a dance performance by{" "}
                   <span className="alertyellow">students</span> in the Arts
                   Council of Princeton’s Flamenco program, led by Lisa Botalico,
                   center, featured multiple dances as attendees learned about
-                  this cultural holiday.{" "}
-                  <small>(Photo by Charles R. Plohn)</small>
+                  this cultural holiday. <br />
+                  <span className="smaller">
+                    <small>(Photo by Charles R. Plohn)</small>
+                  </span>
                 </Card.Title>
               </Card.Body>
               <Card.Img
                 variant="bottom"
                 src="https://www.towntopics.com/wordpress/wp-content/uploads/2024/01/page-1-1-10-24-web-1.jpg"
+                alt="Three Kings Day 2024"
               />
             </Card>
           </Col>
