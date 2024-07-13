@@ -16,7 +16,7 @@ const Classes = () => {
           content="Learn to Dance Flamenco with Lisa Botalico!"
         />
       </Helmet>
-      <Container>
+      <Container className="container-fluid">
         <div></div>
         <h1 className="bio" style={{ color: "#ffff66", textAlign: "center" }}>
           Classes
@@ -71,7 +71,7 @@ const Classes = () => {
         </Row>
         <Row>
           <Col></Col>
-          <Col xs={8}>
+          <Col xs={10}>
             <Card bg="transparent classMedia">
               <Card.Body>
                 <Card.Title className="text-light larger">
@@ -89,8 +89,8 @@ const Classes = () => {
           <Col></Col>
         </Row>
         <Row>
-          <Col></Col>
-          <Col xs={8}>
+          {/* <Col xs={1}></Col> */}
+          <Col>
             <Card bg="transparent classMedia">
               <Card.Body>
                 <Card.Title className="text-light larger">
@@ -114,7 +114,7 @@ const Classes = () => {
               />
             </Card>
           </Col>
-          <Col></Col>
+          {/* <Col xs={1}></Col> */}
         </Row>
 
         <br />

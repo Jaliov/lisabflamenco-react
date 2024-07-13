@@ -327,9 +327,9 @@ img.item:hover {
   box-shadow: 5px 10px rgb(127, 20, 20, 0.3);
   border-radius: 25px;
 }
-/*.modal-body {
+.modal-header {
   background-image: url(./IMG_0473darker.jpg);
-}*/
+}
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -354,7 +354,6 @@ img.item:hover {
   margin: auto;
 }
 .modal-title {
-  color: white;
   text-align: center;
 }
 
@@ -364,7 +363,9 @@ img.item:hover {
 
 .modal-open {
   overflow: auto;
-  padding-right: 0 !important;
+}
+.modal-content {
+  background-color: hsl(0, 89%, 48%);
 }
 
 @media screen and (max-width: 580px) {
@@ -397,10 +398,8 @@ img.item:hover {
     margin-left: 1rem;
     padding-right: 1rem;
   }
-  .studentPhotos {
-    height: auto;
-    width: 200%;
-    margin-left: -10%;
+  .container-fluid img {
+    max-width: 100%;
   }
 }
 

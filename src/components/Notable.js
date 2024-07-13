@@ -56,9 +56,8 @@ const Notable = () => {
       </Helmet>
 
       <div>
-        {/* <Modal /> */}
         <Container className="container-fluid">
-          <Modal className="btg-dark"> </Modal>
+          <Modal> </Modal>
           <Row>
             <h1 style={{ color: "#ffff66", textAlign: "center" }} class="bio">
               Notable Past Events
