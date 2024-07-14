@@ -158,7 +158,7 @@ export const lisaGalleryImages = [
   },
   {
     id: 6,
-    src: "images/Manolo_Tanguillo2smll.jpg",
+    src: "images/Screenshot 2024-07-14 112822.jpg",
     description:
       "'Tanguillo' with the great Manonlo Rivera at Cami Hall, NYC (VHS screen capture)",
   },
