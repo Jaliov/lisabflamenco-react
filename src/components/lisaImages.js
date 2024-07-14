@@ -154,7 +154,7 @@ export const lisaGalleryImages = [
     id: 4,
     src: "images/Lisa_BilliMartitango.jpg",
     thumbnail: "images/Lisa_BilliMartitango.jpg",
-    description: "Latin Hustle, 1980's",
+    description: "Latin Hustle, 1980's, with Billi Marti",
   },
   {
     id: 6,
@@ -181,7 +181,6 @@ export const lisaGalleryImages = [
   {
     id: 10,
     src: "images/Feria_GreenCostume_Irina.jpg",
-
     description: "Alborada Feria",
   },
   {

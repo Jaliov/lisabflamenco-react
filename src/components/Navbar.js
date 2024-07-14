@@ -40,7 +40,7 @@ const NavBar = () => {
               Press
             </Nav.Link>
             <Nav.Link href="/classes" className="btnTransform">
-              Classes
+              Teaching
             </Nav.Link>
             <Nav.Link href="/events" className="btnTransform">
               Events

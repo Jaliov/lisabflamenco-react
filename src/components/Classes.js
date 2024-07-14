@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { Container, Row, Card, Col } from "react-bootstrap";
 import LisaChildren from "../assets/lisakiddiesedit.jpg";
 import LisaStudents from "../assets/lisaWithStudents.jpg";
+import LisaStudentsAward from "../assets//LisaStudents_june8.jpg";
 //import Iframe from "react-iframe";
 
 //import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
@@ -73,19 +74,20 @@ const Classes = () => {
             <Card bg="transparent classMedia">
               <Card.Body>
                 <Card.Title className="text-light larger">
-                  {" "}
-                  Lisa with students after the first in-person student showcase,
-                  post-lockdown, June, 2021
+                  June 8, 2024: in recognition of 25 years teaching at The Arts
+                  Council of Princeton, Lisa has a studio named in her honor!
                 </Card.Title>
-              </Card.Body>{" "}
+              </Card.Body>
               <Card.Img
-                src={LisaStudents}
-                className="studentPhotos"
-                alt="student showcase 2021"
-              ></Card.Img>
+                variant="bottom"
+                src={LisaStudentsAward}
+                alt="Three Kings Day 2024"
+              />
             </Card>
           </Col>
+          {/* <Col xs={1}></Col> */}
         </Row>
+
         <Row>
           <Col md={1} />
           <Col md={10}>
@@ -116,6 +118,25 @@ const Classes = () => {
             </Card>
           </Col>
           {/* <Col xs={1}></Col> */}
+        </Row>
+        <Row>
+          <Col md={1} />
+          <Col md={10}>
+            <Card bg="transparent classMedia">
+              <Card.Body>
+                <Card.Title className="text-light larger">
+                  {" "}
+                  Lisa with students after the first in-person student showcase,
+                  post-lockdown, June, 2021
+                </Card.Title>
+              </Card.Body>{" "}
+              <Card.Img
+                src={LisaStudents}
+                className="studentPhotos"
+                alt="student showcase 2021"
+              ></Card.Img>
+            </Card>
+          </Col>
         </Row>
 
         <br />
