@@ -404,7 +404,7 @@ img.item:hover {
     max-width: 100dvw;
   }
   .studentPhotos {
-    width: 100vw;
+    max-width: 100vw;
   }
 }
 
