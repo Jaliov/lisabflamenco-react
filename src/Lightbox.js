@@ -29,9 +29,11 @@ export const Litebox = () => {
         <h6 style={{ textDecoration: "underline" }}>Photos!</h6>
       </button>
       <Lightbox
+        id="litebox"
         styles={{
           root: {
             "--yarl__color_backdrop": "rgba(0, 0, 0, .8)",
+            height: "100vh",
           },
         }}
         plugins={[Captions, Thumbnails, Fullscreen, Zoom]}

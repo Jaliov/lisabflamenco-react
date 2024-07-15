@@ -32,6 +32,7 @@ export const Litebox = () => {
         styles={{
           root: {
             "--yarl__color_backdrop": "rgba(0, 0, 0, .8)",
+            height: "100vh",
           },
         }}
         plugins={[Captions, Thumbnails, Fullscreen, Zoom]}

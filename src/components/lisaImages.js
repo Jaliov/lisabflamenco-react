@@ -115,6 +115,12 @@ export const lisaImages = [
       'Singing "Anda Jaleo" with violist Joel Rudin and guitarist Ivan Max',
   },
   {
+    id: 20,
+    src: "images/choreography/BohemeOperaCarmen.jpg",
+    description:
+      'Lisa Botalico (choreographer), Krystina Moreno and Teresa Rodriquez of the Alborada Spanish Dance Theatre, in the Boheme Opera Company production of "Carmen"',
+  },
+  {
     id: 41,
     src: "images/choreography/LisaRamyaScreenshotsCombo.jpg",
     description:
