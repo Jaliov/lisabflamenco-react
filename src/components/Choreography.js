@@ -30,7 +30,7 @@ const Choreography = () => {
             <Col></Col>
             <Col xs={8}>
               <div>
-                <h2 className="home" style={{ color: "#ffff66" }}>
+                <h2 className="home">
                   <em>Choreography, Collaborations </em>
                 </h2>
               </div>

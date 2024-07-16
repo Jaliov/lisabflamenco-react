@@ -406,6 +406,9 @@ img.item:hover {
   .studentPhotos {
     max-width: 100vw;
   }
+  .background {
+    max-width: 99vw;
+  }
 }
 
 @keyframes moveInRight_mod {

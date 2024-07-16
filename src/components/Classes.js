@@ -18,10 +18,14 @@ const Classes = () => {
         />
       </Helmet>
       <Container className="container-fluid">
-        <h1 className="bio" style={{ color: "#ffff66", textAlign: "center" }}>
+        <h1
+          className="home"
+          style={{
+            marginBottom: "1rem",
+          }}
+        >
           Classes
         </h1>
-
         <Row>
           <Col md={1} />
           <Col md={10}>
