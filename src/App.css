@@ -20,7 +20,7 @@
   display: flex;
   width: 100%;
   max-width: 60%;
-  margin: 0 auto;
+  margin: -1rem auto;
   justify-content: center;
 }
 
@@ -123,7 +123,7 @@ h2 {
   /*padding-bottom: 0px;
   text-align: center;*/
   animation-name: moveInRight;
-  animation-duration: 5s;
+  animation-duration: 10s;
   color: #ffff66;
 }
 
@@ -333,15 +333,9 @@ img.item:hover {
   animation-name: moveFromTop;
   animation-duration: 8s;
   background-image: url(./IMG_0473darker.jpg);
+  border-radius: 0;
 }
 
-#modal {
-  box-shadow: 5px 10px rgb(127, 20, 20, 0.3);
-  border-radius: 25px;
-}
-.modal-header {
-  background-image: url(./IMG_0473darker.jpg);
-}
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -358,13 +352,6 @@ img.item:hover {
   }
 }
 
-.modal-body,
-.modal-title {
-  position: relative;
-
-  height: fit-content;
-  margin: auto;
-}
 .modal-title {
   text-align: center;
 }
@@ -475,7 +462,7 @@ img.item:hover {
 }
 
 .fade-in-image {
-  animation: fadeIn 10s;
+  animation: fadeIn 15s;
 }
 @keyframes fadeIn {
   0% {
@@ -483,6 +470,9 @@ img.item:hover {
   }
   100% {
     opacity: 1;
+  }
+  25% {
+    transform: rotate(-10deg);
   }
 }
 /*try rottat effect also*/

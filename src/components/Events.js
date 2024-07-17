@@ -71,6 +71,7 @@ const Events = () => {
             <br />
             <small>
               <a
+                style={{ color: "red" }}
                 href="https://www.free-website-hit-counter.com"
                 title="Free Website Hit Counter"
               >

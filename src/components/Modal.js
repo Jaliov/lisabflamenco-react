@@ -35,7 +35,13 @@ function Example() {
             padding: "0",
           }}
         >
-          <Modal.Footer>
+          <Modal.Footer
+            style={{
+              backgroundColor: "black",
+              padding: "0",
+              borderColor: "black",
+            }}
+          >
             <i
               class="gg-close-r"
               style={{
