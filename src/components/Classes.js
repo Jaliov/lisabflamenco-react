@@ -71,14 +71,15 @@ const Classes = () => {
             </Card>
           </Col>
         </Row>
-
+        <br />
         <Row>
           <Col md={1} />
           <Col md={10}>
             <Card bg="transparent classMedia">
               <Card.Title className="text-light larger">
                 June 8, 2024: in recognition of 25 years teaching at The Arts
-                Council of Princeton, Lisa has a studio named in her honor!
+                Council of Princeton, Lisa has had a{" "}
+                <span className="alertyellow">studio named in her honor!</span>
               </Card.Title>
 
               <Card.Img

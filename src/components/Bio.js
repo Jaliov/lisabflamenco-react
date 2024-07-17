@@ -19,7 +19,7 @@ const Bio = () => {
         <h1 className="home">About</h1>
         <Container className="container-fluid">
           <Row>
-            <Col md={8} className="text-light">
+            <Col md={8} className="text-light bio">
               <BioText />
             </Col>
             <Col>

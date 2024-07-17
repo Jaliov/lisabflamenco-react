@@ -145,8 +145,10 @@ h1 em {
   animation-duration: 5s;
 }
 
-h5 {
-  color: white;
+h5,
+h6 {
+  animation-name: moveInLeft;
+  animation-duration: 5s;
 }
 
 h4 {
@@ -306,6 +308,7 @@ img.item:hover {
 .bio em {
   font-weight: bold;
   font-size: 120%;
+  width: 100vmax;
 }
 
 .bio .events {
@@ -314,6 +317,10 @@ img.item:hover {
   padding-right: 0;
   margin-right: 0;
   overflow: hidden;
+}
+.bio {
+  animation-name: moveFromTop;
+  animation-duration: 5s;
 }
 
 /*@media screen and (max-width: 956px) {
