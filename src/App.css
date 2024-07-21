@@ -119,11 +119,11 @@ h2 {
 }
 
 .home {
-  margin-top: 1rem;
+  margin-top: 3rem;
   /*padding-bottom: 0px;
   text-align: center;*/
   animation-name: moveInRight;
-  animation-duration: 10s;
+  animation-duration: 9s;
   color: #ffff66;
 }
 
@@ -244,13 +244,15 @@ a:hover {
   border-radius: 10rem;
 }
 
-.btnTransform:hover {
+.btnTransform:hover,
+.imgTransform:hover {
   background: rgba(241, 102, 98, 0.2);
   transform: translateY(-0.3rem);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.btnTransform:hover::after {
+.btnTransform:hover::after,
+.imgTransform:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
   background-color: #ffff66;
@@ -269,7 +271,21 @@ a:hover {
   transition: all 0.4s;
 }
 
-.btnTransform:active {
+.imgTransform::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+  border-radius: 0rem;
+}
+
+.btnTransform:active,
+.imgTransform:active {
   transform: translate(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }

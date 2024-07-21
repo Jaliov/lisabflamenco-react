@@ -15,18 +15,24 @@ export const Litebox = () => {
   return (
     <>
       <button
-        className="home btnTransform nav-link liteboxContnt"
+        className="home imgTransform nav-link liteboxContnt fade-in-image"
         type="button"
         onClick={() => setOpen(true)}
         style={{
           background: "transparent",
           color: "#ffff66",
           margin: "auto",
-          width: "50%",
         }}
-        // class="btnTransform nav-link liteboxContnt"
       >
-        <h6 style={{ textDecoration: "underline" }}>Photos!</h6>
+        {" "}
+        <img
+          src="./images/choreography/Lisamarie4fade copy.png"
+          alt="Lisa and Marie dancing"
+          style={{
+            width: "15rem",
+            height: "20rem",
+          }}
+        />
       </button>
       <Lightbox
         id="litebox"

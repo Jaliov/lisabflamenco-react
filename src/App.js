@@ -64,6 +64,9 @@ const App = () => {
           <Route path="/events">
             <Events />
           </Route>
+          <Route path="/photoalbum">
+            <Events />
+          </Route>
         </Switch>
         {/* </Navbar> */}
       </Router>

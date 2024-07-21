@@ -39,9 +39,9 @@ const Choreography = () => {
                 {" "}
                 <Litebox></Litebox>
               </div>
-              <div className="fade-in-image centered">
+              {/* <div className="fade-in-image centered">
                 <Homephoto cover={bckgrnd} />
-              </div>
+              </div> */}
             </Col>
             <Col></Col>
           </Row>
