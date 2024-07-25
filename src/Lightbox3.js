@@ -8,32 +8,38 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/captions.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 //import Inline from "yet-another-react-lightbox/plugins/inline";
+import { Container, Row, Card, Col } from "react-bootstrap";
 
 export const Litebox = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <button
-        className="home imgTransform nav-link liteboxContnt fade-in-image"
-        type="button"
-        onClick={() => setOpen(true)}
-        style={{
-          background: "transparent",
-          color: "#ffff66",
-          margin: "auto",
-        }}
-      >
-        {" "}
-        <img
-          src="./images/choreography/LisaNY1.png"
-          alt="Lisa and Manolo"
-          style={{
-            width: "14rem",
-            height: "17rem",
-            marginTop: "-10%",
-          }}
-        />
-      </button>
+      <Row>
+        <Col></Col>
+        <Col>
+          <button
+            className="home imgTransform nav-link liteboxContnt fade-in-image"
+            type="button"
+            onClick={() => setOpen(true)}
+            style={{
+              background: "transparent",
+            }}
+          >
+            {" "}
+            <img
+              src="./images/choreography/LisaNY1.png"
+              alt="Lisa and Manolo"
+              style={{
+                width: "14rem",
+                height: "17rem",
+                margin: "auto",
+              }}
+            />
+          </button>
+        </Col>
+        <Col></Col>
+      </Row>
+
       <Lightbox
         id="litebox"
         styles={{

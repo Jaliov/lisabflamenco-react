@@ -125,7 +125,10 @@ const Notable = () => {
                       <em>100 Years of Flamenco in New York</em>
                     </h4>
                   </Card.Title>
-                  <Card.Text className="text-light">
+                  <Card.Text
+                    className="text-light"
+                    style={{ marginBottom: "-2rem" }}
+                  >
                     {/* <p className ="larger"> */}
                     Opening reception
                     <br />
@@ -142,26 +145,34 @@ const Notable = () => {
           </Row>
 
           <Row>
-            <Col xs={4}>
-              <div style={{ marginLeft: "2rem" }}>
-                <h4
-                  className="text-warning"
-                  style={{
-                    marginTop: "4rem",
-                    paddingBottom: "0",
-                  }}
-                >
-                  <em>Jersey Moves!</em>{" "}
-                </h4>
-                <span class="text-light">
-                  Festival of Dance at the New Jersey Performing Arts
-                  Center(NJPAC)
-                  <small class="text-light">March 24, 2012</small>{" "}
-                </span>
-              </div>
-            </Col>
-            <Col>
-              <Litebox2 />
+            <Col></Col>
+            <Col xs={12}>
+              {" "}
+              {/* <div style={{ marginLeft: "2rem" }}> */}
+              <Card className="bg-transparent">
+                <Card.Body>
+                  <Card.Title>
+                    <h4
+                      className="text-warning"
+                      style={{
+                        marginTop: "4rem",
+                        paddingBottom: "0",
+                      }}
+                    >
+                      <em>Jersey Moves!</em>{" "}
+                    </h4>
+                  </Card.Title>
+                  <Card.Text
+                    className="text-light"
+                    style={{ marginBottom: "-2rem" }}
+                  >
+                    Festival of Dance at the New Jersey Performing Arts
+                    Center(NJPAC)
+                    <small class="text-light"> March 24, 2012</small>{" "}
+                  </Card.Text>
+                </Card.Body>
+                <Litebox2 />
+              </Card>
             </Col>
             <Col></Col>
           </Row>
