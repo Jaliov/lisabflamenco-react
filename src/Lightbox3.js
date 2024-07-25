@@ -2,31 +2,51 @@ import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Captions from "yet-another-react-lightbox/plugins/captions";
-// import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/captions.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
-import Inline from "yet-another-react-lightbox/plugins/inline";
+//import Inline from "yet-another-react-lightbox/plugins/inline";
 
 export const Litebox = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
+      <button
+        className="home imgTransform nav-link liteboxContnt fade-in-image"
+        type="button"
+        onClick={() => setOpen(true)}
+        style={{
+          background: "transparent",
+          color: "#ffff66",
+          margin: "auto",
+        }}
+      >
+        {" "}
+        <img
+          src="./images/choreography/LisaNY1.png"
+          alt="Lisa and Manolo"
+          style={{
+            width: "14rem",
+            height: "17rem",
+            marginTop: "-10%",
+          }}
+        />
+      </button>
       <Lightbox
+        id="litebox"
         styles={{
           root: {
             "--yarl__color_backdrop": "rgba(0, 0, 0, .8)",
+            height: "100vh",
           },
         }}
-        style={{ height: "auto" }}
-        plugins={[Captions, Fullscreen, Zoom, Inline]}
+        plugins={[Captions, Thumbnails, Fullscreen, Zoom]}
         captions={{
+          showToggle: true,
           descriptionTextAlign: "center",
-          descriptionMaxLines: 3,
-        }}
-        inline={{
-          style: { width: "100%", maxWidth: "900px", aspectRatio: "3 / 2" },
+          descriptionMaxLines: 4,
         }}
         open={open}
         close={() => setOpen(false)}

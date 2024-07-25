@@ -31,6 +31,7 @@ export const Litebox = () => {
           style={{
             width: "15rem",
             height: "20rem",
+            marginTop: "-10%",
           }}
         />
       </button>

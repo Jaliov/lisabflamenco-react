@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b70bbf2e.css",
+    "main.js": "/static/js/main.1717b0d5.js",
+    "static/js/787.aab77859.chunk.js": "/static/js/787.aab77859.chunk.js",
+    "static/media/US1Article.pdf": "/static/media/US1Article.ba14e5a89a9cf3d4faf0.pdf",
+    "static/media/Reviewbackground3.png": "/static/media/Reviewbackground3.5565b5b8b3fec7b8c25b.png",
+    "static/media/ShawlintheAirfade.png": "/static/media/ShawlintheAirfade.2a5956a6880ca025b533.png",
+    "static/media/cubanlungefade.png": "/static/media/cubanlungefade.c3a196e63a35f6e658a8.png",
+    "static/media/lisakiddiesedit.jpg": "/static/media/lisakiddiesedit.ad509e53b220613d1555.jpg",
+    "static/media/Lisamarie4fade.png": "/static/media/Lisamarie4fade.a3815cf3de2581f3e89f.png",
+    "static/media/lisaWithStudents.jpg": "/static/media/lisaWithStudents.8775cd983f7cc5c439ac.jpg",
+    "static/media/IMG_0473.jpg": "/static/media/IMG_0473.73548d6c53903eb80aff.jpg",
+    "static/media/LisaStudents_june8.jpg": "/static/media/LisaStudents_june8.47669746c866cff1805d.jpg",
+    "static/media/IMG_0473darker.jpg": "/static/media/IMG_0473darker.d90ad1c5cad23e3bc021.jpg",
+    "static/media/AnyConv.com__MATURASC_1.woff": "/static/media/AnyConv.com__MATURASC_1.3cfa2993b4da12a8d619.woff",
+    "index.html": "/index.html",
+    "main.b70bbf2e.css.map": "/static/css/main.b70bbf2e.css.map",
+    "main.1717b0d5.js.map": "/static/js/main.1717b0d5.js.map",
+    "787.aab77859.chunk.js.map": "/static/js/787.aab77859.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b70bbf2e.css",
+    "static/js/main.1717b0d5.js"
+  ]
+}

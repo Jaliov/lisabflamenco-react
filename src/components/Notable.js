@@ -59,7 +59,14 @@ const Notable = () => {
         <Container className="container-fluid">
           <Modal> </Modal>
           <Row>
-            <h1 style={{ color: "#ffff66", textAlign: "center" }} class="bio">
+            <h1
+              style={{
+                color: "#ffff66",
+                textAlign: "center",
+                marginTop: "1rem",
+              }}
+              class="bio"
+            >
               Notable Past Events
             </h1>
 
@@ -135,21 +142,28 @@ const Notable = () => {
           </Row>
 
           <Row>
-            <Card className="bg-transparent">
-              <Card.Body>
-                <Card.Title>
-                  <Litebox2 />
-                </Card.Title>
-                <Card.Text></Card.Text>
-
-                {/* <SimpleReactLightbox>
-                  <SRLWrapper>
-                    <PhotoDisplay lisaImages={lisaImages} className="" />
-                  </SRLWrapper>
-                </SimpleReactLightbox> */}
-              </Card.Body>
-            </Card>
-            <br />
+            <Col xs={4}>
+              <div style={{ marginLeft: "2rem" }}>
+                <h4
+                  className="text-warning"
+                  style={{
+                    marginTop: "4rem",
+                    paddingBottom: "0",
+                  }}
+                >
+                  <em>Jersey Moves!</em>{" "}
+                </h4>
+                <span class="text-light">
+                  Festival of Dance at the New Jersey Performing Arts
+                  Center(NJPAC)
+                  <small class="text-light">March 24, 2012</small>{" "}
+                </span>
+              </div>
+            </Col>
+            <Col>
+              <Litebox2 />
+            </Col>
+            <Col></Col>
           </Row>
         </Container>
       </div>
@@ -160,43 +174,38 @@ const Litebox2 = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <button
-        className="btnTransform nav-link liteboxContnt"
-        type="button"
-        onClick={() => setOpen(true)}
-        style={{
-          background: "transparent",
-          color: "#ffff66",
-        }}
-        class="btnTransform nav-link liteboxContnt"
-      >
-        <h5
-          className="text-warning "
-          style={{
-            textDecoration: "underline",
-            textDecorationColor: "red",
-            paddingBottom: "5rem",
-          }}
-        >
-          <em>Jersey Moves!</em> Festival of Dance at the New Jersey Performing
-          Arts Center(NJPAC) <br />
-          <small
-            class="text-light"
+      <Row>
+        <Col></Col>
+        <Col>
+          <button
+            className="home imgTransform nav-link liteboxContnt fade-in-image"
+            type="button"
+            onClick={() => setOpen(true)}
             style={{
-              textDecoration: "underline",
-              textDecorationColor: "white",
+              background: "transparent",
             }}
           >
-            <span> March 24, 2012</span>
-          </small>
-        </h5>
-      </button>
+            {" "}
+            <img
+              src="./images/choreography/NJPAC086.png"
+              alt="Lisa at NJPAC"
+              style={{
+                width: "15rem",
+                height: "20rem",
+                margin: "auto",
+              }}
+            />
+          </button>
+        </Col>
+        <Col></Col>
+      </Row>
       <Lightbox
+        id="litebox"
         styles={{
           root: {
             "--yarl__color_backdrop": "rgba(0, 0, 0, .8)",
+            height: "100vh",
           },
-          container: { height: "100vh" },
         }}
         plugins={[Captions, Thumbnails, Fullscreen, Zoom]}
         captions={{
