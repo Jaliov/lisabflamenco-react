@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Container, Row, Card, Col } from "react-bootstrap";
+import { Container, Row, Card, CardGroup, Col } from "react-bootstrap";
 // import PhotoDisplay from "./PhotoDisplay";
 // import { SRLWrapper } from "simple-react-lightbox";
 // import SimpleReactLightbox from "simple-react-lightbox";
@@ -72,7 +72,7 @@ const Notable = () => {
 
             <div>
               <Col>
-                <Card className="bg-transparent">
+                <Card className="bg-transparent" style={{ marginLeft: "3rem" }}>
                   <Card.Body>
                     <Card.Title className="text-light">
                       <h4 className="text-warning">
@@ -113,69 +113,57 @@ const Notable = () => {
               </Col>
             </div>
           </Row>
-          <Row>
-            <Col></Col>
-            <Col xs={12}>
-              <Card className="bg-transparent">
-                <Card.Body>
-                  <Modal> </Modal>
-                  <Card.Title>
-                    {" "}
-                    <h4 className="text-warning">
-                      <em>100 Years of Flamenco in New York</em>
-                    </h4>
-                  </Card.Title>
-                  <Card.Text
-                    className="text-light"
-                    style={{ marginBottom: "-2rem" }}
-                  >
-                    {/* <p className ="larger"> */}
-                    Opening reception
-                    <br />
-                    The New York Public Library for the Performing Arts, Vincent
-                    Astor Gallery <br />
-                    Mar 12 - Aug 3, 2013
-                    <br />
-                  </Card.Text>
-                </Card.Body>
-                <Litebox />
-              </Card>
-            </Col>
-            <Col></Col>
-          </Row>
 
-          <Row>
-            <Col></Col>
-            <Col xs={12}>
-              {" "}
-              {/* <div style={{ marginLeft: "2rem" }}> */}
-              <Card className="bg-transparent">
-                <Card.Body>
-                  <Card.Title>
-                    <h4
-                      className="text-warning"
-                      style={{
-                        marginTop: "4rem",
-                        paddingBottom: "0",
-                      }}
-                    >
-                      <em>Jersey Moves!</em>{" "}
-                    </h4>
-                  </Card.Title>
-                  <Card.Text
-                    className="text-light"
-                    style={{ marginBottom: "-2rem" }}
+          <CardGroup style={{ marginLeft: "3rem" }}>
+            <Card className="bg-transparent">
+              <Card.Body>
+                {/* <Modal> </Modal> */}
+                <Card.Title>
+                  {" "}
+                  <h4 className="text-warning">
+                    <em>100 Years of Flamenco in New York</em>
+                  </h4>
+                </Card.Title>
+                <Card.Text
+                  className="text-light"
+                  style={{ marginBottom: "-2rem" }}
+                >
+                  {/* <p className ="larger"> */}
+                  Opening reception
+                  <br />
+                  The New York Public Library for the Performing Arts, Vincent
+                  Astor Gallery <br />
+                  Mar 12 - Aug 3, 2013
+                  <br />
+                </Card.Text>
+                <Litebox />
+              </Card.Body>
+            </Card>{" "}
+            <Card className="bg-transparent">
+              <Card.Body>
+                <Card.Title>
+                  <h4
+                    className="text-warning"
+                    style={{
+                      paddingBottom: "0",
+                    }}
                   >
-                    Festival of Dance at the New Jersey Performing Arts
-                    Center(NJPAC)
-                    <small class="text-light"> March 24, 2012</small>{" "}
-                  </Card.Text>
-                </Card.Body>
+                    <em>Jersey Moves!</em>{" "}
+                  </h4>
+                </Card.Title>
+                <Card.Text
+                  className="text-light"
+                  style={{ marginBottom: "-2rem" }}
+                >
+                  Festival of Dance at the New Jersey Performing Arts
+                  Center(NJPAC)
+                  <br />
+                  <small class="text-light"> March 24, 2012</small>{" "}
+                </Card.Text>
                 <Litebox2 />
-              </Card>
-            </Col>
-            <Col></Col>
-          </Row>
+              </Card.Body>
+            </Card>
+          </CardGroup>
         </Container>
       </div>
     </>
@@ -185,31 +173,25 @@ const Litebox2 = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <Row>
-        <Col></Col>
-        <Col>
-          <button
-            className="home imgTransform nav-link liteboxContnt fade-in-image"
-            type="button"
-            onClick={() => setOpen(true)}
-            style={{
-              background: "transparent",
-            }}
-          >
-            {" "}
-            <img
-              src="./images/choreography/NJPAC086.png"
-              alt="Lisa at NJPAC"
-              style={{
-                width: "15rem",
-                height: "20rem",
-                margin: "auto",
-              }}
-            />
-          </button>
-        </Col>
-        <Col></Col>
-      </Row>
+      <button
+        className="home imgTransform nav-link liteboxContnt fade-in-image"
+        type="button"
+        onClick={() => setOpen(true)}
+        style={{
+          background: "transparent",
+        }}
+      >
+        {" "}
+        <img
+          src="./images/choreography/NJPAC086.png"
+          alt="Lisa at NJPAC"
+          style={{
+            width: "15rem",
+            height: "20rem",
+          }}
+        />
+      </button>
+
       <Lightbox
         id="litebox"
         styles={{
