@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-#cover {
-  padding: 0;
-  margin: 0;
-}
 /* #background {
   padding: 0;
   margin-left: 50%;
@@ -71,11 +67,11 @@
 body {
   background-image: url(./IMG_0473.jpg);
   background-color: 882021;
-  border-width: 100%;
+  /* border-width: 100%;
   margin: 0px;
-  padding: 0;
+  padding: 0; */
   transition: 0.5s;
-  filter: brightness(1);
+  /* filter: brightness(1); */
 }
 
 body:hover {
@@ -339,11 +335,9 @@ img.item:hover {
   animation-duration: 5s;
 }
 
-/*@media screen and (max-width: 956px) {
-  .home {
-    margin-top: 10px;
-  }
-}*/
+#lisaImage {
+  height: 25px;
+}
 
 #anniversary {
   animation-name: moveFromTop;
@@ -418,6 +412,14 @@ img.item:hover {
   }
   .background {
     max-width: 99vw;
+  }
+  #cover {
+    padding: 0;
+    margin: 0;
+    height: 70vh;
+  }
+  .home {
+    margin-top: 1rem;
   }
 }
 
