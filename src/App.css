@@ -113,7 +113,7 @@ h2 {
   /*padding-bottom: 0px;
   text-align: center;*/
   animation-name: moveInRight;
-  animation-duration: 9s;
+  animation-duration: 10s;
   color: #ffff66;
 }
 
@@ -417,6 +417,17 @@ img.item:hover {
   }
   .btnTransform {
     margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home {
+    margin-top: 1rem;
+  }
+  #cover {
+    padding: 0;
+    margin: 0;
+    height: 70vh;
   }
 }
 

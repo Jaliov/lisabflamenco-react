@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import US1Article from "../assets/US1Article.pdf";
+import RobesonArticle from "../assets/PaulRobesonTownTopics.jpg";
 const carouselItemStyle = { height: "300px", interval: "30000", width: "100%" };
 
 const Reviews = () => {
@@ -44,6 +45,27 @@ const Reviews = () => {
               </Link>
               <br />
               US1 interviews Lisa about flamenco and Paco Pena
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item style={carouselItemStyle}>
+          {" "}
+          2024
+          <Carousel.Caption>
+            <h3>Princeton Town Topics</h3>
+            <p className="larger">
+              <Link
+                to={RobesonArticle}
+                alt="Paule Robeson 126 birthday celebration"
+                target="blank"
+                className="press"
+              >
+                {" "}
+                Paul Robeson celebration and flamenco!
+              </Link>
+              <br />
+              The Arts Council of Princeton Celebrates 126th Birthday of Paul
+              Robeson
             </p>
           </Carousel.Caption>
         </Carousel.Item>
