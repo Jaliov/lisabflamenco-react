@@ -30,7 +30,7 @@ const VideoGallery = () => {
         />
       </Helmet>
       <Container>
-        <h1 className="bio" style={{ textAlign: "center" }}>
+        <h1 className="bio home" style={{ textAlign: "center" }}>
           Videos!
         </h1>
         <Row>
@@ -46,7 +46,7 @@ const VideoGallery = () => {
                 controls={true}
                 className="border border-secondary"
                 origin="window.location.host"
-                alt="Lisa as Juana la"
+                alt="Lisa as Juana la Loca"
               />
               <Card.Body>
                 <Card.Text>

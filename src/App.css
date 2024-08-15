@@ -113,7 +113,7 @@ h2 {
   /*padding-bottom: 0px;
   text-align: center;*/
   animation-name: moveInRight;
-  animation-duration: 10s;
+  animation-duration: 12s;
   color: #ffff66;
 }
 
@@ -488,7 +488,7 @@ img.item:hover {
 }
 
 .fade-in-image {
-  animation: fadeIn 15s;
+  animation: fadeIn 14s;
 }
 @keyframes fadeIn {
   0% {

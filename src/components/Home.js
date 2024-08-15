@@ -23,21 +23,23 @@ const Home = () => {
           <Row>
             <Col></Col>
             <Col md={4}>
-              <div>
-                <h1 className="home">
-                  <em>Lisa Botalico </em>
-                </h1>
-              </div>
+              <header className="home">
+                <div>
+                  <h1>
+                    <em>Lisa Botalico </em>
+                  </h1>
+                </div>
 
-              <div>
-                <p className="larger text-light opening" id="spin">
-                  <em>
-                    ...danced and sang with her head thrown back, her energy
-                    seemingly unquenchable. <br />
-                  </em>
-                  <small>(Star Ledger)</small>
-                </p>
-              </div>
+                <div>
+                  <p className="larger text-light opening" id="spin">
+                    <em>
+                      ...danced and sang with her head thrown back, her energy
+                      seemingly unquenchable. <br />
+                    </em>
+                    <small>(Star Ledger)</small>
+                  </p>
+                </div>
+              </header>
               <div className="fade-in-image centered">
                 <Homephoto cover={cover} id="cover" />
               </div>
