@@ -27,9 +27,10 @@ export const Litebox = () => {
           src="./images/choreography/LisaNY1.png"
           alt="Lisa and Manolo"
           style={{
-            width: "14rem",
-            height: "17rem",
+            width: "15rem",
+            height: "20rem",
             margin: "auto",
+            backgroundColor: "rgb(0,0,0, 0.2)",
           }}
         />
       </button>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Container, Row, Card, CardGroup, Col } from "react-bootstrap";
+import { Container, Row, Card, Col } from "react-bootstrap";
 // import PhotoDisplay from "./PhotoDisplay";
 // import { SRLWrapper } from "simple-react-lightbox";
 // import SimpleReactLightbox from "simple-react-lightbox";
@@ -72,7 +72,7 @@ const Notable = () => {
 
             <div>
               <Col>
-                <Card className="bg-transparent" style={{ marginLeft: "3rem" }}>
+                <Card className="bg-transparent">
                   <Card.Body>
                     <Card.Title className="text-light">
                       <h4 className="text-warning">
@@ -113,57 +113,47 @@ const Notable = () => {
               </Col>
             </div>
           </Row>
-
-          <CardGroup style={{ marginLeft: "3rem" }}>
-            <Card className="bg-transparent">
+          <Row>
+            <Card className="bg-transparent" style={{ width: "30rem" }}>
               <Card.Body>
-                {/* <Modal> </Modal> */}
-                <Card.Title>
+                <Card.Header>
+                  <p></p>
+                  {<Litebox />}
+                </Card.Header>
+
+                <Card.Title className="text-warning">
                   {" "}
-                  <h4 className="text-warning">
-                    <em>100 Years of Flamenco in New York</em>
-                  </h4>
+                  100 Years of Flamenco in New York
                 </Card.Title>
-                <Card.Text
-                  className="text-light"
-                  style={{ marginBottom: "-2rem" }}
-                >
+                <Card.Text className="text-light">
                   {/* <p className ="larger"> */}
-                  Opening reception
-                  <br />
-                  The New York Public Library for the Performing Arts, Vincent
-                  Astor Gallery <br />
-                  Mar 12 - Aug 3, 2013
+                  Opening reception: The New York Public Library for the
+                  Performing Arts, Vincent Astor Gallery, Mar 12 - Aug 3, 2013
                   <br />
                 </Card.Text>
-                <Litebox />
               </Card.Body>
             </Card>{" "}
-            <Card className="bg-transparent">
+            <Card className="bg-transparent" style={{ width: "30rem" }}>
               <Card.Body>
-                <Card.Title>
-                  <h4
-                    className="text-warning"
-                    style={{
-                      paddingBottom: "0",
-                    }}
-                  >
-                    <em>Jersey Moves!</em>{" "}
-                  </h4>
-                </Card.Title>
-                <Card.Text
-                  className="text-light"
-                  style={{ marginBottom: "-2rem" }}
+                <Card.Header>
+                  <p></p>
+                  {<Litebox2 />}
+                </Card.Header>
+                <Card.Title
+                  className="text-warning"
+                  // style={{ marginTop: "-2rem" }}
                 >
+                  <em>Jersey Moves!</em>{" "}
+                </Card.Title>
+                <Card.Text className="text-light">
                   Festival of Dance at the New Jersey Performing Arts
                   Center(NJPAC)
                   <br />
-                  <small class="text-light"> March 24, 2012</small>{" "}
+                  March 24, 2012
                 </Card.Text>
-                <Litebox2 />
               </Card.Body>
             </Card>
-          </CardGroup>
+          </Row>
         </Container>
       </div>
     </>
@@ -174,6 +164,7 @@ const Litebox2 = () => {
   return (
     <>
       <button
+        id="litebox2"
         className="home imgTransform nav-link liteboxContnt fade-in-image"
         type="button"
         onClick={() => setOpen(true)}
@@ -184,10 +175,12 @@ const Litebox2 = () => {
         {" "}
         <img
           src="./images/choreography/NJPAC086.png"
+          id="NJPACpng"
           alt="Lisa at NJPAC"
           style={{
             width: "15rem",
             height: "20rem",
+            backgroundColor: "rgb(0,0,0, 0.2)",
           }}
         />
       </button>

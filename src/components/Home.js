@@ -25,7 +25,7 @@ const Home = () => {
             <Col md={4}>
               <header className="home">
                 <div>
-                  <h1>
+                  <h1 className="landing">
                     <em>Lisa Botalico </em>
                   </h1>
                 </div>
