@@ -1,3 +1,4 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/close.css");
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +10,6 @@
   margin-left: 50%;
   float: right;
 } */
-
-@import url("https://unpkg.com/css.gg@2.0.0/icons/css/close.css");
-
 .centered {
   display: flex;
   width: 100%;
@@ -57,7 +55,6 @@
 .gg-close-r::after {
   transform: rotate(-45deg);
 } */
-
 body {
   background-image: url(./IMG_0473.jpg);
   background-color: 882021;
@@ -96,7 +93,6 @@ body:hover {
   src: url(./AnyConv.com__MATURASC_1.woff);
   font-display: auto;
 }
-
 h1,
 h2 {
   text-align: center;
@@ -105,7 +101,7 @@ h2 {
   margin-top: 1rem;
   padding-bottom: 0px;
   margin-bottom: 0.75rem;
-  color: #ffff66;
+  color: #f96a6a;
 }
 
 .home {
@@ -114,7 +110,7 @@ h2 {
   text-align: center;*/
   animation-name: moveInRight;
   animation-duration: 12s;
-  color: #ffff66;
+  color: #f96a6a;
 }
 
 .opening {
@@ -128,8 +124,7 @@ h2 {
 h1 em {
   font-size: 3.2rem;
   padding-bottom: 0.1rem;
-
-  color: #ffff66;
+  color: #f96a6a;
   text-align: left;
   animation-name: moveInLeft;
   animation-duration: 5s;
@@ -142,14 +137,13 @@ h6 {
 }
 
 h4 {
-  color: #ffff66;
-
+  color: #f96a6a;
   animation-name: moveInLeft;
   animation-duration: 5s;
 }
 
 .navv {
-  background-color: rgb(217, 83, 79, 0.4);
+  background-color: rgba(217, 83, 79, 0.4);
   margin-bottom: 10px;
   width: 100% !important;
   margin-right: 0px;
@@ -183,18 +177,29 @@ Nav .container {
 }
 
 #navbarBrand:hover {
-  background-color: #fdfdaf;
+  background-color: #f96a6a;
+}
+
+.cardlink {
+  color: white;
+}
+
+.cardlink:hover {
+  color: #f96a6a;
+  transform: translateY(-0.3rem);
+}
+
+.cardlink:active {
+  background-color: white;
 }
 
 .alertyellow {
-  color: #ffff66;
+  color: #f96a6a;
 }
 
-.scroll {
-  .scroll {
-    min-height: 100%;
-    overflow: scroll;
-  }
+.scroll .scroll {
+  min-height: 100%;
+  overflow: scroll;
 }
 
 .larger {
@@ -202,30 +207,35 @@ Nav .container {
   animation-name: moveInRight;
   animation-duration: 5s;
 }
+
 .smaller {
   font-size: 1rem;
   animation-name: moveInRight;
   animation-duration: 5s;
 }
+
 .larger_mod {
   font-size: 120%;
   animation-name: moveInRight_mod;
   animation-duration: 10s;
 }
+
 a {
-  -webkit-transition: color 3s;
   transition: color 3s;
 }
 
 a:hover {
-  color: #ffff66;
+  color: #f96a6a;
 }
+
 .press {
   color: whitesmoke;
 }
+
 .press:hover {
-  color: #ffff66;
+  color: #f96a6a;
 }
+
 .btnTransform:link,
 .btnTransform:visited {
   color: rgb(240, 173, 78);
@@ -245,7 +255,7 @@ a:hover {
 .imgTransform:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
-  background-color: #ffff66;
+  background-color: #f96a6a;
 }
 
 .btnTransform::after {
@@ -299,13 +309,14 @@ img {
   transform-style: preserve-3d;
   transform: perspective(1000px);
 }
+
 img.item {
   transition: 0.5s;
   filter: brightness(0.7);
-
   margin-right: 0.3rem;
   margin-bottom: 0.3rem;
 }
+
 img.item:hover {
   filter: brightness(1);
   transform: translateZ(200px);
@@ -323,6 +334,7 @@ img.item:hover {
   margin-right: 0;
   overflow: hidden;
 }
+
 .bio {
   animation-name: moveFromTop;
   animation-duration: 5s;
@@ -344,17 +356,14 @@ img.item:hover {
     opacity: 0;
     transform: translateX(-100px) rotate(180deg);
   }
-
   80% {
     transform: translateX(10px);
   }
-
   100% {
     opacity: 1;
     transform: translate(0);
   }
 }
-
 .modal-title {
   text-align: center;
 }
@@ -366,6 +375,7 @@ img.item:hover {
 .modal-open {
   overflow: auto;
 }
+
 .modal-content {
   background-color: hsl(0, 89%, 48%);
 }
@@ -415,12 +425,10 @@ img.item:hover {
   .home {
     margin-top: 1rem;
   }
-
   .btnTransform {
     margin-left: 3rem;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .home {
     margin-top: 1rem;
@@ -431,78 +439,66 @@ img.item:hover {
     height: 70vh;
   }
 }
-
 /* @media screen and (max-width: 857px) {
   #NJPACpng {
     margin-top: 4rem;
   }
 } */
-
 @media screen and (max-width: 970px) {
   #litebox2 {
     margin-top: 1rem;
   }
 }
-
 @keyframes moveInRight_mod {
   0% {
     opacity: 0;
     transform: translateX(100px);
   }
-
   100% {
     opacity: 1;
     transform: translate(0);
   }
 }
-
 @keyframes moveInRight {
   0% {
     opacity: 0;
     transform: translateX(100px);
   }
-
   80% {
     transform: translateX(-10px);
   }
-
   100% {
     opacity: 1;
     transform: translate(0);
   }
 }
-
 @keyframes moveFromTop {
   0% {
     opacity: 0;
     transform: translateY(-100px);
   }
-
   80% {
     transform: translateY(10px);
   }
-
   100% {
     opacity: 1;
     transform: translate(0);
   }
 }
-
 @keyframes moveInButton {
   0% {
     opacity: 0;
     transform: translateY(100px);
   }
-
   100% {
     opacity: 1;
     transform: translate(0);
   }
 }
-
 .fade-in-image {
   animation: fadeIn 14s;
 }
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -515,7 +511,6 @@ img.item:hover {
   }
 }
 /*try rottat effect also*/
-
 .text-light .video-animate {
   animation-name: moveInLeft;
   animation-duration: 10s;
@@ -530,4 +525,4 @@ p.lineStyle {
 .background-animation {
   animation: moveInButton 1s ease-out 0.75s;
   animation-fill-mode: backwards;
-}
+} /*# sourceMappingURL=App.css.map */

@@ -5,27 +5,23 @@ const AddEvent = () => {
   const addEvents = [
     {
       id: 46,
-      date: "APRIL 9, 2024",
-      text: "PAUL ROBESON 126TH BIRTHDAY CELEBRATION",
-      nonlink:
-        '"...This program is a multi-media celebration of the legacy of Paul Robeson, Princeton’s “native son” and scholar, all American athlete, artist, and activist. This celebration of his legacy is free and open to all ages, presented in partnership with the Witherspoon Jackson Historical and Cultural Society (WJHCS)."',
-      link: "https://artscouncilofprinceton.org/event/robeson-126/",
+      date: "September 15 1-2 PM ",
+      text: "Performance in Palmer Square, Princeton",
+      link: "https://palmersquare.com/event/festival-cultural-latino-a-community-mercado/",
     },
     {
       id: 47,
-      date: "Thursday, June 6, 7 pm",
-      text: "Spanish Classical Dance Song and Music",
-      nonlink:
-        "Performance celebrating Lisa Botalico's 25th anniversary at The Arts Council of Princeton, featuring works by Spanish composers Manuel deFalla, Ganados as well as Bach, Beethoven and more! Guest artists: Joel Rudin, viola, Christina Xie, piano, Debbie Lingel, singer",
-      link: "https://artscouncilofprinceton.org/",
+      date: "October 5 at 7:30 PM",
+      text: 'Alborada performance at Playhouse 22, East Brunswick: "Flamenco y Más!"',
+
+      link: "https://www.alboradadance.org/",
     },
     {
       id: 48,
-      date: "Friday, June 7, 7 pm",
-      text: "Flamenco Dance Song and Music",
-      nonlink:
-        "Performance celebrating Lisa Botalico's 25th anniversary at The Arts Council of Princeton, with Ivan Max, flamenco guitar and Yuka Koyama, flamenco vocalist",
-      link: "https://artscouncilofprinceton.org/",
+      date: "November 10 at 2:30 PM",
+      text: "Remembering Paul Robeson Spain 1938 Lecture Demonstration at Woodbridge Public Library",
+
+      link: "https://woodbridgelibrary.org/1026/Public-Library",
     },
   ];
   return addEvents ? (
@@ -38,9 +34,10 @@ const AddEvent = () => {
               {event.date}:{" "}
             </span>
             <Card.Link
+              className="cardlink"
               href={event.link}
               target="blank"
-              style={{ color: "white" }}
+              // style={{ color: "white" }}
             >
               {event.text} <br></br>
             </Card.Link>
