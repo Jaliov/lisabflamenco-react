@@ -63,9 +63,7 @@
   body {
     background-image: url(./IMG_0473.jpg);
     background-color: 882021;
-    /* border-width: 100%;
-    margin: 0px;
-    padding: 0; */
+ 
     transition: 0.5s;
     /* filter: brightness(1); */
   }
@@ -82,6 +80,7 @@
     background-position: 50% -20%;
     width: 100%;
     height: 750px;
+   
   }
   
   .App {
@@ -158,6 +157,12 @@
     margin-left: 0px;
     margin-top: 0px;
     position: relative;
+
+    &{
+      overflow-y: scroll; /* Add the ability to scroll */
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
   }
   
   Nav .container {
@@ -174,33 +179,28 @@
   }
   
   /* Hide scrollbar for IE, Edge and Firefox */
-  .navv {
-    overflow-y: scroll; /* Add the ability to scroll */
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
+ 
   
   #navbarBrand {
     margin-left: 1rem;
-  }
-  
-  #navbarBrand:hover {
-    background-color: $header-color;
+
+  &:hover {
+      background-color: $header-color;
+    }
   }
 
   .cardlink {
     color: white;
+
+    &:hover {
+      color: $header-color;
+      transform: translateY(-0.3rem);
+    }
+    &:active {
+      background-color: white; 
+    }
   }
 
-  .cardlink:hover {
-    color: $header-color;
-    transform: translateY(-0.3rem);
-  }
-
-  .cardlink:active {
-    background-color: white; 
-  }
-  
   .alertyellow {
     color:   $header-color;
   }
@@ -216,6 +216,7 @@
     font-size: 1.2rem;
     animation-name: moveInRight;
     animation-duration: 5s;
+    
   }
   .smaller {
     font-size: 1rem;
@@ -230,40 +231,44 @@
   a {
     -webkit-transition: color 3s;
     transition: color 3s;
+
+    &:hover {
+      color:   $header-color;
+    }
   }
-  
-  a:hover {
-    color:   $header-color;
-  }
+ 
   .press {
     color: whitesmoke;
-  }
-  .press:hover {
+  
+  &:hover {
     color:   $header-color;
   }
-  .btnTransform:link,
-  .btnTransform:visited {
+}
+
+.btnTransform{
+ &:link,
+ &:visited {
     color: rgb(240, 173, 78);
     transition: all 0.2;
     position: relative;
     border-radius: 10rem;
   }
   
-  .btnTransform:hover,
+ &:hover,
   .imgTransform:hover {
     background: rgba(241, 102, 98, 0.2);
     transform: translateY(-0.3rem);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
   
-  .btnTransform:hover::after,
+ &:hover::after,
   .imgTransform:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
     background-color:   $header-color;
   }
   
-  .btnTransform::after {
+ &::after {
     content: "";
     display: inline-block;
     height: 100%;
@@ -289,11 +294,14 @@
     border-radius: 0rem;
   }
   
-  .btnTransform:active,
+ &:active,
   .imgTransform:active {
     transform: translate(-1px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   }
+  
+
+}
   
   #alert {
     padding: 0;

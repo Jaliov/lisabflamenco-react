@@ -58,9 +58,6 @@
 body {
   background-image: url(./IMG_0473.jpg);
   background-color: 882021;
-  /* border-width: 100%;
-  margin: 0px;
-  padding: 0; */
   transition: 0.5s;
   /* filter: brightness(1); */
 }
@@ -151,6 +148,11 @@ h4 {
   margin-top: 0px;
   position: relative;
 }
+.navv {
+  overflow-y: scroll; /* Add the ability to scroll */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 
 Nav .container {
   /* display: flex;
@@ -166,16 +168,9 @@ Nav .container {
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.navv {
-  overflow-y: scroll; /* Add the ability to scroll */
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-
 #navbarBrand {
   margin-left: 1rem;
 }
-
 #navbarBrand:hover {
   background-color: #f96a6a;
 }
@@ -183,12 +178,10 @@ Nav .container {
 .cardlink {
   color: white;
 }
-
 .cardlink:hover {
   color: #f96a6a;
   transform: translateY(-0.3rem);
 }
-
 .cardlink:active {
   background-color: white;
 }
@@ -223,7 +216,6 @@ Nav .container {
 a {
   transition: color 3s;
 }
-
 a:hover {
   color: #f96a6a;
 }
@@ -231,7 +223,6 @@ a:hover {
 .press {
   color: whitesmoke;
 }
-
 .press:hover {
   color: #f96a6a;
 }
@@ -243,21 +234,18 @@ a:hover {
   position: relative;
   border-radius: 10rem;
 }
-
 .btnTransform:hover,
-.imgTransform:hover {
+.btnTransform .imgTransform:hover {
   background: rgba(241, 102, 98, 0.2);
   transform: translateY(-0.3rem);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
 .btnTransform:hover::after,
-.imgTransform:hover::after {
+.btnTransform .imgTransform:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
   background-color: #f96a6a;
 }
-
 .btnTransform::after {
   content: "";
   display: inline-block;
@@ -270,8 +258,7 @@ a:hover {
   z-index: -1;
   transition: all 0.4s;
 }
-
-.imgTransform::after {
+.btnTransform .imgTransform::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -283,9 +270,8 @@ a:hover {
   transition: all 0.4s;
   border-radius: 0rem;
 }
-
 .btnTransform:active,
-.imgTransform:active {
+.btnTransform .imgTransform:active {
   transform: translate(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
