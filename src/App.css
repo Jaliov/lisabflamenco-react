@@ -227,21 +227,18 @@ a:hover {
   color: #f96a6a;
 }
 
-.btnTransform:link,
-.btnTransform:visited {
+.btnTransform:link, .btnTransform:visited {
   color: rgb(240, 173, 78);
   transition: all 0.2;
   position: relative;
   border-radius: 10rem;
 }
-.btnTransform:hover,
-.btnTransform .imgTransform:hover {
+.btnTransform:hover {
   background: rgba(241, 102, 98, 0.2);
   transform: translateY(-0.3rem);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-.btnTransform:hover::after,
-.btnTransform .imgTransform:hover::after {
+.btnTransform:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
   background-color: #f96a6a;
@@ -258,7 +255,18 @@ a:hover {
   z-index: -1;
   transition: all 0.4s;
 }
-.btnTransform .imgTransform::after {
+.btnTransform:active {
+  transform: translate(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.imgTransform:hover {
+  background: rgba(241, 102, 98, 0.2);
+  transform: translateY(-0.3rem);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.imgTransform::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -270,8 +278,8 @@ a:hover {
   transition: all 0.4s;
   border-radius: 0rem;
 }
-.btnTransform:active,
-.btnTransform .imgTransform:active {
+
+.imgTransform:active {
   transform: translate(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
@@ -511,4 +519,4 @@ p.lineStyle {
 .background-animation {
   animation: moveInButton 1s ease-out 0.75s;
   animation-fill-mode: backwards;
-} /*# sourceMappingURL=App.css.map */
+}/*# sourceMappingURL=App.css.map */

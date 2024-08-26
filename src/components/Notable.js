@@ -61,11 +61,9 @@ const Notable = () => {
           <Row>
             <h1
               style={{
-                color: "#ffff66",
-                textAlign: "center",
                 marginTop: "1rem",
               }}
-              class="bio"
+              className="home"
             >
               Notable Past Events
             </h1>
@@ -178,8 +176,8 @@ const Litebox2 = () => {
           id="NJPACpng"
           alt="Lisa at NJPAC"
           style={{
-            width: "15rem",
-            height: "20rem",
+            width: "10rem",
+            height: "15em",
             backgroundColor: "rgb(0,0,0, 0.2)",
           }}
         />
