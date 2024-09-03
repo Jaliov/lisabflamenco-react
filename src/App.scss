@@ -116,6 +116,7 @@
     animation-name: moveInRight;
     animation-duration: 12s;
     color:   $header-color;
+  
   }
   
   .opening {
@@ -245,7 +246,17 @@
   }
 }
 
+#pngEffects {
+  filter: brightness(0.5);
+
+
+  &:hover {
+  filter: brightness(1);
+}
+}
+
 .btnTransform{
+  
  &:link,
  &:visited {
     color: rgb(240, 173, 78);

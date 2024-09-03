@@ -27,13 +27,13 @@ export const Litebox = () => {
       >
         {" "}
         <img
+          id="pngEffects"
           src="./images/choreography/Lisamarie4fade copy.png"
           alt="Lisa and Marie dancing"
           style={{
             width: "15rem",
             height: "20rem",
             marginTop: "3%",
-            backgroundColor: "rgba(000, 0, 0, 0.1)",
           }}
         />
       </button>

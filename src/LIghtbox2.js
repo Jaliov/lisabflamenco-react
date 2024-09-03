@@ -26,6 +26,7 @@ export const Litebox = () => {
       >
         {/* <h5 style={{ textDecoration: "underline" }}>Photos Past & Present!</h5> */}
         <img
+          id="pngEffects"
           src=".\images\blackwhitepolkaadotglow.png"
           alt="polka do Lisa"
           style={{

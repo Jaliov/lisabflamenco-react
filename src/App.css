@@ -227,6 +227,13 @@ a:hover {
   color: #f96a6a;
 }
 
+#pngEffects {
+  filter: brightness(0.5);
+}
+#pngEffects:hover {
+  filter: brightness(1);
+}
+
 .btnTransform:link, .btnTransform:visited {
   color: rgb(240, 173, 78);
   transition: all 0.2;
