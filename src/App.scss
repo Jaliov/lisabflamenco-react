@@ -114,7 +114,7 @@
     /*padding-bottom: 0px;
     text-align: center;*/
     animation-name: moveInRight;
-    animation-duration: 12s;
+    animation-duration: 3s;
     color:   $header-color;
   
   }
@@ -152,12 +152,12 @@
   
   .navv {
     background-color: rgb(217, 83, 79, 0.4);
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     width: 100% !important;
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
-    position: relative;
+    position: absolute;
 
     &{
       overflow-y: scroll; /* Add the ability to scroll */
@@ -165,6 +165,7 @@
       scrollbar-width: none; /* Firefox */
     }
   }
+
   
   Nav .container {
     /* display: flex;
@@ -173,6 +174,7 @@
     padding-right: 0;
     animation: moveInButton 0.75s ease-out 0.75s;
     animation-fill-mode: backwards;
+   
   }
   
   .navv::-webkit-scrollbar {
@@ -227,7 +229,7 @@
   .larger_mod {
     font-size: 120%;
     animation-name: moveInRight_mod;
-    animation-duration: 10s;
+    animation-duration: 5s;
   }
   a {
     -webkit-transition: color 3s;
@@ -458,7 +460,7 @@
       height: 70vh;
     }
     .home {
-      margin-top: 1rem;
+      margin-top: 0rem;
     }
   
     .btnTransform {
@@ -546,7 +548,7 @@
   }
   
   .fade-in-image {
-    animation: fadeIn 14s;
+    animation: fadeIn 7s;
   }
   @keyframes fadeIn {
     0% {
@@ -563,9 +565,9 @@
   
   .text-light .video-animate {
     animation-name: moveInLeft;
-    animation-duration: 10s;
+    animation-duration: 5s;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    animation: fadeIn 10s;
+    animation: fadeIn 5s;
   }
   
   p.lineStyle {

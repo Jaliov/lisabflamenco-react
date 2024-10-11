@@ -106,7 +106,7 @@ h2 {
   /*padding-bottom: 0px;
   text-align: center;*/
   animation-name: moveInRight;
-  animation-duration: 12s;
+  animation-duration: 3s;
   color: #f96a6a;
 }
 
@@ -141,12 +141,12 @@ h4 {
 
 .navv {
   background-color: rgba(217, 83, 79, 0.4);
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   width: 100% !important;
   margin-right: 0px;
   margin-left: 0px;
   margin-top: 0px;
-  position: relative;
+  position: absolute;
 }
 .navv {
   overflow-y: scroll; /* Add the ability to scroll */
@@ -210,7 +210,7 @@ Nav .container {
 .larger_mod {
   font-size: 120%;
   animation-name: moveInRight_mod;
-  animation-duration: 10s;
+  animation-duration: 5s;
 }
 
 a {
@@ -234,7 +234,8 @@ a:hover {
   filter: brightness(1);
 }
 
-.btnTransform:link, .btnTransform:visited {
+.btnTransform:link,
+.btnTransform:visited {
   color: rgb(240, 173, 78);
   transition: all 0.2;
   position: relative;
@@ -424,7 +425,7 @@ img.item:hover {
     height: 70vh;
   }
   .home {
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
   .btnTransform {
     margin-left: 3rem;
@@ -497,7 +498,7 @@ img.item:hover {
   }
 }
 .fade-in-image {
-  animation: fadeIn 14s;
+  animation: fadeIn 7s;
 }
 
 @keyframes fadeIn {
@@ -514,9 +515,9 @@ img.item:hover {
 /*try rottat effect also*/
 .text-light .video-animate {
   animation-name: moveInLeft;
-  animation-duration: 10s;
+  animation-duration: 5s;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  animation: fadeIn 10s;
+  animation: fadeIn 5s;
 }
 
 p.lineStyle {
@@ -526,4 +527,4 @@ p.lineStyle {
 .background-animation {
   animation: moveInButton 1s ease-out 0.75s;
   animation-fill-mode: backwards;
-}/*# sourceMappingURL=App.css.map */
+} /*# sourceMappingURL=App.css.map */
