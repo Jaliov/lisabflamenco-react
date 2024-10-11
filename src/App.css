@@ -234,8 +234,7 @@ a:hover {
   filter: brightness(1);
 }
 
-.btnTransform:link,
-.btnTransform:visited {
+.btnTransform:link, .btnTransform:visited {
   color: rgb(240, 173, 78);
   transition: all 0.2;
   position: relative;
@@ -422,7 +421,7 @@ img.item:hover {
   #cover {
     padding: 0;
     margin: 0;
-    height: 70vh;
+    max-height: 10vh;
   }
   .home {
     margin-top: 0rem;
@@ -527,4 +526,4 @@ p.lineStyle {
 .background-animation {
   animation: moveInButton 1s ease-out 0.75s;
   animation-fill-mode: backwards;
-} /*# sourceMappingURL=App.css.map */
+}/*# sourceMappingURL=App.css.map */
