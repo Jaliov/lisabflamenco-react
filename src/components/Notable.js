@@ -162,8 +162,8 @@ const Litebox2 = () => {
   return (
     <>
       <button
-        id="litebox2"
-        className="home imgTransform nav-link liteboxContnt fade-in-image"
+        id="pngEffects"
+        className="home  nav-link liteboxContnt fade-in-image"
         type="button"
         onClick={() => setOpen(true)}
         style={{

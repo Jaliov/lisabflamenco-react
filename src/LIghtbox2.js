@@ -15,7 +15,7 @@ export const Litebox = () => {
   return (
     <>
       <button
-        className="home imgTransform nav-link liteboxContnt fade-in-image"
+        className="home nav-link liteboxContnt fade-in-image"
         type="button"
         onClick={() => setOpen(true)}
         style={{
