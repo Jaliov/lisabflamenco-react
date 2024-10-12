@@ -37,7 +37,7 @@ const AddEvent = () => {
               className="cardlink"
               href={event.link}
               target="blank"
-              // style={{ color: "white" }}
+              style={{ color: "white" }}
             >
               {event.text} <br></br>
             </Card.Link>
