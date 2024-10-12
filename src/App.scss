@@ -412,7 +412,7 @@ img.item:hover {
   background-color: hsl(0, 89%, 48%);
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (min-width: 580px) {
   h1 em {
     margin-top: 0px;
   }
@@ -455,7 +455,7 @@ img.item:hover {
   #cover {
     padding: 0;
     margin: 0;
-    height: 70vh;
+    height: 50vh;
   }
   .home {
     margin-top: 1rem;
@@ -466,7 +466,7 @@ img.item:hover {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .home {
     margin-top: 1rem;
   }
