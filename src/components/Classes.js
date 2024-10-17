@@ -21,7 +21,10 @@ const Classes = () => {
         />
       </Helmet>
 
-      <Container className="container-fluid" style={{ height: "1000px" }}>
+      <Container
+        className="container-fluid scroll-effect"
+        style={{ height: "1000px" }}
+      >
         <h1
           className="home scroll-effect"
           style={{
@@ -61,7 +64,7 @@ const Classes = () => {
                 <br />
                 <Card.Link
                   href="mailto:lisasolea@aol.com"
-                  className="text-light  scroll-effect"
+                  className="text-light scroll-effect"
                 >
                   Email
                 </Card.Link>
@@ -69,7 +72,7 @@ const Classes = () => {
                 See videos of Lisa teaching on the{" "}
                 <Card.Link
                   href="/videogallery"
-                  className="text-light  scroll-effect"
+                  className="text-light scroll-effect"
                 >
                   Videos{" "}
                 </Card.Link>
@@ -83,7 +86,7 @@ const Classes = () => {
           <Col md={1} />
           <Col md={10}>
             <Card bg="transparent classMedia scroll-effect">
-              <Card.Title className="text-light larger  scroll-effect">
+              <Card.Title className="text-light larger scroll-effect">
                 June 8, 2024: in recognition of 25 years teaching at The Arts
                 Council of Princeton, Lisa has had a{" "}
                 <span className="alertyellow">studio named in her honor!</span>
@@ -135,7 +138,7 @@ const Classes = () => {
         <Row>
           <Col md={1} />
           <Col md={10}>
-            <Card bg="transparent classMedia">
+            <Card bg="transparent classMedia scroll-effect">
               <Card.Title className="text-light larger scroll-effect">
                 {" "}
                 Lisa with students after the first in-person student showcase,
