@@ -452,9 +452,6 @@ img.item:hover {
 }
 
 @media screen and (max-width: 580px) {
-  h1 em {
-    margin-top: 0px;
-  }
   .navv {
     margin-right: 0;
   }
@@ -608,7 +605,7 @@ p.lineStyle {
 .scroll-effect {
   animation: CSSscrollReveal ease-in-out both;
   animation-timeline: view();
-  animation-duration: infinite;
+  animation-duration: 5s;
   animation-range: entry 50% cover 50%;
 }
 
