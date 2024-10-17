@@ -40,7 +40,7 @@ const Classes = () => {
               <Card.Img
                 variant="top"
                 src={LisaChildren}
-                className="fade-in-image studentPhotos"
+                className="fade-in-image"
                 alt="Lisa teaching youngsters"
               />
 
