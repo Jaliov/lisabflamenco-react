@@ -5,7 +5,7 @@ import Classes from "./components/Classes";
 
 import VideoGallery from "./components/VideoGallery";
 import "./App.min.css";
-
+// import { ParallaxProvider } from "react-scroll-parallax";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Gallery from "./components/Gallery";
 import Notable from "./components/Notable";
@@ -31,6 +31,7 @@ const App = () => {
           content="Lisa Botalico, Lisa Bottalico Flamenco, Lisa Botalico Flamenco, Lisa Flamenco, lisabflamenco, Flamenco Classes, Flamenco Instruction, Spanish Dance, Choreography"
         />
       </Helmet>
+
       <Router>
         <Navbar />
         <Switch>
