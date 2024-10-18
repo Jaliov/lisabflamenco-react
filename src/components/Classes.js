@@ -10,6 +10,7 @@ import LisaStudentsAward from "../assets//LisaStudents_june8.jpg";
 
 //import ThreeKings24 from "../assets/ThreeKings_2024.jpg";
 const Classes = () => {
+  <style></style>;
   // const { ref } = useParallax({ speed: 10 });
   return (
     <>
