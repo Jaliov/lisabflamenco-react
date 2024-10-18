@@ -33,68 +33,72 @@ const Classes = () => {
         <Row>
           <Col md={1} />
           <Col md={10}>
-            <Card className="bg-transparent fade-in-image">
-              <Card.Img
-                variant="top"
-                src={LisaChildren}
-                alt="Lisa teaching youngsters"
-              />
+            <div className="scroll-effect">
+              <Card className="bg-transparent">
+                <Card.Img
+                  variant="top"
+                  src={LisaChildren}
+                  alt="Lisa teaching youngsters"
+                  // className=" fade-in-image"
+                />
 
-              <Card.Title className="text-light larger scroll-effect">
-                {" "}
-                Lisa teaches classes for adults and children of all ages and
-                levels. <br />
-                Private instruction also available.{" "}
-              </Card.Title>
-              <Card.Text className="alertyellow larger scroll-effect">
-                {" "}
-                Contact:
-                <br />
-                <Card.Link
-                  className="text-light scroll-effect"
-                  href="http://www.artscouncilofprinceton.org/"
-                  target="blank"
-                >
-                  Arts Council of Princeton
-                </Card.Link>
-                <br />
-                <Card.Link
-                  href="mailto:lisasolea@aol.com"
-                  className="text-light scroll-effect"
-                >
-                  Email
-                </Card.Link>
-                <br />
-                See videos of Lisa teaching on the{" "}
-                <Card.Link
-                  href="/videogallery"
-                  className="text-light scroll-effect"
-                >
-                  Videos{" "}
-                </Card.Link>
-                page
-              </Card.Text>
-            </Card>
+                <Card.Title className="text-light larger">
+                  {" "}
+                  Lisa teaches classes for adults and children of all ages and
+                  levels. <br />
+                  Private instruction also available.{" "}
+                </Card.Title>
+                <Card.Text className="alertyellow larger ">
+                  {" "}
+                  Contact:
+                  <br />
+                  <Card.Link
+                    className="text-light"
+                    href="http://www.artscouncilofprinceton.org/"
+                    target="blank"
+                  >
+                    Arts Council of Princeton
+                  </Card.Link>
+                  <br />
+                  <Card.Link
+                    href="mailto:lisasolea@aol.com"
+                    className="text-light scroll-effect"
+                  >
+                    Email
+                  </Card.Link>
+                  <br />
+                  See videos of Lisa teaching on the{" "}
+                  <Card.Link href="/videogallery" className="text-light">
+                    Videos{" "}
+                  </Card.Link>
+                  page
+                </Card.Text>
+              </Card>
+            </div>
           </Col>
         </Row>
         <br />
         <Row>
           <Col md={1} />
           <Col md={10}>
-            <Card bg="transparent">
-              <Card.Title className="text-light larger scroll-effect">
-                June 8, 2024: in recognition of 25 years teaching at The Arts
-                Council of Princeton, Lisa has had a{" "}
-                <span className="alertyellow">studio named in her honor!</span>
-              </Card.Title>
+            <div className="scroll-effect">
+              <Card bg="transparent">
+                <Card.Title className="text-light larger">
+                  June 8, 2024: in recognition of 25 years teaching at The Arts
+                  Council of Princeton, Lisa has had a{" "}
+                  <span className="alertyellow">
+                    studio named in her honor!
+                  </span>
+                </Card.Title>
 
-              <Card.Img
-                variant="bottom"
-                src={LisaStudentsAward}
-                alt="Three Kings Day 2024"
-                className="scroll-effect"
-              />
-            </Card>
+                <Card.Img
+                  variant="bottom"
+                  src={LisaStudentsAward}
+                  alt="Three Kings Day 2024"
+                  className="scroll-effect"
+                />
+              </Card>
+            </div>
           </Col>
           {/* <Col xs={1}></Col> */}
         </Row>
@@ -102,31 +106,33 @@ const Classes = () => {
         <Row>
           <Col md={1} />
           <Col md={10}>
-            <Card bg="transparent">
-              <Card.Title className="text-light larger scroll-effect">
-                Below:{" "}
-                <em className="alertyellow larger scroll-effect">
-                  Fiesta del Día de Los Reyes Magos
-                </em>{" "}
-                or Three Kings Day, is celebrated throughout the world to mark
-                the culmination of the 12 days of Christmas. On Saturday, Jan 6,
-                2024, a dance performance by{" "}
-                <span className="alertyellow scroll-effect">students</span> in
-                the Arts Council of Princeton’s Flamenco program, led by Lisa
-                Botalico, center, featured multiple dances as attendees learned
-                about this cultural holiday. <br />
-                <span className="smaller">
-                  <small>(Photo by Charles R. Plohn)</small>
-                </span>
-              </Card.Title>
+            <div className="scroll-effect">
+              <Card bg="transparent">
+                <Card.Title className="text-light larger">
+                  Below:{" "}
+                  <em className="alertyellow larger">
+                    Fiesta del Día de Los Reyes Magos
+                  </em>{" "}
+                  or Three Kings Day, is celebrated throughout the world to mark
+                  the culmination of the 12 days of Christmas. On Saturday, Jan
+                  6, 2024, a dance performance by{" "}
+                  <span className="alertyellow">students</span> in the Arts
+                  Council of Princeton’s Flamenco program, led by Lisa Botalico,
+                  center, featured multiple dances as attendees learned about
+                  this cultural holiday. <br />
+                  <span className="smaller">
+                    <small>(Photo by Charles R. Plohn)</small>
+                  </span>
+                </Card.Title>
 
-              <Card.Img
-                variant="bottom"
-                src="https://www.towntopics.com/wordpress/wp-content/uploads/2024/01/page-1-1-10-24-web-1.jpg"
-                alt="Three Kings Day 2024"
-                className="scroll-effect"
-              />
-            </Card>
+                <Card.Img
+                  variant="bottom"
+                  src="https://www.towntopics.com/wordpress/wp-content/uploads/2024/01/page-1-1-10-24-web-1.jpg"
+                  alt="Three Kings Day 2024"
+                  className="scroll-effect"
+                />
+              </Card>
+            </div>
           </Col>
           {/* <Col xs={1}></Col> */}
         </Row>

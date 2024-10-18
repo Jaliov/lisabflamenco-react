@@ -379,10 +379,10 @@ img.rotateImg {
   animation-duration: 3s;
 }
 
-img {
+/* img {
   transform-style: preserve-3d;
   transform: perspective(1000px);
-}
+} */
 img.item {
   transition: 0.5s;
   filter: brightness(0.7);
