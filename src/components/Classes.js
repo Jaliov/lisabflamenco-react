@@ -81,7 +81,7 @@ const Classes = () => {
         <Row>
           <Col md={1} />
           <Col md={10}>
-            <Card bg="transparent scroll-effect">
+            <Card bg="transparent">
               <Card.Title className="text-light larger scroll-effect">
                 June 8, 2024: in recognition of 25 years teaching at The Arts
                 Council of Princeton, Lisa has had a{" "}
@@ -102,7 +102,7 @@ const Classes = () => {
         <Row>
           <Col md={1} />
           <Col md={10}>
-            <Card bg="transparent scroll-effect">
+            <Card bg="transparent">
               <Card.Title className="text-light larger scroll-effect">
                 Below:{" "}
                 <em className="alertyellow larger scroll-effect">
@@ -134,7 +134,7 @@ const Classes = () => {
         <Row>
           <Col md={1} />
           <Col md={10}>
-            <Card bg="transparent scroll-effect">
+            <Card bg="transparent">
               <Card.Title className="text-light larger scroll-effect">
                 {" "}
                 Lisa with students after the first in-person student showcase,
