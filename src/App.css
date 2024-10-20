@@ -285,9 +285,15 @@ Nav .container {
   }
 }
 
-.larger {
+h6 {
   font-size: 1.2rem;
   animation-name: moveInRight;
+  animation-duration: 2s;
+}
+
+.larger {
+  font-size: 1.2rem;
+
   animation-duration: 5s;
 }
 .smaller {
@@ -562,7 +568,7 @@ img.item:hover {
 }
 
 .fade-in-image {
-  animation: fadeIn 4s;
+  animation: fadeIn 5s;
 }
 @keyframes fadeIn {
   0% {
@@ -570,9 +576,6 @@ img.item:hover {
   }
   100% {
     opacity: 1;
-  }
-  25% {
-    transform: rotate(-10deg);
   }
 }
 /*try rottat effect also*/
