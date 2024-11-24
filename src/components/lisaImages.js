@@ -160,7 +160,13 @@ export const lisaGalleryImages = [
     id: 4,
     src: "images/Lisa_BilliMartitango.jpg",
     thumbnail: "images/Lisa_BilliMartitango.jpg",
-    description: "Latin Hustle, 1980's, with Billi Marti",
+    description: "Tango, with Billi Marti, 1980's",
+  },
+  {
+    id: 11,
+    src: "images/Lisa_BilliMarti_LatinHustle.jpg",
+    thumbnail: "images/Lisa_BilliMarti_LatinHustle.jpg",
+    description: "Latin Hustle!, 1980's, with Billi Marti",
   },
   {
     id: 6,

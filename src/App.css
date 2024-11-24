@@ -580,7 +580,7 @@ img.item:hover {
 }
 /*try rottat effect also*/
 
-.text-light .video-animate {
+.text-light, .video-animate {
   animation-name: moveInLeft;
   animation-duration: 5s;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
