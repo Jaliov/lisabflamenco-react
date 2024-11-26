@@ -53,15 +53,7 @@ export default function UsefulLinks() {
           <em>Cosmic Visions, </em> Art by Joel Rudin
         </Card.Link>
       </Card.Text>
-      <Card.Text>
-        <Card.Link
-          href="https://boiling-beyond-86124.herokuapp.com/"
-          className="text-white"
-        >
-          {" "}
-          Website Portfolio of Joel Rudin, website designer
-        </Card.Link>
-      </Card.Text>
+      <Card.Text></Card.Text>
     </div>
   );
 }

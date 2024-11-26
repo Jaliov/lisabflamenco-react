@@ -617,6 +617,11 @@ p.lineStyle {
   max-width: 100vw;
 }
 
+.cardlink:hover {
+  font-size: 1.25rem;
+  background-color: rgb(217, 83, 79, 0.4);
+}
+
 /* ::webkit-scrollbar {
   width: 2em;
 }

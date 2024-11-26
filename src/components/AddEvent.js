@@ -1,27 +1,34 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import "../App.css";
 
 const AddEvent = () => {
   const addEvents = [
     {
       id: 46,
-      date: "September 15 1-2 PM ",
-      text: "Performance in Palmer Square, Princeton",
-      link: "https://palmersquare.com/event/festival-cultural-latino-a-community-mercado/",
+      date: " Sunday, December 8 at 3 PM  ",
+
+      text: "Flamenco Tablao Show at Spanish Pavilon, Harrison, NJ",
+      link: "https://spanishpavillion.com/",
     },
     {
       id: 47,
-      date: "October 5 at 7:30 PM",
-      text: 'Alborada performance at Playhouse 22, East Brunswick: "Flamenco y Más!"',
-
-      link: "https://www.alboradadance.org/",
+      date: "December 31 at 4:45 & 5:45 ",
+      text: "First Night Morristown, Morristown HS Auditorium",
+      link: "https://firstnightmorris.org/events/alborada-spanish-dance-theatre-445pm/",
     },
     {
       id: 48,
-      date: "November 10 at 2:30 PM",
-      text: "Remembering Paul Robeson Spain 1938 Lecture Demonstration at Woodbridge Public Library",
+      date: "January 4, 2025 at 5:30 PM ",
+      text: " Arts Council of Princeton Annual Three Kings Day Flamenco Dance Celebration",
 
-      link: "https://woodbridgelibrary.org/1026/Public-Library",
+      link: "https://artscouncilofprinceton.org/",
+    },
+    {
+      id: 49,
+      date: "Saturday, April 26, 2025, 7:30 PM",
+      text: 'Cantabile Chamber Chorale: "Echoes of Spain" at Christ Church Methodist Church, Piscataway, NJ',
+      link: "#",
     },
   ];
   return addEvents ? (
@@ -34,7 +41,7 @@ const AddEvent = () => {
               {event.date}:{" "}
             </span>
             <Card.Link
-              className="cardlink"
+              className="cardlink "
               href={event.link}
               target="blank"
               style={{ color: "white" }}
