@@ -204,6 +204,7 @@ h2 {
   animation-name: moveInRight;
   animation-duration: 9s;
   color: #ffff66;
+  box-shadow: none;
 }
 
 .opening {
@@ -212,6 +213,8 @@ h2 {
   text-align: right;
   animation-name: moveInLeft;
   animation-duration: 3s;
+  background: transparent;
+  box-shadow: none;
 }
 
 h1 em {
@@ -380,10 +383,10 @@ a:hover {
   margin-top: 1rem;
 }
 
-#spin {
+/* #spin {
   animation-name: moveInLeft;
   animation-duration: 4s;
-}
+} */
 
 img.rotateImg {
   animation-name: moveInLeft;
@@ -500,8 +503,21 @@ img.item:hover {
     margin: 0;
     height: 60vh;
   }
-  .home {
+  h1 em {
     margin-top: 1rem;
+
+    font-size: 3rem;
+  }
+  p.opening em {
+    font-size: 1rem;
+  }
+  .btnTransform {
+    text-align: left;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+  }
+  .btnTransform:hover {
+    box-shadow: 2 5px 5px rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -580,7 +596,8 @@ img.item:hover {
 }
 /*try rottat effect also*/
 
-.text-light, .video-animate {
+.text-light,
+.video-animate {
   animation-name: moveInLeft;
   animation-duration: 5s;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -594,6 +611,10 @@ p.lineStyle {
 .background-animation {
   animation: moveInButton 1s ease-out 0.75s;
   animation-fill-mode: backwards;
+}
+
+.navv {
+  max-width: 100vw;
 }
 
 /* ::webkit-scrollbar {

@@ -31,7 +31,10 @@ const Home = () => {
                 </div>
 
                 <div>
-                  <p className="larger text-light opening" id="spin">
+                  <p
+                    className="larger text-light opening"
+                    style={{ boxShadow: "none" }}
+                  >
                     <em>
                       ...danced and sang with her head thrown back, her energy
                       seemingly unquenchable. <br />
@@ -41,7 +44,11 @@ const Home = () => {
                 </div>
               </header>
               <div className="fade-in-image centered">
-                <Homephoto cover={cover} id="cover" />
+                <Homephoto
+                  cover={cover}
+                  id="cover"
+                  style={{ boxShadow: "none" }}
+                />
               </div>
             </Col>
             <Col></Col>

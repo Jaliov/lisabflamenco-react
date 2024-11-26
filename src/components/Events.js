@@ -27,7 +27,10 @@ const Events = () => {
 
           <Card className="bg-transparent text-light">
             <Card.Body>
-              <Card.Title className="text-light home">
+              <Card.Title
+                className="text-light home"
+                style={{ boxShadow: "none" }}
+              >
                 Upcoming Events{" "}
               </Card.Title>
               <AddEvent />
