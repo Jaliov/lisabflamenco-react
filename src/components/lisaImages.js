@@ -142,7 +142,7 @@ export const lisaImages = [
     id: 54,
     src: "images/choreography/Zorro_Final_Dress_0251.jpg",
     description:
-      "NE USA Premier of 'Zorro, the Musical' by the Gipsy Kings with PinnWorth Productions at Kelsey Theater January, 2019",
+      "NE USA Premier of 'Zorro, the Musical' by the Gipsy Kings with PinnWorth Productions at Kelsey Theater January, 2019; Lisa Botalico, choreographer",
   },
 ];
 
