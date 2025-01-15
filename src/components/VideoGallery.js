@@ -190,6 +190,27 @@ const VideoGallery = () => {
               </Card.Body>
             </Card>
           </Col>
+          <Col md={2} />
+          <Col md={5}>
+            <Card
+              className="bg-dark text-light"
+              key={Iframe.id}
+              style={cardStyle}
+            >
+              <Iframe
+                width={cardStyle.width}
+                height={cardStyle.height}
+                src="https://drive.google.com/file/d/1ZaL6JA1EEvr7XffUhYEkJ_tK5r2FUGoh/preview"
+                allow="autoplay"
+                frameborder="0"
+              ></Iframe>
+              <Card.Body>
+                <Card.Text>
+                  Dancing "Tanguillo" with Manolo Rivera, Cami Hall, NYC, 1988!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </Container>
     </>
