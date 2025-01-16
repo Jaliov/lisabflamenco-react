@@ -98,6 +98,7 @@ const VideoGallery = () => {
                 frameborder="0"
                 id="71"
                 allowFullScreen
+                className="border border-secondary"
               ></Iframe>
               <Card.Body>
                 <Card.Text>Dancing at Lola's Bistro</Card.Text>
@@ -117,6 +118,7 @@ const VideoGallery = () => {
                 src="https://www.instagram.com/p/CQ93Kurgqz2/embed?loop=3"
                 frameborder="0"
                 id="72"
+                className="border border-secondary"
               ></Iframe>
               <Card.Body>
                 <Card.Text>Teachng at Princeton Dance and Theater</Card.Text>
@@ -203,6 +205,8 @@ const VideoGallery = () => {
                 src="https://drive.google.com/file/d/1ZaL6JA1EEvr7XffUhYEkJ_tK5r2FUGoh/preview"
                 allow="autoplay"
                 frameborder="0"
+                className="border border-secondary"
+                allowFullScreen
               ></Iframe>
               <Card.Body>
                 <Card.Text>
