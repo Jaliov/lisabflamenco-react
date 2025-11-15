@@ -62,27 +62,6 @@ const Events = () => {
             </Card.Body>
           </Card>
           <br />
-          {/* Start of SimpleHitCounter Code */}
-          <div align="left" className="home">
-            <a href="https://www.free-website-hit-counter.com">
-              <img
-                src="https://www.free-website-hit-counter.com/c.php?d=9&id=148080&s=288"
-                border="0"
-                alt="Free Website Hit Counter"
-              ></img>
-            </a>
-            <br />
-            <small>
-              <a
-                style={{ color: "red" }}
-                href="https://www.free-website-hit-counter.com"
-                title="Free Website Hit Counter"
-              >
-                Free website hit counter
-              </a>
-            </small>
-          </div>
-          {/* End of SimpleHitCounter Code */}
         </Row>
       </Container>
     </div>

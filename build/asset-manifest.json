@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3791b610.css",
-    "main.js": "/static/js/main.ced910b1.js",
+    "main.css": "/static/css/main.c154f1f5.css",
+    "main.js": "/static/js/main.d99ff548.js",
     "static/js/787.aab77859.chunk.js": "/static/js/787.aab77859.chunk.js",
     "static/media/US1Article.pdf": "/static/media/US1Article.ba14e5a89a9cf3d4faf0.pdf",
     "static/media/PaulRobesonTownTopics.jpg": "/static/media/PaulRobesonTownTopics.c9541d575314451ade0b.jpg",
@@ -15,12 +15,12 @@
     "static/media/IMG_0473darker.jpg": "/static/media/IMG_0473darker.d90ad1c5cad23e3bc021.jpg",
     "static/media/AnyConv.com__MATURASC_1.woff": "/static/media/AnyConv.com__MATURASC_1.3cfa2993b4da12a8d619.woff",
     "index.html": "/index.html",
-    "main.3791b610.css.map": "/static/css/main.3791b610.css.map",
-    "main.ced910b1.js.map": "/static/js/main.ced910b1.js.map",
+    "main.c154f1f5.css.map": "/static/css/main.c154f1f5.css.map",
+    "main.d99ff548.js.map": "/static/js/main.d99ff548.js.map",
     "787.aab77859.chunk.js.map": "/static/js/787.aab77859.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3791b610.css",
-    "static/js/main.ced910b1.js"
+    "static/css/main.c154f1f5.css",
+    "static/js/main.d99ff548.js"
   ]
 }

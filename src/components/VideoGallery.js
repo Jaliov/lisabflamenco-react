@@ -198,6 +198,7 @@ const VideoGallery = () => {
               className="bg-dark text-light"
               key={Iframe.id}
               style={cardStyle}
+              id="tanguillo"
             >
               <Iframe
                 width={cardStyle.width}
