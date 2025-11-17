@@ -1,8 +1,9 @@
 {
   "name": "lisabflamenco-react",
+  "type": "module",
   "version": "0.1.0",
   "engines": {
-    "node": "18.x",
+    "node": "24.11.1",
     "npm": "10.7.0"
   },
   "private": false,
