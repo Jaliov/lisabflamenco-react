@@ -1,20 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import Classes from "./components/Classes";
+import Classes from "./components/Classes.js";
 
-import VideoGallery from "./components/VideoGallery";
+import VideoGallery from "./components/VideoGallery.js";
 import "./App.min.css";
 // import { ParallaxProvider } from "react-scroll-parallax";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Gallery from "./components/Gallery";
-import Notable from "./components/Notable";
-import Choreography from "./components/Choreography";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Press from "./components/Press";
-import Bio from "./components/Bio";
-import Events from "./components/Events";
+import Gallery from "./components/Gallery.js";
+import Notable from "./components/Notable.js";
+import Choreography from "./components/Choreography.js";
+import Navbar from "./components/Navbar.js";
+import Home from "./components/Home.js";
+import Press from "./components/Press.js";
+import Bio from "./components/Bio.js";
+import Events from "./components/Events.js";
 
 // import Lightbox from "yet-another-react-lightbox";
 
