@@ -141,7 +141,7 @@ const Classes = () => {
 
                 <Card.Img
                   variant="bottom"
-                  src="https://www.towntopics.com/wordpress/wp-content/uploads/2024/01/page-1-1-10-24-web-1.jpg"
+                  src="https://www.towntopics.com/wp-content/uploads/2024/01/page-1-1-10-24-web-1.jpg"
                   alt="Three Kings Day 2024"
                   // className="scroll-effect"
                 />

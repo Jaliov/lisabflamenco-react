@@ -18,6 +18,7 @@ const vidUrl2 =
   "https://drive.google.com/file/d/1jwRTAuRNkzQic8W-n1sLDLakh0KD3zux/preview";
 const vidUrl3 = "https://www.youtube.com/embed/XwbXa1TTUw4";
 const vidUr14 = "https://youtu.be/jiOMTIdLHSM?si=O0dZpkOsD8MxKUPq?start=3188";
+const vidUr16 = "https://youtu.be/qv_AszES_Go?si=47Wn6VEufwOZVp1N?start=125";
 
 const VideoGallery = () => {
   return (
@@ -212,6 +213,32 @@ const VideoGallery = () => {
               <Card.Body>
                 <Card.Text>
                   Dancing "Tanguillo" with Manolo Rivera, Cami Hall, NYC, 1988!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={5}>
+            <Card
+              className="bg-dark text-light"
+              key={Iframe.id}
+              style={cardStyle}
+              id="allentown"
+            >
+              <ReactPlayer
+                url={vidUr16}
+                width={cardStyle.width}
+                controls={true}
+                className="border border-secondary"
+                origin="window.location.host"
+                alt="Three Kings Day"
+              />
+              <Card.Body>
+                <Card.Text>
+                  Nov, 2025: Dancing to Boccherini's <em>Fandango</em>, guitar
+                  quintet no.4, with the Allentown Chamber Players; choreograpy:
+                  Lisa
                 </Card.Text>
               </Card.Body>
             </Card>

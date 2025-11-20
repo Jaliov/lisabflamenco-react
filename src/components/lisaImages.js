@@ -154,7 +154,7 @@ export const lisaGalleryImages = [
   {
     id: 2,
     src: "images/Lisapicin_NYTimesDec2010.jpg",
-    description: "Dancing 'Garrotin' photo: NY Times",
+    description: 'Dancing "Garrotin" photo: NY Times',
   },
   {
     id: 3,
@@ -178,7 +178,7 @@ export const lisaGalleryImages = [
     id: 6,
     src: "images/Screenshot 2024-07-14 112822.jpg",
     description:
-      "'Tanguillo' with the great Manonlo Rivera at Cami Hall, NYC (VHS screen capture)",
+      '"Tanguillo" with Manolo Rivera at Cami Hall, NYC, 1988. See the video on the Videos page',
   },
   {
     id: 7,
