@@ -237,8 +237,8 @@ const VideoGallery = () => {
               <Card.Body>
                 <Card.Text>
                   Nov, 2025: Dancing to Boccherini's <em>Fandango</em>, guitar
-                  quintet no.4, with the Allentown Chamber Players; choreograpy:
-                  Lisa
+                  quintet no.4, with the Allentown Chamber Players;
+                  choreography: Lisa
                 </Card.Text>
               </Card.Body>
             </Card>

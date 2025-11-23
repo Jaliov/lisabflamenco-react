@@ -144,6 +144,12 @@ export const lisaImages = [
     description:
       "NE USA Premier of 'Zorro, the Musical' by the Gipsy Kings with PinnWorth Productions at Kelsey Theater January, 2019; Lisa Botalico, choreographer",
   },
+  {
+    id: 55,
+    src: "images/choreography/LisaAllentown2.jpg",
+    description:
+      'Nov, 2025: Lisa performing her original choreography to "Fandango", guitar quintet No 4 by Boccherini, with the Allentown Chamber Players',
+  },
 ];
 
 export const lisaGalleryImages = [
