@@ -129,7 +129,7 @@ const VideoGallery = () => {
         </Row>
         <Row>
           <Col md={5}>
-            <Card
+             <Card
               className="bg-dark text-light"
               key={Iframe.id}
               style={cardStyle}
@@ -239,6 +239,32 @@ const VideoGallery = () => {
                   Nov, 2025: Dancing to Boccherini's <em>Fandango</em>, guitar
                   quintet no.4, with the Allentown Chamber Players;
                   choreography: Lisa
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+       
+         <Col md={2} />
+    
+          <Col md={5}>
+            <Card
+              className="bg-dark text-light"
+              key={Iframe.id}
+              style={cardStyle}
+              id="allentown"
+            >
+             <Iframe
+                width={cardStyle.width}
+                height={cardStyle.height}
+                src="https://drive.google.com/file/d/1xnHRlGiz38jnNE9oJbxpZRoz8QqbZYHS/preview"
+                allow="autoplay"
+                frameborder="0"
+                className="border border-secondary"
+                allowFullScreen
+              ></Iframe>
+              <Card.Body>
+                <Card.Text>
+                  Rehearsing <em>Vidalita</em> with guitarist Arturo Martinez and an amazing display of Lisa's blazing <em>zapateo</em>!
                 </Card.Text>
               </Card.Body>
             </Card>
