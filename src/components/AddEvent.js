@@ -6,30 +6,30 @@ const AddEvent = () => {
   const addEvents = [
     {
       id: 50,
-      date: "Saturday, May 2 1 - 4 PM  ",
+      date: "Saturday, May 2, 1 - 4 PM  ",
 
-      text: "Arts Council of Princeton's Open House and Art Bazaar (1-4 PM)", 
+      text: " Arts Council of Princeton's Open House and Art Bazaar (1-4 PM)", 
       link: "https://artscouncilofprinceton.org/artists/princeton-art-bazaar/"
     },
      {
       id: 51,
-      date: "Sunday, June 7 2:30 - 6 PM  ",
+      date: "Sunday, June 7, 2:30 - 6 PM  ",
 
-      text: "Alborada Spanish Dance Theatre Annual Feria de Sevilla at Parker Press Park, Woodbridge ", 
+      text: " Alborada Spanish Dance Theatre Annual Feria de Sevilla at Parker Press Park, Woodbridge ", 
       link: "https://www.alboradadance.org/"
     },
      {
       id: 52,
-      date: "Saturday, June 13 6:30 PM  ",
+      date: "Saturday, June 13, 6:30 PM  ",
 
-      text: "Arts Council of Princeton's Solley Theater: Annual Choreography and Student Showcase ",
+      text: " Arts Council of Princeton's Solley Theater: Annual Choreography and Student Showcase ",
       link: "https://artscouncilofprinceton.org/"
     },
      {
       id: 53,
-      date: "Saturday, July 25 6 - 11 PM  ",
+      date: "Saturday, July 25, 6 - 11 PM  ",
 
-      text: "Alborada Spanish Dance Theatre Annual SummerFest Gala Fundraiser at Spain Inn Restaurant, Piscataway ",
+      text: " Alborada Spanish Dance Theatre Annual SummerFest Gala Fundraiser at Spain Inn Restaurant, Piscataway ",
       link: "https://www.alboradadance.org/"
     },
   ];

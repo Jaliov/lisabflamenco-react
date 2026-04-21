@@ -620,6 +620,7 @@ p.lineStyle {
 .cardlink:hover {
   font-size: 1.25rem;
   background-color: rgb(217, 83, 79, 0.4);
+  text-decoration: none;
 }
 
 /* ::webkit-scrollbar {
