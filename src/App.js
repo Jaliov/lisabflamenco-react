@@ -20,7 +20,7 @@ import Events from "./components/Events.js";
 
 const App = () => {
   return (
-    <React.Fragment>
+    <>
       <Helmet>
         <meta
           name="description"
@@ -71,7 +71,7 @@ const App = () => {
         </Switch>
         {/* </Navbar> */}
       </Router>
-    </React.Fragment>
+    </>
   );
 };
 export default App;
