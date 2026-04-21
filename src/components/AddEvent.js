@@ -41,7 +41,7 @@ const AddEvent = () => {
           <p className="larger">
             <span style={{ color: "yellow", fontWeight: "bold" }}>
               {" "}
-              {event.date}: {" "}
+              {event.date}{":"}{" "}
             </span>
             <Card.Link
               className="cardlink "
