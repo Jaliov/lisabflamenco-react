@@ -48,8 +48,9 @@ const AddEvent = () => {
               href={event.link}
               target="blank"
               style={{ color: "white" }}
+              textDecoration = "none"
             >
-              {event.text} <br></br>
+              {" " + event.text} <br></br>
             </Card.Link>
 
             {event.nonlink}
