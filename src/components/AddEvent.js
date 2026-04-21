@@ -40,8 +40,8 @@ const AddEvent = () => {
         <Card.Text key={event.id} className="text-warning">
           <p className="larger">
             <span style={{ color: "yellow", fontWeight: "bold" }}>
-              {" "}
-              {event.date}{":"}{"  "}
+              {' '}
+              {event.date}{":"}
             </span>
             <Card.Link
               className="cardlink "
@@ -50,7 +50,7 @@ const AddEvent = () => {
               style={{ color: "white" }}
               textDecoration = "none"
             > 
-              {"  "} {event.text} <br></br>
+              {'  '}{event.text} <br></br>
             </Card.Link>
 
             {event.nonlink}
